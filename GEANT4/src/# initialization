@@ -1,0 +1,66 @@
+# initialization
+#
+/run/initialize
+#
+# set particle colors
+#
+/vis/modeling/trajectories/create/drawByParticleID
+/vis/modeling/trajectories/drawByParticleID-0/set neutron red
+/vis/modeling/trajectories/drawByParticleID-0/set e- blue
+/vis/modeling/trajectories/drawByParticleID-0/set gamma yellow
+########################################
+#
+# define scoring mesh starting at (1,1,1)
+#
+/score/create/cylinderMesh boxMesh_1
+/score/mesh/cylinderSize 3.81 5.715 cm
+/score/mesh/translate/xyz 0.1 0.1 0.0 cm
+/score/mesh/nBin 5 1 1
+/score/close
+/score/list
+/run/beamOn 100
+/score/dumpQuantityToFile boxMesh_1 eDep detectorEDEP111.txt
+#
+# define scoring mesh starting at (1,-1,1)
+#
+/score/create/cylinderMesh boxMesh_1
+/score/mesh/cylinderSize 3.81 5.715 cm
+/score/mesh/translate/xyz 0.1 0.1 0.0 cm
+/score/mesh/nBin 5 1 1
+/score/close
+/score/list
+/gun/position 1 -1 1 m
+/gun/momentum -1 1 -1
+/run/beamOn 100
+/score/dumpQuantityToFile boxMesh_1 eDep detectorEDEP1-11.txt
+#
+# define scoring mesh starting at (-1,1,1)
+#
+/score/create/cylinderMesh boxMesh_1
+/score/mesh/cylinderSize 3.81 5.715 cm
+/score/mesh/translate/xyz 0.1 0.1 0.0 cm
+/score/mesh/nBin 5 1 1
+/score/close
+/score/list
+/gun/position -1 1 1 m
+/gun/momentum 1 -1 -1
+/run/beamOn 100
+/score/dumpQuantityToFile boxMesh_1 eDep detectorEDEP-111.txt
+#
+# define scoring mesh starting at (-1,-1,1)
+#
+/score/create/cylinderMesh boxMesh_1
+/score/mesh/cylinderSize 3.81 5.715 cm
+/score/mesh/translate/xyz 0.1 0.1 0.0 cm
+/score/mesh/nBin 5 1 1
+/score/close
+/score/list
+/gun/position -1 -1 1 m
+/gun/momentum 1 1 -1
+/run/beamOn 100
+/score/dumpQuantityToFile boxMesh_1 eDep detectorEDEP-1-11.txt
+
+
+
+
+
