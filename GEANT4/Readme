@@ -1,1 +1,3 @@
 This folder contains simulation input to run GEANT4 for the semiconductors of in parallel.
+
+The post-processing folder contains post-processing code in python.
