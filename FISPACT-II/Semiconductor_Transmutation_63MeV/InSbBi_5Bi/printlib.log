@@ -1,0 +1,70 @@
+
+ LOG FILE: printlib.log
+
+ 21:22:57 4 May 2019             
+
+ Log  : FILES file = files
+ Log  : fileroot   = printlib
+
+
+ ------------------------------------------------------------------
+ Files specified by the FILES file and fileroot for this run.
+ ------------------------------------------------------------------
+ The numbers after the unit names are the internal unit numbers.
+
+ arb_flux( 3)    arb_flux
+ input( 5)       printlib.i
+ graph(10)       printlib.gra
+ a2data(11)      ../../nuclear_data/decay/a2_2012
+ collapxi(12)    COLLAPX
+ arrayx(13)      ARRAYX
+ hazards(14)     ../../nuclear_data/decay/hazards_2012
+ gnuplot(15)     printlib.plt
+ collapxo(17)    COLLAPX
+ ind_nuc(18)     ../../nuclear_data/TENDL2017data/tendl17_decay12_index
+ fluxes(20)      fluxes
+ output(38)      printlib.out
+ absorp(39)      ../../nuclear_data/decay/abs_2012
+ clear(40)       ../../nuclear_data/decay/clear_2012
+ tab1(44)        printlib.tab1
+ tab2(45)        printlib.tab2
+ tab3(46)        printlib.tab3
+ tab4(47)        printlib.tab4
+ runlog(48)      printlib.log
+ sens(50)        printlib.sens
+ prob_tab(51)    ../../nuclear_data/TENDL2017data/tal2017-n/tp-709-294
+ xs_endf(52)     ../../nuclear_data/TENDL2017data/tal2017-p/gxs-162
+ dk_endf(53)     ../../nuclear_data/decay/decay_2012
+ fy_endf(54)     ../../nuclear_data/UKFY41data/ukfy4_1p
+ sf_endf(55)     ../../nuclear_data/GEFY61data/gefy61_sfy
+ xs_endfb(56)    ../../nuclear_data/bin/tal2017-p.bin
+ nucgraph(59)    printlib.grn
+ nucgnu(60)      printlib.pln
+ ------------------------------------------------------------------
+
+
+ LIBVERSION 0
+ MONITOR 1
+ PROJECTILE 3
+ NOERROR
+ GETXS 0
+ GETDECAY 0
+ FISPACT
+ * PRINTLIB OF IFMIF P
+  load cross-sections
+ Log  : file unit name = collapxi
+ Log  : file name = COLLAPX
+ 00001: Fatal  : files_m:files_open:17: 
+        cannot open old file for reading
+
+ FATAL ERROR - run terminated
+
+
+  Error Summary 
+ ------------- 
+  total number of errors/warnings   =      1
+  number of serious errors/warnings =      1
+ 21:22:57 4 May 2019             
+
+ END OF LOG FILE
+

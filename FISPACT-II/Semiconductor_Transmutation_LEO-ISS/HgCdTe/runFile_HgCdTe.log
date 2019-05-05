@@ -1,0 +1,166 @@
+
+ LOG FILE: runFile_HgCdTe.log
+
+ 10:49:20 31 March 2019          
+
+ Log  : FILES file = files
+ Log  : fileroot   = runFile_HgCdTe
+
+
+ ------------------------------------------------------------------
+ Files specified by the FILES file and fileroot for this run.
+ ------------------------------------------------------------------
+ The numbers after the unit names are the internal unit numbers.
+
+ arb_flux( 3)    arb_flux
+ input( 5)       runFile_HgCdTe.i
+ graph(10)       runFile_HgCdTe.gra
+ a2data(11)      ../../nuclear_data/decay/a2_2012
+ collapxi(12)    COLLAPX
+ arrayx(13)      ARRAYX
+ hazards(14)     ../../nuclear_data/decay/hazards_2012
+ gnuplot(15)     runFile_HgCdTe.plt
+ collapxo(17)    COLLAPX
+ ind_nuc(18)     ../../nuclear_data/TENDL2017data/tendl17_decay12_index
+ fluxes(20)      fluxes
+ output(38)      runFile_HgCdTe.out
+ absorp(39)      ../../nuclear_data/decay/abs_2012
+ clear(40)       ../../nuclear_data/decay/clear_2012
+ tab1(44)        runFile_HgCdTe.tab1
+ tab2(45)        runFile_HgCdTe.tab2
+ tab3(46)        runFile_HgCdTe.tab3
+ tab4(47)        runFile_HgCdTe.tab4
+ runlog(48)      runFile_HgCdTe.log
+ sens(50)        runFile_HgCdTe.sens
+ prob_tab(51)    ../../nuclear_data/TENDL2017data/tal2017-n/tp-709-294
+ xs_endf(52)     ../../nuclear_data/TENDL2017data/tal2017-p/gxs-162
+ dk_endf(53)     ../../nuclear_data/decay/decay_2012
+ fy_endf(54)     ../../nuclear_data/UKFY41data/ukfy4_1p
+ sf_endf(55)     ../../nuclear_data/GEFY61data/gefy61_sfy
+ xs_endfb(56)    ../../nuclear_data/bin/tal2017-p.bin
+ nucgraph(59)    runFile_HgCdTe.grn
+ nucgnu(60)      runFile_HgCdTe.pln
+ ------------------------------------------------------------------
+
+
+ PROJECTILE 3
+ NOERROR
+ GETXS 0
+ GETDECAY 0
+ FISPACT
+ * Quasi-MonE(63 MeV) 3.20200E+11 cm^-2s^-1 for 30s
+  load cross-sections
+  load decay data
+  collapse fission yields
+  run reset cross-section
+ DENSITY 7.43
+ MASS 0.00743 3
+ Hg 46.5348
+ Cd 11.1763
+ Te 42.2889
+ GRAPH 5 2 1
+ 1
+ 2
+ 3
+ 4
+ 5
+ FLUX 2.29E+02
+ UNCERTAINTY 2
+ ATOMS
+  load initial values
+  run output inventory
+ HAZARDS
+  load hazards data
+ HALF
+ ATWO
+  load a2 data
+ TIME 100
+  fill rate equation matrix for cooling
+  fill rate equation matrix for irradiation
+  start pathstep recording
+  initialise dominant analysis
+  test for gas, kerma and dpa data
+ DAYS
+ ATOMS
+  run add rateeq for pathways
+  run irradiation init
+  run irradiation step
+  run add pathstep
+  run output inventory
+ TIME 265
+ DAYS
+ ATOMS
+  run irradiation step
+  run add pathstep
+  run output inventory
+ TIME 1
+ YEARS
+ ATOMS
+  run irradiation step
+  run add pathstep
+  run output inventory
+ TIME 1
+ YEARS
+ ATOMS
+  run irradiation step
+  run add pathstep
+  run output inventory
+ TIME 1
+ YEARS
+ ATOMS
+  run irradiation step
+  run add pathstep
+  run output inventory
+ TIME 1
+ YEARS
+ ATOMS
+  run irradiation step
+  run add pathstep
+  run output inventory
+ TIME 1
+ YEARS
+ ATOMS
+  run irradiation step
+  run add pathstep
+  run output inventory
+ TIME 1
+ YEARS
+ ATOMS
+  run irradiation step
+  run add pathstep
+  run output inventory
+ TIME 1
+ YEARS
+ ATOMS
+  run irradiation step
+  run add pathstep
+  run output inventory
+ TIME 1
+ YEARS
+ ATOMS
+  run irradiation step
+  run add pathstep
+  run output inventory
+ TIME 1
+ YEARS
+ ATOMS
+  run irradiation step
+  run add pathstep
+  run output inventory
+ END
+ * END
+  run output summary
+ 00001: Fatal  : gnuplot_range:output_graphs: 1: 
+        no summary data found
+
+ FATAL ERROR - run terminated
+
+
+  Error Summary 
+ ------------- 
+  total number of errors/warnings   =      1
+  number of serious errors/warnings =      1
+ 10:49:23 31 March 2019          
+
+ END OF LOG FILE
+

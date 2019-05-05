@@ -1,0 +1,107 @@
+# Run timestamp = 20:59:10 4 May 2019             
+#  Quasi-MonE(63 MeV) 3.20200E+11 cm^-2s^-
+# Time after irradiation (years)
+#          Activity (Bq/k
+# index    0
+#   time         value        uncert
+  0.00000E+00  2.48441E+08  0.00000E+00
+  1.90129E-06  2.48374E+08  0.00000E+00
+  1.15978E-04  2.44437E+08  0.00000E+00
+  2.85383E-03  1.69603E+08  0.00000E+00
+  1.26057E-01  5.84191E+06  0.00000E+00
+  9.99432E-01  6.98733E+05  0.00000E+00
+
+
+
+# index    1
+# half-life   value        name
+  3.2756E-01  5.9043E+06  ^{75}Se
+  3.1294E-02  2.1496E+07  ^{71}Ge
+  4.4547E-03  2.2103E+08  ^{69}Ge
+
+
+
+#  Quasi-MonE(63 MeV) 3.20200E+11 cm^-2s^-
+# Time after irradiation (years)
+#          Dose Rate (Sv/
+# index    2
+#   time         value        uncert
+  0.00000E+00  5.49741E-02  0.00000E+00
+  1.90129E-06  5.49579E-02  0.00000E+00
+  1.15978E-04  5.39997E-02  0.00000E+00
+  2.85383E-03  3.57940E-02  0.00000E+00
+  1.26057E-01  1.95984E-04  0.00000E+00
+  9.99432E-01  3.02147E-05  0.00000E+00
+
+
+
+# index    3
+# half-life   value        name
+  3.2756E-01  9.6164E-01  ^{75}Se
+  4.4547E-03  2.0607E+02  ^{69}Ge
+
+
+
+#  Quasi-MonE(63 MeV) 3.20200E+11 cm^-2s^-
+# Time after irradiation (years)
+#       Heat Output (kW/k
+# index    4
+#   time         value        uncert
+  0.00000E+00  3.83259E-08  0.00000E+00
+  1.90129E-06  3.83146E-08  0.00000E+00
+  1.15978E-04  3.76495E-08  0.00000E+00
+  2.85383E-03  2.50318E-08  0.00000E+00
+  1.26057E-01  2.95287E-10  0.00000E+00
+  9.99432E-01  4.53223E-11  0.00000E+00
+
+
+
+# index    5
+# half-life   value        name
+  3.2756E-01  3.8298E-10  ^{75}Se
+  4.4547E-03  3.7909E-08  ^{69}Ge
+
+
+
+#  Quasi-MonE(63 MeV) 3.20200E+11 cm^-2s^-
+# Time after irradiation (years)
+#    Ingestion Dose (Sv/k
+# index    6
+#   time         value        uncert
+  0.00000E+00  6.86559E-02  0.00000E+00
+  1.90129E-06  6.86401E-02  0.00000E+00
+  1.15978E-04  6.77065E-02  0.00000E+00
+  2.85383E-03  4.99530E-02  0.00000E+00
+  1.26057E-01  1.17728E-02  0.00000E+00
+  9.99432E-01  1.81670E-03  0.00000E+00
+
+
+
+# index    7
+# half-life   value        name
+  3.2756E-01  1.5351E-02  ^{75}Se
+  4.4547E-03  5.3046E-02  ^{69}Ge
+
+
+
+#  Quasi-MonE(63 MeV) 3.20200E+11 cm^-2s^-
+# Time after irradiation (years)
+#   Inhalation Dose (Sv/k
+# index    8
+#   time         value        uncert
+  0.00000E+00  7.20098E-02  0.00000E+00
+  1.90129E-06  7.19908E-02  0.00000E+00
+  1.15978E-04  7.08657E-02  0.00000E+00
+  2.85383E-03  4.94809E-02  0.00000E+00
+  1.26057E-01  5.89301E-03  0.00000E+00
+  9.99432E-01  9.08352E-04  0.00000E+00
+
+
+
+# index    9
+# half-life   value        name
+  3.2756E-01  1.5351E-02  ^{75}Se
+  4.4547E-03  5.3046E-02  ^{69}Ge
+
+
+

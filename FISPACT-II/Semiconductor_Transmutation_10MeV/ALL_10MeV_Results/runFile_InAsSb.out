@@ -1,0 +1,1590 @@
+
+
+
+
+     ==============================================================================
+     |                                                                            |
+     |                                                                            |
+     |             _____ ___ ____  ____   _    ____ _____    ___ ___              |
+     |            |  ___|_ _/ ___||  _ \ / \  / ___|_   _|  |_ _|_ _|             |
+     |            | |_   | |\___ \| |_) / _ \| |     | |_____| | | |              |
+     |            |  _|  | | ___) |  __/ ___ \ |___  | |_____| | | |              |
+     |            |_|   |___|____/|_| /_/   \_\____| |_|    |___|___|             |
+     |                                                                            |
+     |                            F I S P A C T - I I                             |
+     |                            -------------------                             |
+     |                                                                            |
+     |                  Transmutation-Activation Inventory Code                   |
+     |                   United Kingdom Atomic Energy Authority                   |
+     |                                                                            |
+     |                         Release 4.0 January 2018                           |
+     |             Copyright (c) 2009-18, UK Atomic Energy Authority              |
+     |                                                                            |
+     ==============================================================================
+
+
+
+1
+
+
+
+
+     =========================================================================================================
+     |                                                                                                       |
+     |                      R U N   I D E N T I F I C A T I O N   I N F O R M A T I O N                      |
+     |                                                                                                       |
+     | INITIAL CROSS SECTION DATA                                                                            |
+     | Collapsed library timestamp: 21:00:21 4 May 2019                                                      |
+     | EAF source library label:                                                                             |
+     | FLUX file label:             Quasi-MonE(63 MeV) 3.20200E+11 c                                         |
+     |                                                                                                       |
+     | DECAY DATA                                                                                            |
+     | Condensed library timestamp: 21:00:42 4 May 2019                                                      |
+     | EAF source library label:    Decay input from separate files                                          |
+     |                                                                                                       |
+     | THIS RUN                                                                                              |
+     | timestamp:                   21:00:49 4 May 2019                                                      |
+     | fileroot :                   runFile_InAsSb                                                           |
+     | name of FILES file:          files                                                                    |
+     | FISPACT title:               * Quasi-MonE(63 MeV) 3.20200E+11 cm^-2s^-1 for 30s                       |
+     |                                                                                                       |
+     | See the runFile_InAsSb.log file                                                                       |
+     | and summary details at the end of this file for further information on files used by this run         |
+     |                                                                                                       |
+     =========================================================================================================
+
+
+
+
+
+
+                                   -------------------------------------------------------------------------------
+                                   | NB: IN FOLLOWING TABLES                                                     |
+                                   |                         ? MEANS CONVERGENCE NOT REACHED FOR NUCLIDE         |
+                                   |                         & MEANS GAMMA SPECTRUM IS APPROXIMATELY CALCULATED  |
+                                   |                         # MEANS NUCLIDE IS STABLE                           |
+                                   |                         > MEANS NUCLIDE WAS PRESENT BEFORE IRRADIATION      |
+                                   -------------------------------------------------------------------------------
+                                   |                                                                             |
+                                   |                                                                             |
+                                   V                                                                             V
+1 * * * TIME INTERVAL   1 * * * * * * * TIME IS   0.0000E+00 SECS * * * ELAPSED TIME IS   0.000ps   * * * FLUX AMP IS  1.0000E+12 /cm^2/s  * * * * * * * * * * * * * *
+  NUCLIDE        ATOMS         GRAMS        Bq       b-Energy    a-Energy   g-Energy    DOSE RATE                                                            
+                                                        kW          kW         kW         Sv/hr                                                              
+
+  As 75    #> 8.02356E+20   9.982E-02   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00                                                            
+  In113    #> 3.78253E+19   7.092E-03   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00                                                            
+  In115     > 8.43884E+20   1.610E-01   4.203E-02   1.024E-18   0.00E+00   0.000E+00   0.000E+00                                                            
+  Sb121    #> 4.53986E+19   9.114E-03   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00                                                            
+  Sb123    #> 3.39557E+19   6.930E-03   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00                                                            
+0  TOTAL NUMBER OF NUCLIDES PRINTED IN INVENTORY =    5
+0  TOTAL CURIES   TOTAL ALPHA   TOTAL BETA    TOTAL GAMMA
+                  CURIE-MeV     CURIE-MeV     CURIE-MeV
+   1.13599E-12   0.00000E+00   1.72670E-13   0.00000E+00
+0  ALPHA BECQUERELS = 0.000000E+00  BETA BECQUERELS = 4.203153E-02  GAMMA BECQUERELS = 0.000000E+00
+0  TOTAL ACTIVITY FOR ALL MATERIALS     4.20315E-02 Bq
+                                        2.27197E-11 Ci/cc           DENSITY   5.68E+00 gm/cc
+   TOTAL ACTIVITY EXCLUDING TRITIUM     4.20315E-02 Bq
+                                        2.27197E-11 Ci/cc
+0  TOTAL ALPHA HEAT PRODUCTION          0.00000E+00 kW
+   TOTAL BETA  HEAT PRODUCTION          1.02360E-18 kW
+   TOTAL GAMMA HEAT PRODUCTION          0.00000E+00 kW              TOTAL HEAT PRODUCTION 1.02360E-18 kW
+0  INITIAL TOTAL MASS OF MATERIAL       2.83973E-04 kg              TOTAL HEAT EX TRITIUM 1.02360E-18 kW
+0  TOTAL MASS OF MATERIAL               2.83973E-04 kg
+   PROTON   FLUX DURING INTERVAL        1.00000E+12 p/cm**2/s
+0  NUMBER OF FISSIONS                   0.00000E+00                 BURN-UP OF ACTINIDES  0.00000E+00 %
+
+
+
+                                               COMPOSITION  OF  MATERIAL  BY  ELEMENT
+                                               --------------------------------------
+0                                                             BETA                     GAMMA                     ALPHA
+                      ATOMS      GRAM-ATOMS     GRAMS      CURIES-MeV      kW        CURIES-MeV      kW        CURIES-MeV      kW
+
+   33       As      8.0236E+20   1.3323E-03   9.9821E-02   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+   49       In      8.8171E+20   1.4641E-03   1.6811E-01   1.7267E-13   1.0236E-18   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+   51       Sb      7.9354E+19   1.3177E-04   1.6044E-02   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+1 * * * TIME INTERVAL   2 * * * * * * * TIME IS   3.0000E+01 SECS * * * ELAPSED TIME IS  30.000 s   * * * FLUX AMP IS  1.0000E+12 /cm^2/s  * * * * * * * * * * * * * *
+  NUCLIDE        ATOMS         GRAMS        Bq       b-Energy    a-Energy   g-Energy    DOSE RATE   INGESTION  INHALATION     Bq/A2     HALF LIFE            
+                                                        kW          kW         kW         Sv/hr      DOSE(Sv)    DOSE(Sv)     Ratio      seconds             
+
+  H   1    #  2.49001E+07   4.167E-17   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  H   2    #  2.99474E+01   1.002E-22   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  He  4    #  1.25604E+08   8.348E-16   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Ge 71       3.14456E+00   3.703E-22   2.207E-06   1.816E-24   0.00E+00   1.486E-24   1.072E-15   2.649E-17   2.428E-17   5.518E-20   9.876E+05            
+  Ge 72    #  1.22309E+08   1.461E-14   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Ge 74    #  2.96067E+02   3.634E-20   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  As 74       5.41586E+00   6.648E-22   2.444E-06   1.050E-22   0.00E+00   2.974E-22   1.281E-12   3.177E-15   5.132E-15   2.715E-18   1.536E+06            
+  As 75    #> 8.02356E+20   9.982E-02   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Se 75       1.69689E+10   2.111E-12   1.138E+03   2.671E-15   0.00E+00   7.113E-14   1.276E-04   2.958E-06   1.479E-06   3.793E-10   1.034E+07            
+  Se 76    #  2.88330E+07   3.635E-15   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Cd110    #  3.78441E+05   6.906E-17   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Cd111    #  8.69671E+00   1.602E-21   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Cd111m      5.19700E+00   9.571E-22   1.232E-03   2.163E-20   0.00E+00   5.658E-20   9.141E-11   1.355E-13   1.848E-13   6.159E-14   2.924E+03            
+  Cd112    #  2.32832E+06   4.326E-16   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  In113    #> 3.78253E+19   7.092E-03   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  In113m      1.54383E+06   2.894E-16   1.793E+02   3.760E-15   0.00E+00   7.484E-15   2.192E-05   5.020E-09   3.586E-09   8.965E-11   5.968E+03            
+  In114       6.25714E+01   1.183E-20   6.032E-01   7.434E-17   0.00E+00   4.223E-19   1.306E-09   1.086E-11   7.239E-12   3.016E-11   7.190E+01            
+  In114m      1.30234E+02   2.463E-20   2.090E-05   4.717E-22   0.00E+00   2.979E-22   7.921E-13   8.567E-14   1.943E-13   4.179E-17   4.320E+06            
+  In115     > 8.43884E+20   1.610E-01   4.203E-02   1.024E-18   0.00E+00   0.000E+00   0.000E+00   1.345E-09   1.639E-08   2.102E-12   1.392E+22            
+  In115m      2.33378E+07   4.453E-15   1.002E+03   2.782E-14   0.00E+00   2.610E-14   7.430E-05   8.614E-08   5.910E-08   1.002E-09   1.615E+04            
+  Sn112    #  6.79089E+05   1.262E-16   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Sn113       5.07688E+07   9.518E-15   3.539E+00   3.556E-18   0.00E+00   1.318E-17   6.070E-09   2.583E-09   9.555E-09   1.769E-12   9.944E+06            
+  Sn113m      5.43088E+08   1.018E-13   3.002E+05   2.817E-12   0.00E+00   6.966E-13   6.370E-05   3.902E-02   6.004E-02   1.501E-05   1.254E+03            
+  Sn114    #  1.71059E+09   3.235E-13   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Sn115    #  1.19665E+10   2.283E-12   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Sn116    #  2.25023E+07   4.331E-15   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Sn117    #  2.07579E+02   4.030E-20   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Sn117m      9.34784E+01   1.815E-20   5.514E-05   1.376E-21   0.00E+00   1.392E-21   8.344E-13   3.915E-14   1.323E-13   1.379E-16   1.175E+06            
+  Sn118    #  4.31344E+05   8.445E-17   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Sn119    #  3.99055E+00   7.879E-22   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Sn119m      1.09185E+01   2.156E-21   2.990E-07   3.749E-24   0.00E+00   5.442E-25   5.932E-17   1.016E-16   6.577E-16   9.965E-21   2.532E+07            
+  Sn120    #  1.56381E+05   3.114E-17   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Sb120       3.71599E+00   7.399E-22   2.700E-03   1.327E-19   0.00E+00   1.990E-19   8.312E-10   3.780E-14   1.971E-14   1.350E-13   9.540E+02            
+  Sb120m      1.02673E+00   2.044E-22   1.430E-06   1.032E-23   0.00E+00   5.641E-22   3.219E-12   1.716E-15   1.573E-15   7.150E-17   4.977E+05            
+  Sb121    #> 4.53986E+19   9.114E-03   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Sb122       1.26106E+01   2.553E-21   3.747E-05   3.377E-21   0.00E+00   2.659E-21   1.150E-11   6.370E-14   4.122E-14   9.367E-17   2.333E+05            
+  Sb122m      4.48964E+00   9.088E-22   1.238E-02   1.846E-19   0.00E+00   1.399E-19   1.793E-11   3.218E-14   1.981E-14   6.189E-13   2.514E+02            
+  Sb123    #> 3.39557E+19   6.930E-03   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Te120    #  4.80368E+07   9.564E-15   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Te121       3.39430E+08   6.815E-14   1.421E+02   2.241E-16   0.00E+00   1.315E-14   5.297E-05   6.111E-08   5.827E-08   7.106E-11   1.655E+06            
+  Te121m      3.07463E+08   6.173E-14   1.602E+01   2.055E-16   0.00E+00   5.567E-16   1.305E-06   3.684E-08   9.130E-08   5.339E-12   1.331E+07            
+  Te122    #  1.97771E+08   4.003E-14   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Te123       1.09623E+08   2.237E-14   2.617E-17   8.394E-36   0.00E+00   1.088E-36   7.378E-28   1.152E-25   1.021E-25   1.309E-27   2.903E+24            
+  Te123m      2.33433E+08   4.764E-14   1.567E+01   2.411E-16   0.00E+00   3.707E-16   2.254E-07   2.194E-08   7.992E-08   1.567E-11   1.032E+07            
+  Te124    #  8.28189E+05   1.704E-16   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+0  TOTAL NUMBER OF NUCLIDES PRINTED IN INVENTORY =   45
+0  TOTAL CURIES   TOTAL ALPHA   TOTAL BETA    TOTAL GAMMA
+                  CURIE-MeV     CURIE-MeV     CURIE-MeV
+   8.18076E-06   0.00000E+00   4.81148E-07   1.37548E-07
+0  ALPHA BECQUERELS = 0.000000E+00  BETA BECQUERELS = 2.805309E+04  GAMMA BECQUERELS = 2.746350E+05
+0  TOTAL ACTIVITY FOR ALL MATERIALS     3.02688E+05 Bq              TOTAL Bq/A2 RATIOS  1.50E-05  EFFECTIVE A2  2.02E+10 Bq
+                                        1.63615E-04 Ci/cc           DENSITY   5.68E+00 gm/cc
+   TOTAL ACTIVITY EXCLUDING TRITIUM     3.02688E+05 Bq
+                                        1.63615E-04 Ci/cc
+0  TOTAL ALPHA HEAT PRODUCTION          0.00000E+00 kW
+   TOTAL BETA  HEAT PRODUCTION          2.85227E-12 kW
+   TOTAL GAMMA HEAT PRODUCTION          8.15390E-13 kW              TOTAL HEAT PRODUCTION 3.66766E-12 kW
+0  INITIAL TOTAL MASS OF MATERIAL       2.83973E-04 kg              TOTAL HEAT EX TRITIUM 3.66766E-12 kW
+0  TOTAL MASS OF MATERIAL               2.83973E-04 kg
+   PROTON   FLUX DURING INTERVAL        1.00000E+12 p/cm**2/s
+0  NUMBER OF FISSIONS                   0.00000E+00                 BURN-UP OF ACTINIDES  0.00000E+00 %
+0  INGESTION  HAZARD FOR ALL MATERIALS  3.90280E-02 Sv/kg
+   INHALATION HAZARD FOR ALL MATERIALS  6.00401E-02 Sv/kg
+0  INGESTION  HAZARD EXCLUDING TRITIUM  3.90280E-02 Sv/kg
+   INHALATION HAZARD EXCLUDING TRITIUM  6.00401E-02 Sv/kg
+0  APPM OF He  4    =  7.1227E-08
+   APPM OF He  3    =  2.8796E-30
+   APPM OF H   3    =  6.2042E-40
+   APPM OF H   2    =  1.6983E-14
+   APPM OF H   1    =  1.4120E-08
+
+
+
+                                               COMPOSITION  OF  MATERIAL  BY  ELEMENT
+                                               --------------------------------------
+0                                                             BETA                     GAMMA                     ALPHA
+                      ATOMS      GRAM-ATOMS     GRAMS      CURIES-MeV      kW        CURIES-MeV      kW        CURIES-MeV      kW
+
+    1       H       2.4900E+07   4.1348E-17   4.1671E-17   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+    2       He      1.2560E+08   2.0857E-16   8.3482E-16   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+   32       Ge      1.2231E+08   2.0310E-16   1.4607E-14   3.0638E-19   1.8162E-24   2.5074E-19   1.4864E-24   0.0000E+00   0.0000E+00
+   33       As      8.0236E+20   1.3323E-03   9.9821E-02   1.7721E-17   1.0505E-22   5.0172E-17   2.9742E-22   0.0000E+00   0.0000E+00
+   34       Se      1.6998E+10   2.8225E-14   2.1148E-12   4.5052E-10   2.6707E-15   1.2000E-08   7.1135E-14   0.0000E+00   0.0000E+00
+   48       Cd      2.7068E+06   4.4947E-18   5.0171E-16   3.6486E-15   2.1629E-20   9.5440E-15   5.6577E-20   0.0000E+00   0.0000E+00
+   49       In      8.8171E+20   1.4641E-03   1.6811E-01   5.3406E-09   3.1659E-14   5.6649E-09   3.3582E-14   0.0000E+00   0.0000E+00
+   50       Sn      1.4295E+10   2.3737E-14   2.7227E-12   4.7524E-07   2.8173E-12   1.1751E-07   6.9660E-13   0.0000E+00   0.0000E+00
+   51       Sb      7.9354E+19   1.3177E-04   1.6044E-02   5.4089E-14   3.2064E-19   5.7707E-14   3.4209E-19   0.0000E+00   0.0000E+00
+   52       Te      1.2366E+09   2.0534E-15   2.4966E-13   1.1315E-10   6.7075E-16   2.3746E-09   1.4077E-14   0.0000E+00   0.0000E+00
+
+
+
+                                               GAMMA SPECTRUM AND ENERGIES/SECOND
+                                               ----------------------------------
+
+     NEUTRONS PER SECOND ARISING FROM SPONTANEOUS FISSION                    0.00000E+00    Entered density (g/cc)       5.68
+     POWER FROM ALPHA PARTICLES (MeV per Second)                             0.00000E+00
+     POWER FROM BETA  PARTICLES (MeV per Second)                             1.78025E+04
+     TOTAL GAMMA POWER FROM ACTIVATION  (MeV per Second)                     5.08927E+03    Total gammas (per cc per second)      2.88264E+06
+     GAMMA RAY POWER FROM ACTIVATION DECAY  MeV/s    (  0.000-  0.010 MeV)   1.06858E+02    Gammas per group (per cc per second)  4.27431E+05
+                                                     (  0.010-  0.020 MeV)   6.78606E+00                                          9.04809E+03
+                                                     (  0.020-  0.050 MeV)   4.12812E+03                                          2.35893E+06
+                                                     (  0.050-  0.100 MeV)   1.25424E+02                                          3.34463E+04
+                                                     (  0.100-  0.200 MeV)   1.20123E+02                                          1.60164E+04
+                                                     (  0.200-  0.300 MeV)   2.59996E+02                                          2.07997E+04
+                                                     (  0.300-  0.400 MeV)   2.04381E+02                                          1.16789E+04
+                                                     (  0.400-  0.600 MeV)   1.32055E+02                                          5.28222E+03
+                                                     (  0.600-  0.800 MeV)   3.15449E-02                                          9.01281E-01
+                                                     (  0.800-  1.000 MeV)   2.50784E-02                                          5.57299E-01
+                                                     (  1.000-  1.220 MeV)   4.40701E-01                                          7.94055E+00
+                                                     (  1.220-  1.440 MeV)   1.17657E-03                                          1.76927E-02
+                                                     (  1.440-  1.660 MeV)   2.91045E-10                                          3.75542E-09
+                                                     (  1.660-  2.000 MeV)   4.59878E-09                                          5.02599E-08
+                                                     (  2.000-  2.500 MeV)   7.92250E-10                                          7.04222E-09
+                                                     (  2.500-  3.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  3.000-  4.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  4.000-  5.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  5.000-  6.500 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  6.500-  8.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  8.000- 10.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     ( 10.000- 12.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     ( 12.000- 14.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     ( 14.000- 20.000 MeV)   0.00000E+00                                          0.00000E+00
+
+    DOSE RATE (PLANE SOURCE) FROM GAMMAS WITH ENERGY 0-20 MeV IS            3.41986E-04 Sieverts/hour   ( 3.41986E-02 Rems/hour)
+
+
+
+
+                                                                           DOMINANT NUCLIDES
+                                                                           -----------------
+
+      NUCLIDE   ACTIVITY    PERCENT  NUCLIDE     HEAT      PERCENT  NUCLIDE  DOSE RATE    PERCENT  NUCLIDE  INGESTION    PERCENT  NUCLIDE  INHALATION   PERCENT 
+                  (Bq)      ACTIVITY             (kW)       HEAT              (Sv/hr)    DOSE RATE            (Sv)      INGESTION            (Sv)     INHALATION
+       Total   3.0269E+05             Total   3.6677E-12             Total   3.4199E-04             Total   3.9028E-02             Total   6.0040E-02
+    1  Sn113m  3.0019E+05  99.18E+00  Sn113m  3.5139E-12  95.81E+00  Se 75   1.2756E-04  37.30E+00  Sn113m  3.9025E-02  99.99E+00  Sn113m  6.0038E-02  10.00E+01
+    2  Se 75   1.1379E+03  37.59E-02  Se 75   7.3806E-14  20.12E-01  In115m  7.4302E-05  21.73E+00  Se 75   2.9584E-06  75.80E-04  Se 75   1.4792E-06  24.64E-04
+    3  In115m  1.0017E+03  33.09E-02  In115m  5.3921E-14  14.70E-01  Sn113m  6.3695E-05  18.63E+00  In115m  8.6143E-08  22.07E-05  Te121m  9.1297E-08  15.21E-05
+    4  In113m  1.7929E+02  59.23E-03  Te121   1.3373E-14  36.46E-02  Te121   5.2967E-05  15.49E+00  Te121   6.1113E-08  15.66E-05  Te123m  7.9924E-08  13.31E-05
+    5  Te121   1.4212E+02  46.95E-03  In113m  1.1244E-14  30.66E-02  In113m  2.1920E-05  64.10E-01  Te121m  3.6839E-08  94.39E-06  In115m  5.9098E-08  98.43E-06
+    6  Te121m  1.6017E+01  52.92E-04  Te121m  7.6226E-16  20.78E-03  Te121m  1.3049E-06  38.16E-02  Te123m  2.1940E-08  56.22E-06  Te121   5.8271E-08  97.05E-06
+    7  Te123m  1.5671E+01  51.77E-04  Te123m  6.1189E-16  16.68E-03  Te123m  2.2542E-07  65.92E-03  In113m  5.0202E-09  12.86E-06  In115   1.6392E-08  27.30E-06
+    8  Sn113   3.5389E+00  11.69E-04  In114   7.4766E-17  20.39E-04  Sn113   6.0702E-09  17.75E-04  Sn113   2.5834E-09  66.19E-07  Sn113   9.5551E-09  15.91E-06
+    9  In114   6.0322E-01  19.93E-05  Sn113   1.6741E-17  45.65E-05  In114   1.3059E-09  38.18E-05  In115   1.3450E-09  34.46E-07  In113m  3.5859E-09  59.72E-07
+   10  In115   4.2032E-02  13.89E-06  In115   1.0236E-18  27.91E-06  Sb120   8.3123E-10  24.31E-05  In114   1.0858E-11  27.82E-09  In114   7.2386E-12  12.06E-09
+   11  Sb122m  1.2379E-02  40.90E-07  Sb120   3.3170E-19  90.44E-07  Cd111m  9.1410E-11  26.73E-06  Cd111m  1.3550E-13  34.72E-11  In114m  1.9433E-13  32.37E-11
+   12  Sb120   2.6999E-03  89.20E-08  Sb122m  3.2443E-19  88.46E-07  Sb122m  1.7934E-11  52.44E-07  In114m  8.5674E-14  21.95E-11  Cd111m  1.8477E-13  30.77E-11
+   13  Cd111m  1.2318E-03  40.70E-08  Cd111m  7.8206E-20  21.32E-07  Sb122   1.1505E-11  33.64E-07  Sb122   6.3699E-14  16.32E-11  Sn117m  1.3234E-13  22.04E-11
+   14  Sn117m  5.5142E-05  18.22E-09  Sb122   6.0364E-21  16.46E-08  Sb120m  3.2189E-12  94.12E-08  Sn117m  3.9151E-14  10.03E-11  Sb122   4.1217E-14  68.65E-12
+   15  Sb122   3.7470E-05  12.38E-09  Sn117m  2.7677E-21  75.46E-09  As 74   1.2808E-12  37.45E-08  Sb120   3.7799E-14  96.85E-12  Sb122m  1.9806E-14  32.99E-12
+   16  In114m  2.0896E-05  69.04E-10  In114m  7.6964E-22  20.98E-09  Sn117m  8.3444E-13  24.40E-08  Sb122m  3.2184E-14  82.46E-12  Sb120   1.9709E-14  32.83E-12
+   17  As 74   2.4437E-06  80.73E-11  Sb120m  5.7447E-22  15.66E-09  In114m  7.9214E-13  23.16E-08  As 74   3.1768E-15  81.40E-13  As 74   5.1318E-15  85.47E-13
+   18  Ge 71   2.2071E-06  72.92E-11  As 74   4.0247E-22  10.97E-09  Ge 71   1.0723E-15  31.36E-11  Sb120m  1.7160E-15  43.97E-13  Sb120m  1.5730E-15  26.20E-13
+   19  Sb120m  1.4300E-06  47.24E-11  Sn119m  4.2927E-24  11.70E-11  Sn119m  5.9324E-17  17.35E-12  Sn119m  1.0165E-16  26.04E-14  Sn119m  6.5770E-16  10.95E-13
+   20  Sn119m  2.9896E-07  98.77E-12  Ge 71   3.3026E-24  90.05E-12  Te123   7.3783E-28  21.57E-23  Ge 71   2.6485E-17  67.86E-15  Ge 71   2.4278E-17  40.44E-15
+       Rest    2.6172E-17  86.47E-22  Rest    9.4820E-36  25.85E-23  Rest    0.0000E+00  00.00E+00  Rest    1.1516E-25  29.51E-23  Rest    1.0207E-25  17.00E-23
+
+      NUCLIDE  GAMMA HEAT   PERCENT  NUCLIDE   BETA HEAT   PERCENT 
+                  (kW)       GAMMA               (kW)       BETA
+       Total   8.1539E-13             Total   2.8523E-12
+    1  Sn113m  6.9658E-13  85.43E+00  Sn113m  2.8173E-12  98.77E+00
+    2  Se 75   7.1135E-14  87.24E-01  In115m  2.7824E-14  97.55E-02
+    3  In115m  2.6098E-14  32.01E-01  In113m  3.7602E-15  13.18E-02
+    4  Te121   1.3149E-14  16.13E-01  Se 75   2.6707E-15  93.64E-03
+    5  In113m  7.4838E-15  91.78E-02  Te123m  2.4115E-16  84.55E-04
+    6  Te121m  5.5674E-16  68.28E-03  Te121   2.2408E-16  78.56E-04
+    7  Te123m  3.7074E-16  45.47E-03  Te121m  2.0553E-16  72.06E-04
+    8  Sn113   1.3185E-17  16.17E-04  In114   7.4343E-17  26.06E-04
+    9  In114   4.2231E-19  51.79E-06  Sn113   3.5563E-18  12.47E-05
+   10  Sb120   1.9900E-19  24.41E-06  In115   1.0236E-18  35.89E-06
+   11  Sb122m  1.3987E-19  17.15E-06  Sb122m  1.8456E-19  64.71E-07
+   12  Cd111m  5.6577E-20  69.39E-07  Sb120   1.3270E-19  46.52E-07
+   13  Sb122   2.6589E-21  32.61E-08  Cd111m  2.1629E-20  75.83E-08
+   14  Sn117m  1.3918E-21  17.07E-08  Sb122   3.3775E-21  11.84E-08
+   15  Sb120m  5.6414E-22  69.19E-09  Sn117m  1.3759E-21  48.24E-09
+   16  In114m  2.9793E-22  36.54E-09  In114m  4.7172E-22  16.54E-09
+   17  As 74   2.9742E-22  36.48E-09  As 74   1.0505E-22  36.83E-10
+   18  Ge 71   1.4864E-24  18.23E-11  Sb120m  1.0323E-23  36.19E-11
+   19  Sn119m  5.4417E-25  66.74E-12  Sn119m  3.7486E-24  13.14E-11
+   20  Te123   1.0880E-36  13.34E-23  Ge 71   1.8162E-24  63.68E-12
+       Rest    0.0000E+00  00.00E+00  Rest    8.3940E-36  29.43E-23
+
+
+
+                                                              UNCERTAINTY ESTIMATES (cross sections only)
+                                                              -------------------------------------------
+
+    Uncertainty estimates are based on pathway analysis for the irradiation phase
+    Total Activity is          3.02688E+05  +/-   0.00E+00  Bq.        Error is   0.00E+00 % of the total.
+
+    Total Heat Production is   3.66766E-12  +/-   0.00E+00  kW.        Error is   0.00E+00 % of the total.
+
+    Total Gamma Dose Rate is   3.41986E-04  +/-   0.00E+00  Sv/hr.     Error is   0.00E+00 % of the total.
+
+    Total Ingestion Dose is    3.90280E-02  +/-   0.00E+00  Sv.        Error is   0.00E+00 % of the total.
+
+    Total Inhalation Dose is   6.00401E-02  +/-   0.00E+00  Sv.        Error is   0.00E+00 % of the total.
+
+    Total Gamma Heat Prod is   8.15390E-13  +/-   0.00E+00  kW.        Error is   0.00E+00 % of the total.
+
+    Total Beta Heat Prod is    2.85227E-12  +/-   0.00E+00  kW.        Error is   0.00E+00 % of the total.
+
+0   Nuclide     Atoms     E(Atoms)  Activity E(Activity)   Heat     E(Heat)  Dose Rate E(Dose Rate) Ingest   E(Ingest)   Inhale   E(Inhale)   % Error
+    Sn113m   5.43088E+08  0.00E+00  3.002E+05  0.00E+00  3.514E-12  0.00E+00  6.370E-05  0.00E+00  3.902E-02  0.00E+00  6.004E-02  0.00E+00  0.000E+00
+    Se 75    1.69689E+10  0.00E+00  1.138E+03  0.00E+00  7.381E-14  0.00E+00  1.276E-04  0.00E+00  2.958E-06  0.00E+00  1.479E-06  0.00E+00  0.000E+00
+    In115m   2.33378E+07  0.00E+00  1.002E+03  0.00E+00  5.392E-14  0.00E+00  7.430E-05  0.00E+00  8.614E-08  0.00E+00  5.910E-08  0.00E+00  0.000E+00
+    Te121    3.39430E+08  0.00E+00  1.421E+02  0.00E+00  1.337E-14  0.00E+00  5.297E-05  0.00E+00  6.111E-08  0.00E+00  5.827E-08  0.00E+00  0.000E+00
+    In113m   1.54383E+06  0.00E+00  1.793E+02  0.00E+00  1.124E-14  0.00E+00  2.192E-05  0.00E+00  5.020E-09  0.00E+00  3.586E-09  0.00E+00  0.000E+00
+    Te123m   2.33433E+08  0.00E+00  1.567E+01  0.00E+00  6.119E-16  0.00E+00  2.254E-07  0.00E+00  2.194E-08  0.00E+00  7.992E-08  0.00E+00  0.000E+00
+    Te121m   3.07463E+08  0.00E+00  1.602E+01  0.00E+00  7.623E-16  0.00E+00  1.305E-06  0.00E+00  3.684E-08  0.00E+00  9.130E-08  0.00E+00  0.000E+00
+    Sn113    5.07688E+07  0.00E+00  3.539E+00  0.00E+00  1.674E-17  0.00E+00  6.070E-09  0.00E+00  2.583E-09  0.00E+00  9.555E-09  0.00E+00  0.000E+00
+    In114    6.25714E+01  0.00E+00  6.032E-01  0.00E+00  7.477E-17  0.00E+00  1.306E-09  0.00E+00  1.086E-11  0.00E+00  7.239E-12  0.00E+00  0.000E+00
+    In115    8.43884E+20  0.00E+00  4.203E-02  0.00E+00  1.024E-18  0.00E+00  0.000E+00  0.00E+00  1.345E-09  0.00E+00  1.639E-08  0.00E+00  0.000E+00
+    Cd111m   5.19700E+00  0.00E+00  1.232E-03  0.00E+00  7.821E-20  0.00E+00  9.141E-11  0.00E+00  1.355E-13  0.00E+00  1.848E-13  0.00E+00  0.000E+00
+    Sb120    3.71599E+00  0.00E+00  2.700E-03  0.00E+00  3.317E-19  0.00E+00  8.312E-10  0.00E+00  3.780E-14  0.00E+00  1.971E-14  0.00E+00  0.000E+00
+    Sb122m   4.48964E+00  0.00E+00  1.238E-02  0.00E+00  3.244E-19  0.00E+00  1.793E-11  0.00E+00  3.218E-14  0.00E+00  1.981E-14  0.00E+00  0.000E+00
+    Sb122    1.26106E+01  0.00E+00  3.747E-05  0.00E+00  6.036E-21  0.00E+00  1.150E-11  0.00E+00  6.370E-14  0.00E+00  4.122E-14  0.00E+00  0.000E+00
+    In114m   1.30234E+02  0.00E+00  2.090E-05  0.00E+00  7.696E-22  0.00E+00  7.921E-13  0.00E+00  8.567E-14  0.00E+00  1.943E-13  0.00E+00  0.000E+00
+    Sn117m   9.34784E+01  0.00E+00  5.514E-05  0.00E+00  2.768E-21  0.00E+00  8.344E-13  0.00E+00  3.915E-14  0.00E+00  1.323E-13  0.00E+00  0.000E+00
+    As 74    5.41586E+00  0.00E+00  2.444E-06  0.00E+00  4.025E-22  0.00E+00  1.281E-12  0.00E+00  3.177E-15  0.00E+00  5.132E-15  0.00E+00  0.000E+00
+    Sb120m   1.02673E+00  0.00E+00  1.430E-06  0.00E+00  5.745E-22  0.00E+00  3.219E-12  0.00E+00  1.716E-15  0.00E+00  1.573E-15  0.00E+00  0.000E+00
+    Ge 71    3.14456E+00  0.00E+00  2.207E-06  0.00E+00  3.303E-24  0.00E+00  1.072E-15  0.00E+00  2.649E-17  0.00E+00  2.428E-17  0.00E+00  0.000E+00
+    Sn119m   1.09185E+01  0.00E+00  2.990E-07  0.00E+00  4.293E-24  0.00E+00  5.932E-17  0.00E+00  1.016E-16  0.00E+00  6.577E-16  0.00E+00  0.000E+00
+1
+                         P A T H W A Y   A N A L Y S I S   F O R   I R R A D I A T I O N   P H A S E
+                         ===========================================================================
+
+
+ no of steps        =      1
+ irradiation time   =  3.00000E+01 secs
+ flux               =  1.00000E+12 p/cm**2/s
+
+ path floor    =  5.00000E-01% of target inventory
+ loop floor    =  1.00000E+00% of path inventory
+ max depth     =   10    (maximum number of edges between source and target)
+
+ Pathways are given in order of decreasing dominance of target nuclides as ordered by the dominant nuclide tables above. Target nuclides at the end of the list
+ that do not appear above are those that appear in the dominant lists at later cooling time. Pathways are retained if they contribute more than the path floor
+ percentage of the number of target  atoms given by the rate equation solution for the time interval. Loops are retained in a pathway if they contribute more
+ than the loop floor percentage of the number of target atoms created along the pathway.
+ Pathways are analysed between the following source and target nuclides:
+
+ Source Nuclides
+  As 75      In113      In115      Sb121      Sb123    
+
+ Target Nuclides
+  Sn113m     Se 75      In115m     Te121      In113m     Te123m     Te121m     Sn113      In114      In115    
+  Cd111m     Sb120      Sb122m     Sb122      In114m     Sn117m     As 74      Sb120m     Ge 71      Sn119m   
+
+ Listed below are all significant paths and loops ordered by target nuclide. The first line for each target nuclide gives the nuclide name and the percentage
+ of the total number of atoms given by the number of significant paths shown. The first line for each pathway indentifies a path or loop, gives its number 
+ and its respective percentage contribution to the target nuclide inventory. The remainder of the line gives the nuclides  on the path (or loop) from
+ source to target, and the type of graph edge joining them. Edge types (r,R), (d,D) and (b,B) respectively denote reaction, decay and combined reaction
+ and decay edges from short and long lived parent. L and S denote short and long lived target nuclides. Short-lived nuclides have half lives less than
+ the time interval and long-lived have half live greater. Shown below each edge is a list showing the percentage that each reaction and decay make
+ towards the total rate for the edge for primary products. If the edge daughter is a secondary then isomeric state of the primary product of the reaction
+ decay is also displayed. Significant loops are displayed directly after their path, and their percentages are their part of the total path percentage.
+
+
+ Target nuclide Sn113m    99.997% of inventory given by  1 path
+ --------------------
+
+ path  1  99.997% In113 ---(R)--- Sn113m---(L)--- 
+                    100.00%(p,n)                   
+
+ Target nuclide Se 75    100.000% of inventory given by  1 path
+ --------------------
+
+ path  1 100.000% As 75 ---(R)--- Se 75 ---(L)--- 
+                    100.00%(p,n)                   
+
+ Target nuclide In115m   100.000% of inventory given by  1 path
+ --------------------
+
+ path  1 100.000% In115 ---(R)--- In115m---(L)--- 
+                    100.00%(p,p)                   
+
+ Target nuclide Te121    100.000% of inventory given by  1 path
+ --------------------
+
+ path  1 100.000% Sb121 ---(R)--- Te121 ---(L)--- 
+                    100.00%(p,n)                   
+
+ Target nuclide In113m    99.996% of inventory given by  1 path
+ --------------------
+
+ path  1  99.996% In113 ---(R)--- In113m---(L)--- 
+                    100.00%(p,p)                   
+
+ Target nuclide Te123m   100.000% of inventory given by  1 path
+ --------------------
+
+ path  1 100.000% Sb123 ---(R)--- Te123m---(L)--- 
+                    100.00%(p,n)                   
+
+ Target nuclide Te121m   100.000% of inventory given by  1 path
+ --------------------
+
+ path  1 100.000% Sb121 ---(R)--- Te121m---(L)--- 
+                    100.00%(p,n)                   
+
+ Target nuclide Sn113    100.000% of inventory given by  2 paths
+ --------------------
+
+ path  1  91.942% In113 ---(R)--- Sn113 ---(L)--- 
+                    100.00%(p,n)                   
+
+ path  2   8.089% In113 ---(R)--- Sn113m---(B)--- Sn113 ---(L)--- 
+                    100.00%(p,n)    100.00%(IT)                    
+                                      0.00%(p,p)                   
+
+ Target nuclide In114     94.665% of inventory given by  1 path
+ --------------------
+
+ path  1  94.665% In115 ---(R)--- In114 ---(L)--- 
+                     86.71%(p,np)                  
+                     13.29%(p,d)                   
+
+ Target nuclide In115      0.000% of inventory given by  0 paths
+ --------------------
+
+ Target nuclide Cd111m    99.872% of inventory given by  1 path
+ --------------------
+
+ path  1  99.872% In115 ---(R)--- Cd111m---(L)--- 
+                    100.00%(p,na)                  
+
+ Target nuclide Sb120     98.933% of inventory given by  1 path
+ --------------------
+
+ path  1  98.933% Sb121 ---(R)--- Sb120 ---(L)--- 
+                     95.51%(p,np)                  
+                      4.49%(p,d)                   
+
+ Target nuclide Sb122m    96.144% of inventory given by  1 path
+ --------------------
+
+ path  1  96.144% Sb123 ---(R)--- Sb122m---(L)--- 
+                     97.63%(p,np)                  
+                      2.37%(p,d)                   
+
+ Target nuclide Sb122    100.000% of inventory given by  2 paths
+ --------------------
+
+ path  1  98.543% Sb123 ---(R)--- Sb122 ---(L)--- 
+                     97.09%(p,np)                  
+                      2.91%(p,d)                   
+
+ path  2   2.824% Sb123 ---(R)--- Sb122m---(B)--- Sb122 ---(L)--- 
+                     97.63%(p,np)   100.00%(IT)                    
+                      2.37%(p,d)      0.00%(p,p)                   
+
+ Target nuclide In114m   100.000% of inventory given by  1 path
+ --------------------
+
+ path  1 100.000% In115 ---(R)--- In114m---(L)--- 
+                     88.99%(p,np)                  
+                     11.01%(p,d)                   
+
+ Target nuclide Sn117m    99.999% of inventory given by  1 path
+ --------------------
+
+ path  1  99.999% Sb121 ---(R)--- Sn117m---(L)--- 
+                    100.00%(p,na)                  
+
+ Target nuclide As 74    100.000% of inventory given by  1 path
+ --------------------
+
+ path  1 100.000% As 75 ---(R)--- As 74 ---(L)--- 
+                    100.00%(p,d)                   
+
+ Target nuclide Sb120m    99.998% of inventory given by  1 path
+ --------------------
+
+ path  1  99.998% Sb121 ---(R)--- Sb120m---(L)--- 
+                     97.14%(p,np)                  
+                      2.86%(p,d)                   
+
+ Target nuclide Ge 71    100.000% of inventory given by  1 path
+ --------------------
+
+ path  1 100.000% As 75 ---(R)--- Ge 71 ---(L)--- 
+                    100.00%(p,na)                  
+
+ Target nuclide Sn119m   100.000% of inventory given by  1 path
+ --------------------
+
+ path  1 100.000% Sb123 ---(R)--- Sn119m---(L)--- 
+                    100.00%(p,na)                  
+
+
+                         G E N E R I C   P A T H W A Y S  F O R   I R R A D I A T I O N   P H A S E
+                         ==========================================================================
+
+
+
+
+ All pathways differing only by an isomeric decay (IT) edge are regarded as the same generic pathway and are shown here. 
+ Individual pathways are shown above.
+ Each generic pathway (gpath) has a path number, the percentage of the target nuclide atoms generated along the pathway and the source to target edges.
+
+
+
+ Target nuclide Sn113    100.000% of inventory given by  2 paths
+ --------------------
+
+ path  1 100.031% In113 ---(R)--- Sn113 ---(L)--- 
+ This generic pathway is the sum of  2 pathways
+
+ Target nuclide Sb122    100.000% of inventory given by  2 paths
+ --------------------
+
+ path  1 101.368% Sb123 ---(R)--- Sb122 ---(L)--- 
+ This generic pathway is the sum of  2 pathways
+1 * * * TIME INTERVAL   3 * * * COOLING TIME IS   6.0000E+01 SECS OR  1.0000E+00 MINS  * * * ELAPSED TIME IS   1.000 m   * * * FLUX AMP IS  0.0000E+00 /cm^2/s  * * *
+  NUCLIDE        ATOMS         GRAMS        Bq       b-Energy    a-Energy   g-Energy    DOSE RATE   INGESTION  INHALATION     Bq/A2     HALF LIFE            
+                                                        kW          kW         kW         Sv/hr      DOSE(Sv)    DOSE(Sv)     Ratio      seconds             
+
+  H   1    #  2.49001E+07   4.167E-17   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  H   2    #  2.99474E+01   1.002E-22   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  He  4    #  1.25604E+08   8.348E-16   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Ge 71       3.14443E+00   3.703E-22   2.207E-06   1.816E-24   0.00E+00   1.486E-24   1.072E-15   2.648E-17   2.428E-17   5.518E-20   9.876E+05            
+  Ge 72    #  1.22309E+08   1.461E-14   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Ge 74    #  2.96067E+02   3.634E-20   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  As 74       5.41572E+00   6.648E-22   2.444E-06   1.050E-22   0.00E+00   2.974E-22   1.281E-12   3.177E-15   5.132E-15   2.715E-18   1.536E+06            
+  As 75    #> 8.02356E+20   9.982E-02   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Se 75       1.69688E+10   2.111E-12   1.138E+03   2.671E-15   0.00E+00   7.113E-14   1.276E-04   2.958E-06   1.479E-06   3.793E-10   1.034E+07            
+  Se 76    #  2.88330E+07   3.635E-15   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Cd110    #  3.78441E+05   6.906E-17   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Cd111    #  8.77009E+00   1.615E-21   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Cd111m      5.12362E+00   9.436E-22   1.214E-03   2.132E-20   0.00E+00   5.578E-20   9.012E-11   1.336E-13   1.822E-13   6.072E-14   2.924E+03            
+  Cd112    #  2.32832E+06   4.326E-16   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  In113    #> 3.78253E+19   7.092E-03   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  In113m      1.53335E+06   2.875E-16   1.781E+02   3.735E-15   0.00E+00   7.433E-15   2.177E-05   4.986E-09   3.562E-09   8.904E-11   5.968E+03            
+  In114       3.41554E+01   6.460E-21   3.293E-01   4.058E-17   0.00E+00   2.305E-19   7.128E-10   5.927E-12   3.951E-12   1.646E-11   7.190E+01            
+  In114m      1.30233E+02   2.463E-20   2.090E-05   4.717E-22   0.00E+00   2.979E-22   7.921E-13   8.567E-14   1.943E-13   4.179E-17   4.320E+06            
+  In115     > 8.43884E+20   1.610E-01   4.203E-02   1.024E-18   0.00E+00   0.000E+00   0.000E+00   1.345E-09   1.639E-08   2.102E-12   1.392E+22            
+  In115m      2.32778E+07   4.441E-15   9.991E+02   2.775E-14   0.00E+00   2.603E-14   7.411E-05   8.592E-08   5.895E-08   9.991E-10   1.615E+04            
+  Sn112    #  6.79089E+05   1.262E-16   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Sn113       6.69098E+07   1.254E-14   4.664E+00   4.687E-18   0.00E+00   1.738E-17   8.000E-09   3.405E-09   1.259E-08   2.332E-12   9.944E+06            
+  Sn113m      5.25370E+08   9.850E-14   2.904E+05   2.725E-12   0.00E+00   6.739E-13   6.162E-05   3.775E-02   5.808E-02   1.452E-05   1.254E+03            
+  Sn114    #  1.71059E+09   3.235E-13   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Sn115    #  1.19665E+10   2.283E-12   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Sn116    #  2.25023E+07   4.331E-15   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Sn117    #  2.07583E+02   4.030E-20   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Sn117m      9.34751E+01   1.815E-20   5.514E-05   1.376E-21   0.00E+00   1.392E-21   8.344E-13   3.915E-14   1.323E-13   1.379E-16   1.175E+06            
+  Sn118    #  4.31344E+05   8.445E-17   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Sn119    #  3.99057E+00   7.879E-22   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Sn119m      1.09185E+01   2.156E-21   2.990E-07   3.749E-24   0.00E+00   5.442E-25   5.932E-17   1.016E-16   6.577E-16   9.965E-21   2.532E+07            
+  Sn120    #  1.56381E+05   3.114E-17   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Sb120       3.55744E+00   7.083E-22   2.585E-03   1.270E-19   0.00E+00   1.905E-19   7.958E-10   3.619E-14   1.887E-14   1.292E-13   9.540E+02            
+  Sb120m      1.02664E+00   2.044E-22   1.430E-06   1.032E-23   0.00E+00   5.641E-22   3.219E-12   1.716E-15   1.573E-15   7.150E-17   4.977E+05            
+  Sb121    #> 4.53986E+19   9.114E-03   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Sb122       1.32950E+01   2.691E-21   3.950E-05   3.561E-21   0.00E+00   2.803E-21   1.213E-11   6.716E-14   4.345E-14   9.876E-17   2.333E+05            
+  Sb122m      3.80287E+00   7.698E-22   1.049E-02   1.563E-19   0.00E+00   1.185E-19   1.519E-11   2.726E-14   1.678E-14   5.243E-13   2.514E+02            
+  Sb123    #> 3.39557E+19   6.930E-03   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Te120    #  4.80368E+07   9.564E-15   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Te121       3.39422E+08   6.814E-14   1.421E+02   2.241E-16   0.00E+00   1.315E-14   5.297E-05   6.111E-08   5.827E-08   7.106E-11   1.655E+06            
+  Te121m      3.07462E+08   6.173E-14   1.602E+01   2.055E-16   0.00E+00   5.567E-16   1.305E-06   3.684E-08   9.130E-08   5.339E-12   1.331E+07            
+  Te122    #  1.97771E+08   4.003E-14   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Te123       1.09624E+08   2.237E-14   2.617E-17   8.394E-36   0.00E+00   1.088E-36   7.378E-28   1.152E-25   1.021E-25   1.309E-27   2.903E+24            
+  Te123m      2.33432E+08   4.764E-14   1.567E+01   2.411E-16   0.00E+00   3.707E-16   2.254E-07   2.194E-08   7.992E-08   1.567E-11   1.032E+07            
+  Te124    #  8.28189E+05   1.704E-16   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+0  TOTAL NUMBER OF NUCLIDES PRINTED IN INVENTORY =   45
+0  TOTAL CURIES   TOTAL ALPHA   TOTAL BETA    TOTAL GAMMA
+                  CURIE-MeV     CURIE-MeV     CURIE-MeV
+   7.91599E-06   0.00000E+00   4.65622E-07   1.33695E-07
+0  ALPHA BECQUERELS = 0.000000E+00  BETA BECQUERELS = 2.718217E+04  GAMMA BECQUERELS = 2.657093E+05
+0  TOTAL ACTIVITY FOR ALL MATERIALS     2.92891E+05 Bq              TOTAL Bq/A2 RATIOS  1.45E-05  EFFECTIVE A2  2.02E+10 Bq
+                                        1.58320E-04 Ci/cc           DENSITY   5.68E+00 gm/cc
+   TOTAL ACTIVITY EXCLUDING TRITIUM     2.92891E+05 Bq
+                                        1.58320E-04 Ci/cc
+0  TOTAL ALPHA HEAT PRODUCTION          0.00000E+00 kW
+   TOTAL BETA  HEAT PRODUCTION          2.76023E-12 kW
+   TOTAL GAMMA HEAT PRODUCTION          7.92550E-13 kW              TOTAL HEAT PRODUCTION 3.55278E-12 kW
+0  INITIAL TOTAL MASS OF MATERIAL       2.83973E-04 kg              TOTAL HEAT EX TRITIUM 3.55278E-12 kW
+0  TOTAL MASS OF MATERIAL               2.83973E-04 kg
+   PROTON   FLUX DURING INTERVAL        0.00000E+00 p/cm**2/s
+0  NUMBER OF FISSIONS                   0.00000E+00                 BURN-UP OF ACTINIDES  0.00000E+00 %
+0  INGESTION  HAZARD FOR ALL MATERIALS  3.77549E-02 Sv/kg
+   INHALATION HAZARD FOR ALL MATERIALS  5.80813E-02 Sv/kg
+0  INGESTION  HAZARD EXCLUDING TRITIUM  3.77549E-02 Sv/kg
+   INHALATION HAZARD EXCLUDING TRITIUM  5.80813E-02 Sv/kg
+0  APPM OF He  4    =  7.1227E-08
+   APPM OF He  3    =  2.8796E-30
+   APPM OF H   3    =  6.2042E-40
+   APPM OF H   2    =  1.6983E-14
+   APPM OF H   1    =  1.4120E-08
+
+
+
+                                               COMPOSITION  OF  MATERIAL  BY  ELEMENT
+                                               --------------------------------------
+0                                                             BETA                     GAMMA                     ALPHA
+                      ATOMS      GRAM-ATOMS     GRAMS      CURIES-MeV      kW        CURIES-MeV      kW        CURIES-MeV      kW
+
+    1       H       2.4900E+07   4.1348E-17   4.1671E-17   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+    2       He      1.2560E+08   2.0857E-16   8.3482E-16   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+   32       Ge      1.2231E+08   2.0310E-16   1.4607E-14   3.0636E-19   1.8161E-24   2.5073E-19   1.4864E-24   0.0000E+00   0.0000E+00
+   33       As      8.0236E+20   1.3323E-03   9.9821E-02   1.7720E-17   1.0505E-22   5.0171E-17   2.9742E-22   0.0000E+00   0.0000E+00
+   34       Se      1.6998E+10   2.8225E-14   2.1148E-12   4.5052E-10   2.6707E-15   1.2000E-08   7.1135E-14   0.0000E+00   0.0000E+00
+   48       Cd      2.7068E+06   4.4947E-18   5.0171E-16   3.5971E-15   2.1324E-20   9.4092E-15   5.5778E-20   0.0000E+00   0.0000E+00
+   49       In      8.8171E+20   1.4641E-03   1.6811E-01   5.3185E-09   3.1528E-14   5.6450E-09   3.3464E-14   0.0000E+00   0.0000E+00
+   50       Sn      1.4293E+10   2.3734E-14   2.7224E-12   4.5974E-07   2.7254E-12   1.1368E-07   6.7387E-13   0.0000E+00   0.0000E+00
+   51       Sb      7.9354E+19   1.3177E-04   1.6044E-02   4.8403E-14   2.8693E-19   5.2690E-14   3.1235E-19   0.0000E+00   0.0000E+00
+   52       Te      1.2366E+09   2.0534E-15   2.4965E-13   1.1315E-10   6.7074E-16   2.3746E-09   1.4077E-14   0.0000E+00   0.0000E+00
+
+
+
+                                               GAMMA SPECTRUM AND ENERGIES/SECOND
+                                               ----------------------------------
+
+     NEUTRONS PER SECOND ARISING FROM SPONTANEOUS FISSION                    0.00000E+00    Entered density (g/cc)       5.68
+     POWER FROM ALPHA PARTICLES (MeV per Second)                             0.00000E+00
+     POWER FROM BETA  PARTICLES (MeV per Second)                             1.72280E+04
+     TOTAL GAMMA POWER FROM ACTIVATION  (MeV per Second)                     4.94671E+03    Total gammas (per cc per second)      2.79091E+06
+     GAMMA RAY POWER FROM ACTIVATION DECAY  MeV/s    (  0.000-  0.010 MeV)   1.03379E+02    Gammas per group (per cc per second)  4.13514E+05
+                                                     (  0.010-  0.020 MeV)   6.78604E+00                                          9.04805E+03
+                                                     (  0.020-  0.050 MeV)   3.99386E+03                                          2.28220E+06
+                                                     (  0.050-  0.100 MeV)   1.21482E+02                                          3.23953E+04
+                                                     (  0.100-  0.200 MeV)   1.20123E+02                                          1.60164E+04
+                                                     (  0.200-  0.300 MeV)   2.60000E+02                                          2.08000E+04
+                                                     (  0.300-  0.400 MeV)   2.03675E+02                                          1.16386E+04
+                                                     (  0.400-  0.600 MeV)   1.32053E+02                                          5.28211E+03
+                                                     (  0.600-  0.800 MeV)   3.15518E-02                                          9.01480E-01
+                                                     (  0.800-  1.000 MeV)   2.50783E-02                                          5.57295E-01
+                                                     (  1.000-  1.220 MeV)   4.40696E-01                                          7.94048E+00
+                                                     (  1.220-  1.440 MeV)   6.42429E-04                                          9.66059E-03
+                                                     (  1.440-  1.660 MeV)   2.91037E-10                                          3.75532E-09
+                                                     (  1.660-  2.000 MeV)   4.84839E-09                                          5.29879E-08
+                                                     (  2.000-  2.500 MeV)   7.92228E-10                                          7.04203E-09
+                                                     (  2.500-  3.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  3.000-  4.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  4.000-  5.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  5.000-  6.500 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  6.500-  8.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  8.000- 10.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     ( 10.000- 12.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     ( 12.000- 14.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     ( 14.000- 20.000 MeV)   0.00000E+00                                          0.00000E+00
+
+    DOSE RATE (PLANE SOURCE) FROM GAMMAS WITH ENERGY 0-20 MeV IS            3.39568E-04 Sieverts/hour   ( 3.39568E-02 Rems/hour)
+
+
+
+
+                                                                           DOMINANT NUCLIDES
+                                                                           -----------------
+
+      NUCLIDE   ACTIVITY    PERCENT  NUCLIDE     HEAT      PERCENT  NUCLIDE  DOSE RATE    PERCENT  NUCLIDE  INGESTION    PERCENT  NUCLIDE  INHALATION   PERCENT 
+                  (Bq)      ACTIVITY             (kW)       HEAT              (Sv/hr)    DOSE RATE            (Sv)      INGESTION            (Sv)     INHALATION
+       Total   2.9289E+05             Total   3.5528E-12             Total   3.3957E-04             Total   3.7755E-02             Total   5.8081E-02
+    1  Sn113m  2.9040E+05  99.15E+00  Sn113m  3.3992E-12  95.68E+00  Se 75   1.2756E-04  37.57E+00  Sn113m  3.7752E-02  99.99E+00  Sn113m  5.8080E-02  10.00E+01
+    2  Se 75   1.1379E+03  38.85E-02  Se 75   7.3805E-14  20.77E-01  In115m  7.4111E-05  21.83E+00  Se 75   2.9584E-06  78.36E-04  Se 75   1.4792E-06  25.47E-04
+    3  In115m  9.9909E+02  34.11E-02  In115m  5.3782E-14  15.14E-01  Sn113m  6.1617E-05  18.15E+00  In115m  8.5922E-08  22.76E-05  Te121m  9.1297E-08  15.72E-05
+    4  In113m  1.7808E+02  60.80E-03  Te121   1.3373E-14  37.64E-02  Te121   5.2966E-05  15.60E+00  Te121   6.1112E-08  16.19E-05  Te123m  7.9923E-08  13.76E-05
+    5  Te121   1.4212E+02  48.52E-03  In113m  1.1168E-14  31.43E-02  In113m  2.1771E-05  64.12E-01  Te121m  3.6839E-08  97.57E-06  In115m  5.8946E-08  10.15E-05
+    6  Te121m  1.6017E+01  54.69E-04  Te121m  7.6226E-16  21.46E-03  Te121m  1.3049E-06  38.43E-02  Te123m  2.1940E-08  58.11E-06  Te121   5.8270E-08  10.03E-05
+    7  Te123m  1.5671E+01  53.51E-04  Te123m  6.1188E-16  17.22E-03  Te123m  2.2542E-07  66.39E-03  In113m  4.9861E-09  13.21E-06  In115   1.6392E-08  28.22E-06
+    8  Sn113   4.6641E+00  15.92E-04  In114   4.0812E-17  11.49E-04  Sn113   8.0002E-09  23.56E-04  Sn113   3.4048E-09  90.18E-07  Sn113   1.2593E-08  21.68E-06
+    9  In114   3.2927E-01  11.24E-05  Sn113   2.2064E-17  62.10E-05  Sb120   7.9577E-10  23.43E-05  In115   1.3450E-09  35.62E-07  In113m  3.5615E-09  61.32E-07
+   10  In115   4.2032E-02  14.35E-06  In115   1.0236E-18  28.81E-06  In114   7.1282E-10  20.99E-05  In114   5.9269E-12  15.70E-09  In114   3.9513E-12  68.03E-10
+   11  Sb122m  1.0485E-02  35.80E-07  Sb120   3.1754E-19  89.38E-07  Cd111m  9.0119E-11  26.54E-06  Cd111m  1.3359E-13  35.38E-11  In114m  1.9433E-13  33.46E-11
+   12  Sb120   2.5847E-03  88.25E-08  Sb122m  2.7480E-19  77.35E-07  Sb122m  1.5190E-11  44.73E-07  In114m  8.5673E-14  22.69E-11  Cd111m  1.8216E-13  31.36E-11
+   13  Cd111m  1.2144E-03  41.46E-08  Cd111m  7.7102E-20  21.70E-07  Sb122   1.2129E-11  35.72E-07  Sb122   6.7156E-14  17.79E-11  Sn117m  1.3234E-13  22.78E-11
+   14  Sn117m  5.5140E-05  18.83E-09  Sb122   6.3640E-21  17.91E-08  Sb120m  3.2186E-12  94.79E-08  Sn117m  3.9150E-14  10.37E-11  Sb122   4.3454E-14  74.82E-12
+   15  Sb122   3.9504E-05  13.49E-09  Sn117m  2.7676E-21  77.90E-09  As 74   1.2808E-12  37.72E-08  Sb120   3.6186E-14  95.85E-12  Sb120   1.8869E-14  32.49E-12
+   16  In114m  2.0896E-05  71.34E-10  In114m  7.6964E-22  21.66E-09  Sn117m  8.3441E-13  24.57E-08  Sb122m  2.7261E-14  72.21E-12  Sb122m  1.6776E-14  28.88E-12
+   17  As 74   2.4436E-06  83.43E-11  Sb120m  5.7442E-22  16.17E-09  In114m  7.9213E-13  23.33E-08  As 74   3.1767E-15  84.14E-13  As 74   5.1316E-15  88.35E-13
+   18  Ge 71   2.2070E-06  75.35E-11  As 74   4.0246E-22  11.33E-09  Ge 71   1.0723E-15  31.58E-11  Sb120m  1.7159E-15  45.45E-13  Sb120m  1.5729E-15  27.08E-13
+   19  Sb120m  1.4299E-06  48.82E-11  Sn119m  4.2927E-24  12.08E-11  Sn119m  5.9324E-17  17.47E-12  Sn119m  1.0164E-16  26.92E-14  Sn119m  6.5770E-16  11.32E-13
+   20  Sn119m  2.9896E-07  10.21E-11  Ge 71   3.3025E-24  92.96E-12  Te123   7.3783E-28  21.73E-23  Ge 71   2.6484E-17  70.15E-15  Ge 71   2.4277E-17  41.80E-15
+       Rest    2.6173E-17  89.36E-22  Rest    9.4821E-36  26.69E-23  Rest    0.0000E+00  00.00E+00  Rest    1.1516E-25  30.50E-23  Rest    1.0207E-25  17.57E-23
+
+      NUCLIDE  GAMMA HEAT   PERCENT  NUCLIDE   BETA HEAT   PERCENT 
+                  (kW)       GAMMA               (kW)       BETA
+       Total   7.9255E-13             Total   2.7602E-12
+    1  Sn113m  6.7386E-13  85.02E+00  Sn113m  2.7254E-12  98.74E+00
+    2  Se 75   7.1135E-14  89.75E-01  In115m  2.7752E-14  10.05E-01
+    3  In115m  2.6030E-14  32.84E-01  In113m  3.7347E-15  13.53E-02
+    4  Te121   1.3149E-14  16.59E-01  Se 75   2.6707E-15  96.76E-03
+    5  In113m  7.4330E-15  93.79E-02  Te123m  2.4115E-16  87.36E-04
+    6  Te121m  5.5673E-16  70.25E-03  Te121   2.2407E-16  81.18E-04
+    7  Te123m  3.7074E-16  46.78E-03  Te121m  2.0553E-16  74.46E-04
+    8  Sn113   1.7377E-17  21.93E-04  In114   4.0581E-17  14.70E-04
+    9  In114   2.3053E-19  29.09E-06  Sn113   4.6870E-18  16.98E-05
+   10  Sb120   1.9051E-19  24.04E-06  In115   1.0236E-18  37.08E-06
+   11  Sb122m  1.1848E-19  14.95E-06  Sb122m  1.5633E-19  56.63E-07
+   12  Cd111m  5.5778E-20  70.38E-07  Sb120   1.2704E-19  46.02E-07
+   13  Sb122   2.8032E-21  35.37E-08  Cd111m  2.1324E-20  77.25E-08
+   14  Sn117m  1.3917E-21  17.56E-08  Sb122   3.5608E-21  12.90E-08
+   15  Sb120m  5.6410E-22  71.17E-09  Sn117m  1.3759E-21  49.85E-09
+   16  In114m  2.9793E-22  37.59E-09  In114m  4.7171E-22  17.09E-09
+   17  As 74   2.9742E-22  37.53E-09  As 74   1.0505E-22  38.06E-10
+   18  Ge 71   1.4864E-24  18.75E-11  Sb120m  1.0322E-23  37.39E-11
+   19  Sn119m  5.4416E-25  68.66E-12  Sn119m  3.7485E-24  13.58E-11
+   20  Te123   1.0880E-36  13.73E-23  Ge 71   1.8161E-24  65.80E-12
+       Rest    0.0000E+00  00.00E+00  Rest    8.3941E-36  30.41E-23
+
+
+
+                                                              UNCERTAINTY ESTIMATES (cross sections only)
+                                                              -------------------------------------------
+
+    Uncertainty estimates are based on pathway analysis for the irradiation phase
+    Total Activity is          2.92891E+05  +/-   0.00E+00  Bq.        Error is   0.00E+00 % of the total.
+
+    Total Heat Production is   3.55278E-12  +/-   0.00E+00  kW.        Error is   0.00E+00 % of the total.
+
+    Total Gamma Dose Rate is   3.39568E-04  +/-   0.00E+00  Sv/hr.     Error is   0.00E+00 % of the total.
+
+    Total Ingestion Dose is    3.77549E-02  +/-   0.00E+00  Sv.        Error is   0.00E+00 % of the total.
+
+    Total Inhalation Dose is   5.80813E-02  +/-   0.00E+00  Sv.        Error is   0.00E+00 % of the total.
+
+    Total Gamma Heat Prod is   7.92550E-13  +/-   0.00E+00  kW.        Error is   0.00E+00 % of the total.
+
+    Total Beta Heat Prod is    2.76023E-12  +/-   0.00E+00  kW.        Error is   0.00E+00 % of the total.
+
+0   Nuclide     Atoms     E(Atoms)  Activity E(Activity)   Heat     E(Heat)  Dose Rate E(Dose Rate) Ingest   E(Ingest)   Inhale   E(Inhale)   % Error
+    Sn113m   5.25370E+08  0.00E+00  2.904E+05  0.00E+00  3.399E-12  0.00E+00  6.162E-05  0.00E+00  3.775E-02  0.00E+00  5.808E-02  0.00E+00  0.000E+00
+    Se 75    1.69688E+10  0.00E+00  1.138E+03  0.00E+00  7.381E-14  0.00E+00  1.276E-04  0.00E+00  2.958E-06  0.00E+00  1.479E-06  0.00E+00  0.000E+00
+    In115m   2.32778E+07  0.00E+00  9.991E+02  0.00E+00  5.378E-14  0.00E+00  7.411E-05  0.00E+00  8.592E-08  0.00E+00  5.895E-08  0.00E+00  0.000E+00
+    Te121    3.39422E+08  0.00E+00  1.421E+02  0.00E+00  1.337E-14  0.00E+00  5.297E-05  0.00E+00  6.111E-08  0.00E+00  5.827E-08  0.00E+00  0.000E+00
+    In113m   1.53335E+06  0.00E+00  1.781E+02  0.00E+00  1.117E-14  0.00E+00  2.177E-05  0.00E+00  4.986E-09  0.00E+00  3.562E-09  0.00E+00  0.000E+00
+    Te123m   2.33432E+08  0.00E+00  1.567E+01  0.00E+00  6.119E-16  0.00E+00  2.254E-07  0.00E+00  2.194E-08  0.00E+00  7.992E-08  0.00E+00  0.000E+00
+    Te121m   3.07462E+08  0.00E+00  1.602E+01  0.00E+00  7.623E-16  0.00E+00  1.305E-06  0.00E+00  3.684E-08  0.00E+00  9.130E-08  0.00E+00  0.000E+00
+    Sn113    6.69098E+07  0.00E+00  4.664E+00  0.00E+00  2.206E-17  0.00E+00  8.000E-09  0.00E+00  3.405E-09  0.00E+00  1.259E-08  0.00E+00  0.000E+00
+    In114    3.41554E+01  0.00E+00  3.293E-01  0.00E+00  4.081E-17  0.00E+00  7.128E-10  0.00E+00  5.927E-12  0.00E+00  3.951E-12  0.00E+00  0.000E+00
+    In115    8.43884E+20  0.00E+00  4.203E-02  0.00E+00  1.024E-18  0.00E+00  0.000E+00  0.00E+00  1.345E-09  0.00E+00  1.639E-08  0.00E+00  0.000E+00
+    Cd111m   5.12362E+00  0.00E+00  1.214E-03  0.00E+00  7.710E-20  0.00E+00  9.012E-11  0.00E+00  1.336E-13  0.00E+00  1.822E-13  0.00E+00  0.000E+00
+    Sb120    3.55744E+00  0.00E+00  2.585E-03  0.00E+00  3.175E-19  0.00E+00  7.958E-10  0.00E+00  3.619E-14  0.00E+00  1.887E-14  0.00E+00  0.000E+00
+    Sb122m   3.80287E+00  0.00E+00  1.049E-02  0.00E+00  2.748E-19  0.00E+00  1.519E-11  0.00E+00  2.726E-14  0.00E+00  1.678E-14  0.00E+00  0.000E+00
+    Sb122    1.32950E+01  0.00E+00  3.950E-05  0.00E+00  6.364E-21  0.00E+00  1.213E-11  0.00E+00  6.716E-14  0.00E+00  4.345E-14  0.00E+00  0.000E+00
+    In114m   1.30233E+02  0.00E+00  2.090E-05  0.00E+00  7.696E-22  0.00E+00  7.921E-13  0.00E+00  8.567E-14  0.00E+00  1.943E-13  0.00E+00  0.000E+00
+    Sn117m   9.34751E+01  0.00E+00  5.514E-05  0.00E+00  2.768E-21  0.00E+00  8.344E-13  0.00E+00  3.915E-14  0.00E+00  1.323E-13  0.00E+00  0.000E+00
+    As 74    5.41572E+00  0.00E+00  2.444E-06  0.00E+00  4.025E-22  0.00E+00  1.281E-12  0.00E+00  3.177E-15  0.00E+00  5.132E-15  0.00E+00  0.000E+00
+    Sb120m   1.02664E+00  0.00E+00  1.430E-06  0.00E+00  5.744E-22  0.00E+00  3.219E-12  0.00E+00  1.716E-15  0.00E+00  1.573E-15  0.00E+00  0.000E+00
+    Ge 71    3.14443E+00  0.00E+00  2.207E-06  0.00E+00  3.302E-24  0.00E+00  1.072E-15  0.00E+00  2.648E-17  0.00E+00  2.428E-17  0.00E+00  0.000E+00
+    Sn119m   1.09185E+01  0.00E+00  2.990E-07  0.00E+00  4.293E-24  0.00E+00  5.932E-17  0.00E+00  1.016E-16  0.00E+00  6.577E-16  0.00E+00  0.000E+00
+1 * * * TIME INTERVAL   4 * * * COOLING TIME IS   3.6000E+03 SECS OR  1.0000E+00 HOURS * * * ELAPSED TIME IS   1.017 h   * * * FLUX AMP IS  0.0000E+00 /cm^2/s  * * *
+  NUCLIDE        ATOMS         GRAMS        Bq       b-Energy    a-Energy   g-Energy    DOSE RATE   INGESTION  INHALATION     Bq/A2     HALF LIFE            
+                                                        kW          kW         kW         Sv/hr      DOSE(Sv)    DOSE(Sv)     Ratio      seconds             
+
+  H   1    #  2.49001E+07   4.167E-17   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  H   2    #  2.99474E+01   1.002E-22   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  He  4    #  1.25604E+08   8.348E-16   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Ge 71       3.13649E+00   3.694E-22   2.201E-06   1.812E-24   0.00E+00   1.483E-24   1.070E-15   2.642E-17   2.422E-17   5.504E-20   9.876E+05            
+  Ge 72    #  1.22309E+08   1.461E-14   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Ge 74    #  2.96073E+02   3.634E-20   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  As 74       5.40693E+00   6.637E-22   2.440E-06   1.049E-22   0.00E+00   2.969E-22   1.279E-12   3.172E-15   5.123E-15   2.711E-18   1.536E+06            
+  As 75    #> 8.02356E+20   9.982E-02   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Se 75       1.69647E+10   2.111E-12   1.138E+03   2.670E-15   0.00E+00   7.112E-14   1.275E-04   2.958E-06   1.479E-06   3.792E-10   1.034E+07            
+  Se 76    #  2.88330E+07   3.635E-15   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Cd110    #  3.78441E+05   6.906E-17   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Cd111    #  1.17138E+01   2.157E-21   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Cd111m      2.17994E+00   4.015E-22   5.167E-04   9.073E-21   0.00E+00   2.373E-20   3.834E-11   5.684E-14   7.750E-14   2.583E-14   2.924E+03            
+  Cd112    #  2.32832E+06   4.326E-16   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  In113    #> 3.78253E+19   7.092E-03   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  In113m      1.08162E+06   2.028E-16   1.256E+02   2.634E-15   0.00E+00   5.243E-15   1.536E-05   3.517E-09   2.512E-09   6.281E-11   5.968E+03            
+  In114m      1.30158E+02   2.462E-20   2.088E-05   4.714E-22   0.00E+00   2.978E-22   7.917E-13   8.562E-14   1.942E-13   4.177E-17   4.320E+06            
+  In115     > 8.43884E+20   1.610E-01   4.203E-02   1.024E-18   0.00E+00   0.000E+00   0.000E+00   1.345E-09   1.639E-08   2.102E-12   1.392E+22            
+  In115m      1.99448E+07   3.806E-15   8.560E+02   2.378E-14   0.00E+00   2.230E-14   6.350E-05   7.362E-08   5.051E-08   8.560E-10   1.615E+04            
+  Sn112    #  6.79089E+05   1.262E-16   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Sn113       4.77532E+08   8.953E-14   3.329E+01   3.345E-17   0.00E+00   1.240E-16   5.710E-08   2.430E-08   8.988E-08   1.664E-11   9.944E+06            
+  Sn113m ?    7.45388E+07   1.397E-14   4.120E+04   3.867E-13   0.00E+00   9.561E-14   8.742E-06   5.356E-03   8.240E-03   2.060E-06   1.254E+03            
+  Sn114    #  1.71059E+09   3.235E-13   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Sn115    #  1.19667E+10   2.283E-12   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Sn116    #  2.25023E+07   4.331E-15   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Sn117    #  2.07781E+02   4.033E-20   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Sn117m      9.32768E+01   1.811E-20   5.502E-05   1.373E-21   0.00E+00   1.389E-21   8.326E-13   3.907E-14   1.321E-13   1.376E-16   1.175E+06            
+  Sn118    #  4.31344E+05   8.445E-17   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Sn119    #  3.99165E+00   7.881E-22   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Sn119m      1.09174E+01   2.156E-21   2.989E-07   3.748E-24   0.00E+00   5.441E-25   5.932E-17   1.016E-16   6.576E-16   9.964E-21   2.532E+07            
+  Sn120    #  1.56385E+05   3.114E-17   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Sb120m      1.02151E+00   2.034E-22   1.423E-06   1.027E-23   0.00E+00   5.613E-22   3.202E-12   1.707E-15   1.565E-15   7.114E-17   4.977E+05            
+  Sb121    #> 4.53986E+19   9.114E-03   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Sb122       1.62797E+01   3.295E-21   4.837E-05   4.360E-21   0.00E+00   3.433E-21   1.485E-11   8.223E-14   5.321E-14   1.209E-16   2.333E+05            
+  Sb123    #> 3.39557E+19   6.930E-03   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Te120    #  4.80368E+07   9.564E-15   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Te121       3.38962E+08   6.805E-14   1.419E+02   2.238E-16   0.00E+00   1.313E-14   5.289E-05   6.103E-08   5.819E-08   7.096E-11   1.655E+06            
+  Te121m      3.07404E+08   6.172E-14   1.601E+01   2.055E-16   0.00E+00   5.566E-16   1.305E-06   3.683E-08   9.128E-08   5.338E-12   1.331E+07            
+  Te122    #  1.97771E+08   4.003E-14   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Te123       1.09681E+08   2.238E-14   2.619E-17   8.398E-36   0.00E+00   1.089E-36   7.382E-28   1.152E-25   1.021E-25   1.309E-27   2.903E+24            
+  Te123m      2.33375E+08   4.763E-14   1.567E+01   2.411E-16   0.00E+00   3.706E-16   2.254E-07   2.193E-08   7.990E-08   1.567E-11   1.032E+07            
+  Te124    #  8.28189E+05   1.704E-16   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+0  TOTAL NUMBER OF NUCLIDES PRINTED IN INVENTORY =   42
+0  TOTAL CURIES   TOTAL ALPHA   TOTAL BETA    TOTAL GAMMA
+                  CURIE-MeV     CURIE-MeV     CURIE-MeV
+   1.17642E-06   0.00000E+00   7.02520E-08   3.51637E-08
+0  ALPHA BECQUERELS = 0.000000E+00  BETA BECQUERELS = 5.024358E+03  GAMMA BECQUERELS = 3.850303E+04
+0  TOTAL ACTIVITY FOR ALL MATERIALS     4.35274E+04 Bq              TOTAL Bq/A2 RATIOS  2.06E-06  EFFECTIVE A2  2.11E+10 Bq
+                                        2.35283E-05 Ci/cc           DENSITY   5.68E+00 gm/cc
+   TOTAL ACTIVITY EXCLUDING TRITIUM     4.35274E+04 Bq
+                                        2.35283E-05 Ci/cc
+0  TOTAL ALPHA HEAT PRODUCTION          0.00000E+00 kW
+   TOTAL BETA  HEAT PRODUCTION          4.16457E-13 kW
+   TOTAL GAMMA HEAT PRODUCTION          2.08453E-13 kW              TOTAL HEAT PRODUCTION 6.24910E-13 kW
+0  INITIAL TOTAL MASS OF MATERIAL       2.83973E-04 kg              TOTAL HEAT EX TRITIUM 6.24910E-13 kW
+0  TOTAL MASS OF MATERIAL               2.83973E-04 kg
+   PROTON   FLUX DURING INTERVAL        0.00000E+00 p/cm**2/s
+0  NUMBER OF FISSIONS                   0.00000E+00                 BURN-UP OF ACTINIDES  0.00000E+00 %
+0  INGESTION  HAZARD FOR ALL MATERIALS  5.35934E-03 Sv/kg
+   INHALATION HAZARD FOR ALL MATERIALS  8.24211E-03 Sv/kg
+0  INGESTION  HAZARD EXCLUDING TRITIUM  5.35934E-03 Sv/kg
+   INHALATION HAZARD EXCLUDING TRITIUM  8.24211E-03 Sv/kg
+0  APPM OF He  4    =  7.1227E-08
+   APPM OF He  3    =  2.8796E-30
+   APPM OF H   3    =  6.2041E-40
+   APPM OF H   2    =  1.6983E-14
+   APPM OF H   1    =  1.4120E-08
+
+
+
+                                               COMPOSITION  OF  MATERIAL  BY  ELEMENT
+                                               --------------------------------------
+0                                                             BETA                     GAMMA                     ALPHA
+                      ATOMS      GRAM-ATOMS     GRAMS      CURIES-MeV      kW        CURIES-MeV      kW        CURIES-MeV      kW
+
+    1       H       2.4900E+07   4.1348E-17   4.1671E-17   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+    2       He      1.2560E+08   2.0857E-16   8.3482E-16   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+   32       Ge      1.2231E+08   2.0310E-16   1.4607E-14   3.0559E-19   1.8116E-24   2.5010E-19   1.4826E-24   0.0000E+00   0.0000E+00
+   33       As      8.0236E+20   1.3323E-03   9.9821E-02   1.7691E-17   1.0488E-22   5.0089E-17   2.9693E-22   0.0000E+00   0.0000E+00
+   34       Se      1.6994E+10   2.8218E-14   2.1142E-12   4.5041E-10   2.6701E-15   1.1997E-08   7.1117E-14   0.0000E+00   0.0000E+00
+   48       Cd      2.7068E+06   4.4947E-18   5.0171E-16   1.5304E-15   9.0726E-21   4.0033E-15   2.3732E-20   0.0000E+00   0.0000E+00
+   49       In      8.8171E+20   1.4641E-03   1.6811E-01   4.4557E-09   2.6414E-14   4.6468E-09   2.7547E-14   0.0000E+00   0.0000E+00
+   50       Sn      1.4253E+10   2.3668E-14   2.7149E-12   6.5233E-08   3.8670E-13   1.6149E-08   9.5730E-14   0.0000E+00   0.0000E+00
+   51       Sb      7.9354E+19   1.3177E-04   1.6044E-02   7.3725E-16   4.3705E-21   6.7371E-16   3.9938E-21   0.0000E+00   0.0000E+00
+   52       Te      1.2361E+09   2.0525E-15   2.4955E-13   1.1308E-10   6.7034E-16   2.3715E-09   1.4058E-14   0.0000E+00   0.0000E+00
+
+
+
+                                               GAMMA SPECTRUM AND ENERGIES/SECOND
+                                               ----------------------------------
+
+     NEUTRONS PER SECOND ARISING FROM SPONTANEOUS FISSION                    0.00000E+00    Entered density (g/cc)       5.68
+     POWER FROM ALPHA PARTICLES (MeV per Second)                             0.00000E+00
+     POWER FROM BETA  PARTICLES (MeV per Second)                             2.59932E+03
+     TOTAL GAMMA POWER FROM ACTIVATION  (MeV per Second)                     1.30106E+03    Total gammas (per cc per second)      4.55297E+05
+     GAMMA RAY POWER FROM ACTIVATION DECAY  MeV/s    (  0.000-  0.010 MeV)   1.48422E+01    Gammas per group (per cc per second)  5.93689E+04
+                                                     (  0.010-  0.020 MeV)   6.78440E+00                                          9.04587E+03
+                                                     (  0.020-  0.050 MeV)   5.76640E+02                                          3.29509E+05
+                                                     (  0.050-  0.100 MeV)   2.11970E+01                                          5.65252E+03
+                                                     (  0.100-  0.200 MeV)   1.20094E+02                                          1.60125E+04
+                                                     (  0.200-  0.300 MeV)   2.60077E+02                                          2.08062E+04
+                                                     (  0.300-  0.400 MeV)   1.68301E+02                                          9.61718E+03
+                                                     (  0.400-  0.600 MeV)   1.31898E+02                                          5.27593E+03
+                                                     (  0.600-  0.800 MeV)   3.17232E-02                                          9.06378E-01
+                                                     (  0.800-  1.000 MeV)   2.50712E-02                                          5.57137E-01
+                                                     (  1.000-  1.220 MeV)   4.40550E-01                                          7.93784E+00
+                                                     (  1.220-  1.440 MeV)   4.74431E-07                                          7.13430E-06
+                                                     (  1.440-  1.660 MeV)   2.90565E-10                                          3.74922E-09
+                                                     (  1.660-  2.000 MeV)   5.93681E-09                                          6.48832E-08
+                                                     (  2.000-  2.500 MeV)   7.90942E-10                                          7.03060E-09
+                                                     (  2.500-  3.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  3.000-  4.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  4.000-  5.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  5.000-  6.500 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  6.500-  8.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  8.000- 10.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     ( 10.000- 12.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     ( 12.000- 14.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     ( 14.000- 20.000 MeV)   0.00000E+00                                          0.00000E+00
+
+    DOSE RATE (PLANE SOURCE) FROM GAMMAS WITH ENERGY 0-20 MeV IS            2.69612E-04 Sieverts/hour   ( 2.69612E-02 Rems/hour)
+
+
+
+
+                                                                           DOMINANT NUCLIDES
+                                                                           -----------------
+
+      NUCLIDE   ACTIVITY    PERCENT  NUCLIDE     HEAT      PERCENT  NUCLIDE  DOSE RATE    PERCENT  NUCLIDE  INGESTION    PERCENT  NUCLIDE  INHALATION   PERCENT 
+                  (Bq)      ACTIVITY             (kW)       HEAT              (Sv/hr)    DOSE RATE            (Sv)      INGESTION            (Sv)     INHALATION
+       Total   4.3527E+04             Total   6.2491E-13             Total   2.6961E-04             Total   5.3593E-03             Total   8.2421E-03
+    1  Sn113m  4.1201E+04  94.66E+00  Sn113m  4.8228E-13  77.18E+00  Se 75   1.2753E-04  47.30E+00  Sn113m  5.3562E-03  99.94E+00  Sn113m  8.2402E-03  99.98E+00
+    2  Se 75   1.1376E+03  26.13E-01  Se 75   7.3788E-14  11.81E+00  In115m  6.3499E-05  23.55E+00  Se 75   2.9577E-06  55.19E-03  Se 75   1.4789E-06  17.94E-03
+    3  In115m  8.5604E+02  19.67E-01  In115m  4.6082E-14  73.74E-01  Te121   5.2894E-05  19.62E+00  In115m  7.3619E-08  13.74E-04  Te121m  9.1280E-08  11.07E-04
+    4  Te121   1.4193E+02  32.61E-02  Te121   1.3355E-14  21.37E-01  In113m  1.5358E-05  56.96E-01  Te121   6.1029E-08  11.39E-04  Sn113   8.9875E-08  10.90E-04
+    5  In113m  1.2561E+02  28.86E-02  In113m  7.8777E-15  12.61E-01  Sn113m  8.7422E-06  32.43E-01  Te121m  3.6832E-08  68.73E-05  Te123m  7.9904E-08  96.95E-05
+    6  Sn113   3.3287E+01  76.47E-03  Te121m  7.6212E-16  12.20E-02  Te121m  1.3047E-06  48.39E-02  Sn113   2.4300E-08  45.34E-05  Te121   5.8191E-08  70.60E-05
+    7  Te121m  1.6014E+01  36.79E-03  Te123m  6.1173E-16  97.89E-03  Te123m  2.2537E-07  83.59E-03  Te123m  2.1934E-08  40.93E-05  In115m  5.0506E-08  61.28E-05
+    8  Te123m  1.5667E+01  35.99E-03  Sn113   1.5747E-16  25.20E-03  Sn113   5.7097E-08  21.18E-03  In113m  3.5172E-09  65.63E-06  In115   1.6392E-08  19.89E-05
+    9  In115   4.2032E-02  96.56E-06  In115   1.0236E-18  16.38E-05  Cd111m  3.8343E-11  14.22E-06  In115   1.3450E-09  25.10E-06  In113m  2.5123E-09  30.48E-06
+   10  Cd111m  5.1669E-04  11.87E-07  Cd111m  3.2804E-20  52.49E-07  Sb122   1.4852E-11  55.09E-07  In114m  8.5624E-14  15.98E-10  In114m  1.9422E-13  23.56E-10
+   11  Sn117m  5.5023E-05  12.64E-08  Sb122   7.7927E-21  12.47E-07  Sb120m  3.2025E-12  11.88E-07  Sb122   8.2232E-14  15.34E-10  Sn117m  1.3206E-13  16.02E-10
+   12  Sb122   4.8372E-05  11.11E-08  Sn117m  2.7617E-21  44.19E-08  As 74   1.2787E-12  47.43E-08  Cd111m  5.6836E-14  10.61E-10  Cd111m  7.7504E-14  94.03E-11
+   13  In114m  2.0884E-05  47.98E-09  In114m  7.6919E-22  12.31E-08  Sn117m  8.3264E-13  30.88E-08  Sn117m  3.9067E-14  72.89E-11  Sb122   5.3209E-14  64.56E-11
+   14  As 74   2.4397E-06  56.05E-10  Sb120m  5.7155E-22  91.46E-09  In114m  7.9168E-13  29.36E-08  As 74   3.1716E-15  59.18E-12  As 74   5.1233E-15  62.16E-12
+   15  Ge 71   2.2015E-06  50.58E-10  As 74   4.0181E-22  64.30E-09  Ge 71   1.0696E-15  39.67E-11  Sb120m  1.7073E-15  31.86E-12  Sb120m  1.5650E-15  18.99E-12
+   16  Sb120m  1.4228E-06  32.69E-10  Sn119m  4.2923E-24  68.69E-11  Sn119m  5.9318E-17  22.00E-12  Sn119m  1.0163E-16  18.96E-13  Sn119m  6.5764E-16  79.79E-13
+   17  Sn119m  2.9893E-07  68.68E-11  Ge 71   3.2942E-24  52.71E-11  Te123   7.3821E-28  27.38E-23  Ge 71   2.6417E-17  49.29E-14  Ge 71   2.4216E-17  29.38E-14
+   18  Te123   2.6186E-17  60.16E-21  Te123   9.4870E-36  15.18E-22          0.0000E+00  00.00E+00  Te123   1.1522E-25  21.50E-22  Te123   1.0213E-25  12.39E-22
+
+      NUCLIDE  GAMMA HEAT   PERCENT  NUCLIDE   BETA HEAT   PERCENT 
+                  (kW)       GAMMA               (kW)       BETA
+       Total   2.0845E-13             Total   4.1646E-13
+    1  Sn113m  9.5606E-14  45.86E+00  Sn113m  3.8667E-13  92.85E+00
+    2  Se 75   7.1117E-14  34.12E+00  In115m  2.3778E-14  57.10E-01
+    3  In115m  2.2303E-14  10.70E+00  Se 75   2.6701E-15  64.11E-02
+    4  Te121   1.3131E-14  62.99E-01  In113m  2.6344E-15  63.26E-02
+    5  In113m  5.2432E-15  25.15E-01  Te123m  2.4109E-16  57.89E-03
+    6  Te121m  5.5663E-16  26.70E-02  Te121   2.2377E-16  53.73E-03
+    7  Te123m  3.7065E-16  17.78E-02  Te121m  2.0549E-16  49.34E-03
+    8  Sn113   1.2402E-16  59.49E-03  Sn113   3.3451E-17  80.32E-04
+    9  Cd111m  2.3732E-20  11.38E-06  In115   1.0236E-18  24.58E-05
+   10  Sb122   3.4325E-21  16.47E-07  Cd111m  9.0726E-21  21.79E-07
+   11  Sn117m  1.3888E-21  66.62E-08  Sb122   4.3602E-21  10.47E-07
+   12  Sb120m  5.6127E-22  26.93E-08  Sn117m  1.3729E-21  32.97E-08
+   13  In114m  2.9775E-22  14.28E-08  In114m  4.7144E-22  11.32E-08
+   14  As 74   2.9693E-22  14.24E-08  As 74   1.0488E-22  25.18E-09
+   15  Ge 71   1.4826E-24  71.12E-11  Sb120m  1.0270E-23  24.66E-10
+   16  Sn119m  5.4411E-25  26.10E-11  Sn119m  3.7482E-24  90.00E-11
+   17  Te123   1.0886E-36  52.22E-23  Ge 71   1.8116E-24  43.50E-11
+   18          0.0000E+00  00.00E+00  Te123   8.3984E-36  20.17E-22
+
+
+
+                                                              UNCERTAINTY ESTIMATES (cross sections only)
+                                                              -------------------------------------------
+
+    Uncertainty estimates are based on pathway analysis for the irradiation phase
+    Total Activity is          4.35274E+04  +/-   0.00E+00  Bq.        Error is   0.00E+00 % of the total.
+
+    Total Heat Production is   6.24910E-13  +/-   0.00E+00  kW.        Error is   0.00E+00 % of the total.
+
+    Total Gamma Dose Rate is   2.69612E-04  +/-   0.00E+00  Sv/hr.     Error is   0.00E+00 % of the total.
+
+    Total Ingestion Dose is    5.35934E-03  +/-   0.00E+00  Sv.        Error is   0.00E+00 % of the total.
+
+    Total Inhalation Dose is   8.24211E-03  +/-   0.00E+00  Sv.        Error is   0.00E+00 % of the total.
+
+    Total Gamma Heat Prod is   2.08453E-13  +/-   0.00E+00  kW.        Error is   0.00E+00 % of the total.
+
+    Total Beta Heat Prod is    4.16457E-13  +/-   0.00E+00  kW.        Error is   0.00E+00 % of the total.
+
+0   Nuclide     Atoms     E(Atoms)  Activity E(Activity)   Heat     E(Heat)  Dose Rate E(Dose Rate) Ingest   E(Ingest)   Inhale   E(Inhale)   % Error
+    Sn113m   7.45388E+07  0.00E+00  4.120E+04  0.00E+00  4.823E-13  0.00E+00  8.742E-06  0.00E+00  5.356E-03  0.00E+00  8.240E-03  0.00E+00  0.000E+00
+    Se 75    1.69647E+10  0.00E+00  1.138E+03  0.00E+00  7.379E-14  0.00E+00  1.275E-04  0.00E+00  2.958E-06  0.00E+00  1.479E-06  0.00E+00  0.000E+00
+    In115m   1.99448E+07  0.00E+00  8.560E+02  0.00E+00  4.608E-14  0.00E+00  6.350E-05  0.00E+00  7.362E-08  0.00E+00  5.051E-08  0.00E+00  0.000E+00
+    Te121    3.38962E+08  0.00E+00  1.419E+02  0.00E+00  1.335E-14  0.00E+00  5.289E-05  0.00E+00  6.103E-08  0.00E+00  5.819E-08  0.00E+00  0.000E+00
+    In113m   1.08162E+06  0.00E+00  1.256E+02  0.00E+00  7.878E-15  0.00E+00  1.536E-05  0.00E+00  3.517E-09  0.00E+00  2.512E-09  0.00E+00  0.000E+00
+    Te123m   2.33375E+08  0.00E+00  1.567E+01  0.00E+00  6.117E-16  0.00E+00  2.254E-07  0.00E+00  2.193E-08  0.00E+00  7.990E-08  0.00E+00  0.000E+00
+    Te121m   3.07404E+08  0.00E+00  1.601E+01  0.00E+00  7.621E-16  0.00E+00  1.305E-06  0.00E+00  3.683E-08  0.00E+00  9.128E-08  0.00E+00  0.000E+00
+    Sn113    4.77532E+08  0.00E+00  3.329E+01  0.00E+00  1.575E-16  0.00E+00  5.710E-08  0.00E+00  2.430E-08  0.00E+00  8.988E-08  0.00E+00  0.000E+00
+    In115    8.43884E+20  0.00E+00  4.203E-02  0.00E+00  1.024E-18  0.00E+00  0.000E+00  0.00E+00  1.345E-09  0.00E+00  1.639E-08  0.00E+00  0.000E+00
+    Cd111m   2.17994E+00  0.00E+00  5.167E-04  0.00E+00  3.280E-20  0.00E+00  3.834E-11  0.00E+00  5.684E-14  0.00E+00  7.750E-14  0.00E+00  0.000E+00
+    Sb122    1.62797E+01  0.00E+00  4.837E-05  0.00E+00  7.793E-21  0.00E+00  1.485E-11  0.00E+00  8.223E-14  0.00E+00  5.321E-14  0.00E+00  0.000E+00
+    In114m   1.30158E+02  0.00E+00  2.088E-05  0.00E+00  7.692E-22  0.00E+00  7.917E-13  0.00E+00  8.562E-14  0.00E+00  1.942E-13  0.00E+00  0.000E+00
+    Sn117m   9.32768E+01  0.00E+00  5.502E-05  0.00E+00  2.762E-21  0.00E+00  8.326E-13  0.00E+00  3.907E-14  0.00E+00  1.321E-13  0.00E+00  0.000E+00
+    As 74    5.40693E+00  0.00E+00  2.440E-06  0.00E+00  4.018E-22  0.00E+00  1.279E-12  0.00E+00  3.172E-15  0.00E+00  5.123E-15  0.00E+00  0.000E+00
+    Sb120m   1.02151E+00  0.00E+00  1.423E-06  0.00E+00  5.715E-22  0.00E+00  3.202E-12  0.00E+00  1.707E-15  0.00E+00  1.565E-15  0.00E+00  0.000E+00
+    Ge 71    3.13649E+00  0.00E+00  2.201E-06  0.00E+00  3.294E-24  0.00E+00  1.070E-15  0.00E+00  2.642E-17  0.00E+00  2.422E-17  0.00E+00  0.000E+00
+    Sn119m   1.09174E+01  0.00E+00  2.989E-07  0.00E+00  4.292E-24  0.00E+00  5.932E-17  0.00E+00  1.016E-16  0.00E+00  6.576E-16  0.00E+00  0.000E+00
+1 * * * TIME INTERVAL   5 * * * COOLING TIME IS   8.6400E+04 SECS OR  1.0000E+00 DAYS  * * * ELAPSED TIME IS   1.042 d   * * * FLUX AMP IS  0.0000E+00 /cm^2/s  * * *
+  NUCLIDE        ATOMS         GRAMS        Bq       b-Energy    a-Energy   g-Energy    DOSE RATE   INGESTION  INHALATION     Bq/A2     HALF LIFE            
+                                                        kW          kW         kW         Sv/hr      DOSE(Sv)    DOSE(Sv)     Ratio      seconds             
+
+  H   1    #  2.49001E+07   4.167E-17   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  H   2    #  2.99474E+01   1.002E-22   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  He  4    #  1.25604E+08   8.348E-16   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Ge 71       2.95193E+00   3.477E-22   2.072E-06   1.705E-24   0.00E+00   1.395E-24   1.007E-15   2.486E-17   2.279E-17   5.180E-20   9.876E+05            
+  Ge 72    #  1.22309E+08   1.461E-14   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Ge 74    #  2.96209E+02   3.636E-20   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  As 74       5.20019E+00   6.383E-22   2.346E-06   1.009E-22   0.00E+00   2.856E-22   1.230E-12   3.050E-15   4.927E-15   2.607E-18   1.536E+06            
+  As 75    #> 8.02356E+20   9.982E-02   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Se 75       1.68667E+10   2.098E-12   1.131E+03   2.655E-15   0.00E+00   7.071E-14   1.268E-04   2.941E-06   1.470E-06   3.770E-10   1.034E+07            
+  Se 76    #  2.88330E+07   3.635E-15   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Cd110    #  3.78441E+05   6.906E-17   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Cd111    #  1.38937E+01   2.559E-21   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Cd112    #  2.32832E+06   4.326E-16   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  In113    #> 3.78253E+19   7.092E-03   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  In113m      3.24096E+05   6.076E-17   3.764E+01   7.894E-16   0.00E+00   1.571E-15   4.602E-06   1.054E-09   7.528E-10   1.882E-11   5.968E+03            
+  In114m      1.28366E+02   2.428E-20   2.060E-05   4.649E-22   0.00E+00   2.937E-22   7.808E-13   8.445E-14   1.915E-13   4.119E-17   4.320E+06            
+  In115     > 8.43884E+20   1.610E-01   4.203E-02   1.024E-18   0.00E+00   0.000E+00   0.000E+00   1.345E-09   1.639E-08   2.102E-12   1.392E+22            
+  In115m      2.49148E+05   4.754E-17   1.069E+01   2.970E-16   0.00E+00   2.786E-16   7.932E-07   9.196E-10   6.309E-10   1.069E-11   1.615E+04            
+  Sn112    #  6.79089E+05   1.262E-16   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Sn113       5.42170E+08   1.016E-13   3.779E+01   3.798E-17   0.00E+00   1.408E-16   6.483E-08   2.759E-08   1.020E-07   1.890E-11   9.944E+06            
+  Sn113m      8.20051E+00   1.537E-21   4.533E-03   4.254E-20   0.00E+00   1.052E-20   9.618E-13   5.893E-10   9.066E-10   2.266E-13   1.254E+03            
+  Sn114    #  1.71059E+09   3.235E-13   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Sn115    #  1.19677E+10   2.283E-12   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Sn116    #  2.25023E+07   4.331E-15   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Sn117    #  2.12416E+02   4.123E-20   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Sn117m      8.86419E+01   1.721E-20   5.229E-05   1.305E-21   0.00E+00   1.320E-21   7.913E-13   3.713E-14   1.255E-13   1.307E-16   1.175E+06            
+  Sn118    #  4.31344E+05   8.445E-17   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Sn119    #  4.01744E+00   7.932E-22   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Sn119m      1.08916E+01   2.150E-21   2.982E-07   3.739E-24   0.00E+00   5.428E-25   5.918E-17   1.014E-16   6.561E-16   9.941E-21   2.532E+07            
+  Sn120    #  1.56385E+05   3.114E-17   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Sb121    #> 4.53986E+19   9.114E-03   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Sb122       1.30878E+01   2.649E-21   3.889E-05   3.505E-21   0.00E+00   2.760E-21   1.194E-11   6.611E-14   4.278E-14   9.722E-17   2.333E+05            
+  Sb123    #> 3.39557E+19   6.930E-03   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Te120    #  4.80368E+07   9.564E-15   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Te121       3.28121E+08   6.588E-14   1.374E+02   2.166E-16   0.00E+00   1.271E-14   5.120E-05   5.908E-08   5.633E-08   6.869E-11   1.655E+06            
+  Te121m      3.06023E+08   6.144E-14   1.594E+01   2.046E-16   0.00E+00   5.541E-16   1.299E-06   3.667E-08   9.087E-08   5.314E-12   1.331E+07            
+  Te122    #  1.97771E+08   4.003E-14   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Te123       1.11030E+08   2.266E-14   2.651E-17   8.502E-36   0.00E+00   1.102E-36   7.473E-28   1.166E-25   1.034E-25   1.325E-27   2.903E+24            
+  Te123m      2.32026E+08   4.735E-14   1.558E+01   2.397E-16   0.00E+00   3.685E-16   2.241E-07   2.181E-08   7.944E-08   1.558E-11   1.032E+07            
+  Te124    #  8.28189E+05   1.704E-16   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+0  TOTAL NUMBER OF NUCLIDES PRINTED IN INVENTORY =   40
+0  TOTAL CURIES   TOTAL ALPHA   TOTAL BETA    TOTAL GAMMA
+                  CURIE-MeV     CURIE-MeV     CURIE-MeV
+   3.74619E-08   0.00000E+00   7.49148E-10   1.45631E-08
+0  ALPHA BECQUERELS = 0.000000E+00  BETA BECQUERELS = 1.308569E+03  GAMMA BECQUERELS = 7.751962E+01
+0  TOTAL ACTIVITY FOR ALL MATERIALS     1.38609E+03 Bq              TOTAL Bq/A2 RATIOS  5.17E-10  EFFECTIVE A2  2.68E+12 Bq
+                                        7.49237E-07 Ci/cc           DENSITY   5.68E+00 gm/cc
+   TOTAL ACTIVITY EXCLUDING TRITIUM     1.38609E+03 Bq
+                                        7.49237E-07 Ci/cc
+0  TOTAL ALPHA HEAT PRODUCTION          0.00000E+00 kW
+   TOTAL BETA  HEAT PRODUCTION          4.44099E-15 kW
+   TOTAL GAMMA HEAT PRODUCTION          8.63310E-14 kW              TOTAL HEAT PRODUCTION 9.07720E-14 kW
+0  INITIAL TOTAL MASS OF MATERIAL       2.83973E-04 kg              TOTAL HEAT EX TRITIUM 9.07720E-14 kW
+0  TOTAL MASS OF MATERIAL               2.83973E-04 kg
+   PROTON   FLUX DURING INTERVAL        0.00000E+00 p/cm**2/s
+0  NUMBER OF FISSIONS                   0.00000E+00                 BURN-UP OF ACTINIDES  0.00000E+00 %
+0  INGESTION  HAZARD FOR ALL MATERIALS  3.08967E-06 Sv/kg
+   INHALATION HAZARD FOR ALL MATERIALS  1.81768E-06 Sv/kg
+0  INGESTION  HAZARD EXCLUDING TRITIUM  3.08967E-06 Sv/kg
+   INHALATION HAZARD EXCLUDING TRITIUM  1.81768E-06 Sv/kg
+0  APPM OF He  4    =  7.1227E-08
+   APPM OF He  3    =  2.8796E-30
+   APPM OF H   3    =  6.2032E-40
+   APPM OF H   2    =  1.6983E-14
+   APPM OF H   1    =  1.4120E-08
+
+
+
+                                               COMPOSITION  OF  MATERIAL  BY  ELEMENT
+                                               --------------------------------------
+0                                                             BETA                     GAMMA                     ALPHA
+                      ATOMS      GRAM-ATOMS     GRAMS      CURIES-MeV      kW        CURIES-MeV      kW        CURIES-MeV      kW
+
+    1       H       2.4900E+07   4.1348E-17   4.1671E-17   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+    2       He      1.2560E+08   2.0857E-16   8.3482E-16   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+   32       Ge      1.2231E+08   2.0310E-16   1.4607E-14   2.8761E-19   1.7050E-24   2.3538E-19   1.3954E-24   0.0000E+00   0.0000E+00
+   33       As      8.0236E+20   1.3323E-03   9.9821E-02   1.7015E-17   1.0087E-22   4.8174E-17   2.8558E-22   0.0000E+00   0.0000E+00
+   34       Se      1.6896E+10   2.8056E-14   2.1021E-12   4.4781E-10   2.6547E-15   1.1927E-08   7.0707E-14   0.0000E+00   0.0000E+00
+   48       Cd      2.7068E+06   4.4947E-18   5.0171E-16   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+   49       In      8.8171E+20   1.4641E-03   1.6811E-01   1.8344E-10   1.0874E-15   3.1202E-10   1.8497E-15   0.0000E+00   0.0000E+00
+   50       Sn      1.4244E+10   2.3653E-14   2.7132E-12   6.4140E-12   3.8022E-17   2.3754E-11   1.4082E-16   0.0000E+00   0.0000E+00
+   51       Sb      7.9354E+19   1.3177E-04   1.6044E-02   5.9131E-16   3.5053E-21   4.6550E-16   2.7595E-21   0.0000E+00   0.0000E+00
+   52       Te      1.2238E+09   2.0322E-15   2.4710E-13   1.1148E-10   6.6087E-16   2.2999E-09   1.3634E-14   0.0000E+00   0.0000E+00
+
+
+
+                                               GAMMA SPECTRUM AND ENERGIES/SECOND
+                                               ----------------------------------
+
+     NEUTRONS PER SECOND ARISING FROM SPONTANEOUS FISSION                    0.00000E+00    Entered density (g/cc)       5.68
+     POWER FROM ALPHA PARTICLES (MeV per Second)                             0.00000E+00
+     POWER FROM BETA  PARTICLES (MeV per Second)                             2.77185E+01
+     TOTAL GAMMA POWER FROM ACTIVATION  (MeV per Second)                     5.38836E+02    Total gammas (per cc per second)      5.57343E+04
+     GAMMA RAY POWER FROM ACTIVATION DECAY  MeV/s    (  0.000-  0.010 MeV)   1.05667E-01    Gammas per group (per cc per second)  4.22669E+02
+                                                     (  0.010-  0.020 MeV)   6.74521E+00                                          8.99361E+03
+                                                     (  0.020-  0.050 MeV)   4.23905E+00                                          2.42232E+03
+                                                     (  0.050-  0.100 MeV)   4.58914E+00                                          1.22377E+03
+                                                     (  0.100-  0.200 MeV)   1.19400E+02                                          1.59200E+04
+                                                     (  0.200-  0.300 MeV)   2.58601E+02                                          2.06881E+04
+                                                     (  0.300-  0.400 MeV)   1.57458E+01                                          8.99759E+02
+                                                     (  0.400-  0.600 MeV)   1.28870E+02                                          5.15480E+03
+                                                     (  0.600-  0.800 MeV)   3.15697E-02                                          9.01993E-01
+                                                     (  0.800-  1.000 MeV)   2.49570E-02                                          5.54599E-01
+                                                     (  1.000-  1.220 MeV)   4.38569E-01                                          7.90214E+00
+                                                     (  1.220-  1.440 MeV)   3.81420E-07                                          5.73564E-06
+                                                     (  1.440-  1.660 MeV)   2.79455E-10                                          3.60587E-09
+                                                     (  1.660-  2.000 MeV)   4.77280E-09                                          5.21618E-08
+                                                     (  2.000-  2.500 MeV)   7.60701E-10                                          6.76178E-09
+                                                     (  2.500-  3.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  3.000-  4.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  4.000-  5.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  5.000-  6.500 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  6.500-  8.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  8.000- 10.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     ( 10.000- 12.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     ( 12.000- 14.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     ( 14.000- 20.000 MeV)   0.00000E+00                                          0.00000E+00
+
+    DOSE RATE (PLANE SOURCE) FROM GAMMAS WITH ENERGY 0-20 MeV IS            1.84980E-04 Sieverts/hour   ( 1.84980E-02 Rems/hour)
+
+
+
+
+                                                                           DOMINANT NUCLIDES
+                                                                           -----------------
+
+      NUCLIDE   ACTIVITY    PERCENT  NUCLIDE     HEAT      PERCENT  NUCLIDE  DOSE RATE    PERCENT  NUCLIDE  INGESTION    PERCENT  NUCLIDE  INHALATION   PERCENT 
+                  (Bq)      ACTIVITY             (kW)       HEAT              (Sv/hr)    DOSE RATE            (Sv)      INGESTION            (Sv)     INHALATION
+       Total   1.3861E+03             Total   9.0772E-14             Total   1.8498E-04             Total   3.0897E-06             Total   1.8177E-06
+    1  Se 75   1.1310E+03  81.60E+00  Se 75   7.3361E-14  80.82E+00  Se 75   1.2679E-04  68.55E+00  Se 75   2.9406E-06  95.18E+00  Se 75   1.4703E-06  80.89E+00
+    2  Te121   1.3739E+02  99.12E-01  Te121   1.2928E-14  14.24E+00  Te121   5.1202E-05  27.68E+00  Te121   5.9077E-08  19.12E-01  Sn113   1.0204E-07  56.14E-01
+    3  Sn113   3.7793E+01  27.27E-01  In113m  2.3605E-15  26.00E-01  In113m  4.6017E-06  24.88E-01  Te121m  3.6667E-08  11.87E-01  Te121m  9.0870E-08  49.99E-01
+    4  In113m  3.7639E+01  27.15E-01  Te121m  7.5870E-16  83.58E-02  Te121m  1.2988E-06  70.21E-02  Sn113   2.7589E-08  89.29E-02  Te123m  7.9442E-08  43.71E-01
+    5  Te121m  1.5942E+01  11.50E-01  Te123m  6.0820E-16  67.00E-02  In115m  7.9323E-07  42.88E-02  Te123m  2.1808E-08  70.58E-02  Te121   5.6329E-08  30.99E-01
+    6  Te123m  1.5577E+01  11.24E-01  In115m  5.7565E-16  63.42E-02  Te123m  2.2407E-07  12.11E-02  In115   1.3450E-09  43.53E-03  In115   1.6392E-08  90.18E-02
+    7  In115m  1.0694E+01  77.15E-02  Sn113   1.7878E-16  19.70E-02  Sn113   6.4825E-08  35.04E-03  In113m  1.0539E-09  34.11E-03  Sn113m  9.0656E-10  49.87E-03
+    8  In115   4.2032E-02  30.32E-04  In115   1.0236E-18  11.28E-04  Sb122   1.1940E-11  64.55E-07  In115m  9.1965E-10  29.77E-03  In113m  7.5278E-10  41.41E-03
+    9  Sn113m  4.5328E-03  32.70E-05  Sn113m  5.3058E-20  58.45E-06  As 74   1.2298E-12  66.48E-08  Sn113m  5.8927E-10  19.07E-03  In115m  6.3092E-10  34.71E-03
+   10  Sn117m  5.2289E-05  37.72E-07  Sb122   6.2648E-21  69.02E-07  Sn113m  9.6179E-13  51.99E-08  In114m  8.4445E-14  27.33E-07  In114m  1.9155E-13  10.54E-06
+   11  Sb122   3.8888E-05  28.06E-07  Sn117m  2.6245E-21  28.91E-07  Sn117m  7.9126E-13  42.78E-08  Sb122   6.6109E-14  21.40E-07  Sn117m  1.2549E-13  69.04E-07
+   12  In114m  2.0596E-05  14.86E-07  In114m  7.5860E-22  83.57E-08  In114m  7.8078E-13  42.21E-08  Sn117m  3.7125E-14  12.02E-07  Sb122   4.2777E-14  23.53E-07
+   13  As 74   2.3464E-06  16.93E-08  As 74   3.8644E-22  42.57E-08  Ge 71   1.0066E-15  54.42E-11  As 74   3.0503E-15  98.73E-09  As 74   4.9274E-15  27.11E-08
+   14  Ge 71   2.0719E-06  14.95E-08  Sn119m  4.2821E-24  47.17E-10  Sn119m  5.9178E-17  31.99E-12  Sn119m  1.0139E-16  32.82E-10  Sn119m  6.5608E-16  36.09E-09
+   15  Sn119m  2.9822E-07  21.52E-09  Ge 71   3.1003E-24  34.16E-10  Te123   7.4730E-28  40.40E-23  Ge 71   2.4863E-17  80.47E-11  Ge 71   2.2791E-17  12.54E-10
+   16  Te123   2.6508E-17  19.12E-19  Te123   9.6037E-36  10.58E-21          0.0000E+00  00.00E+00  Te123   1.1664E-25  37.75E-19  Te123   1.0338E-25  56.88E-19
+
+      NUCLIDE  GAMMA HEAT   PERCENT  NUCLIDE   BETA HEAT   PERCENT 
+                  (kW)       GAMMA               (kW)       BETA
+       Total   8.6331E-14             Total   4.4410E-15
+    1  Se 75   7.0707E-14  81.90E+00  Se 75   2.6547E-15  59.78E+00
+    2  Te121   1.2711E-14  14.72E+00  In113m  7.8938E-16  17.77E+00
+    3  In113m  1.5711E-15  18.20E-01  In115m  2.9704E-16  66.89E-01
+    4  Te121m  5.5413E-16  64.19E-02  Te123m  2.3969E-16  53.97E-01
+    5  Te123m  3.6850E-16  42.68E-02  Te121   2.1661E-16  48.78E-01
+    6  In115m  2.7861E-16  32.27E-02  Te121m  2.0457E-16  46.06E-01
+    7  Sn113   1.4080E-16  16.31E-02  Sn113   3.7979E-17  85.52E-02
+    8  Sn113m  1.0518E-20  12.18E-06  In115   1.0236E-18  23.05E-03
+    9  Sb122   2.7595E-21  31.96E-07  Sn113m  4.2540E-20  95.79E-05
+   10  Sn117m  1.3198E-21  15.29E-07  Sb122   3.5053E-21  78.93E-06
+   11  In114m  2.9365E-22  34.01E-08  Sn117m  1.3047E-21  29.38E-06
+   12  As 74   2.8558E-22  33.08E-08  In114m  4.6495E-22  10.47E-06
+   13  Ge 71   1.3954E-24  16.16E-10  As 74   1.0087E-22  22.71E-07
+   14  Sn119m  5.4282E-25  62.88E-11  Sn119m  3.7393E-24  84.20E-09
+   15  Te123   1.1020E-36  12.76E-22  Ge 71   1.7050E-24  38.39E-09
+   16          0.0000E+00  00.00E+00  Te123   8.5018E-36  19.14E-20
+
+
+
+                                                              UNCERTAINTY ESTIMATES (cross sections only)
+                                                              -------------------------------------------
+
+    Uncertainty estimates are based on pathway analysis for the irradiation phase
+    Total Activity is          1.38609E+03  +/-   0.00E+00  Bq.        Error is   0.00E+00 % of the total.
+
+    Total Heat Production is   9.07720E-14  +/-   0.00E+00  kW.        Error is   0.00E+00 % of the total.
+
+    Total Gamma Dose Rate is   1.84980E-04  +/-   0.00E+00  Sv/hr.     Error is   0.00E+00 % of the total.
+
+    Total Ingestion Dose is    3.08967E-06  +/-   0.00E+00  Sv.        Error is   0.00E+00 % of the total.
+
+    Total Inhalation Dose is   1.81768E-06  +/-   0.00E+00  Sv.        Error is   0.00E+00 % of the total.
+
+    Total Gamma Heat Prod is   8.63310E-14  +/-   0.00E+00  kW.        Error is   0.00E+00 % of the total.
+
+    Total Beta Heat Prod is    4.44099E-15  +/-   0.00E+00  kW.        Error is   0.00E+00 % of the total.
+
+0   Nuclide     Atoms     E(Atoms)  Activity E(Activity)   Heat     E(Heat)  Dose Rate E(Dose Rate) Ingest   E(Ingest)   Inhale   E(Inhale)   % Error
+    Sn113m   8.20051E+00  0.00E+00  4.533E-03  0.00E+00  5.306E-20  0.00E+00  9.618E-13  0.00E+00  5.893E-10  0.00E+00  9.066E-10  0.00E+00  0.000E+00
+    Se 75    1.68667E+10  0.00E+00  1.131E+03  0.00E+00  7.336E-14  0.00E+00  1.268E-04  0.00E+00  2.941E-06  0.00E+00  1.470E-06  0.00E+00  0.000E+00
+    In115m   2.49148E+05  0.00E+00  1.069E+01  0.00E+00  5.756E-16  0.00E+00  7.932E-07  0.00E+00  9.196E-10  0.00E+00  6.309E-10  0.00E+00  0.000E+00
+    Te121    3.28121E+08  0.00E+00  1.374E+02  0.00E+00  1.293E-14  0.00E+00  5.120E-05  0.00E+00  5.908E-08  0.00E+00  5.633E-08  0.00E+00  0.000E+00
+    In113m   3.24096E+05  0.00E+00  3.764E+01  0.00E+00  2.360E-15  0.00E+00  4.602E-06  0.00E+00  1.054E-09  0.00E+00  7.528E-10  0.00E+00  0.000E+00
+    Te123m   2.32026E+08  0.00E+00  1.558E+01  0.00E+00  6.082E-16  0.00E+00  2.241E-07  0.00E+00  2.181E-08  0.00E+00  7.944E-08  0.00E+00  0.000E+00
+    Te121m   3.06023E+08  0.00E+00  1.594E+01  0.00E+00  7.587E-16  0.00E+00  1.299E-06  0.00E+00  3.667E-08  0.00E+00  9.087E-08  0.00E+00  0.000E+00
+    Sn113    5.42170E+08  0.00E+00  3.779E+01  0.00E+00  1.788E-16  0.00E+00  6.483E-08  0.00E+00  2.759E-08  0.00E+00  1.020E-07  0.00E+00  0.000E+00
+    In115    8.43884E+20  0.00E+00  4.203E-02  0.00E+00  1.024E-18  0.00E+00  0.000E+00  0.00E+00  1.345E-09  0.00E+00  1.639E-08  0.00E+00  0.000E+00
+    Sb122    1.30878E+01  0.00E+00  3.889E-05  0.00E+00  6.265E-21  0.00E+00  1.194E-11  0.00E+00  6.611E-14  0.00E+00  4.278E-14  0.00E+00  0.000E+00
+    In114m   1.28366E+02  0.00E+00  2.060E-05  0.00E+00  7.586E-22  0.00E+00  7.808E-13  0.00E+00  8.445E-14  0.00E+00  1.915E-13  0.00E+00  0.000E+00
+    Sn117m   8.86419E+01  0.00E+00  5.229E-05  0.00E+00  2.624E-21  0.00E+00  7.913E-13  0.00E+00  3.713E-14  0.00E+00  1.255E-13  0.00E+00  0.000E+00
+    As 74    5.20019E+00  0.00E+00  2.346E-06  0.00E+00  3.864E-22  0.00E+00  1.230E-12  0.00E+00  3.050E-15  0.00E+00  4.927E-15  0.00E+00  0.000E+00
+    Ge 71    2.95193E+00  0.00E+00  2.072E-06  0.00E+00  3.100E-24  0.00E+00  1.007E-15  0.00E+00  2.486E-17  0.00E+00  2.279E-17  0.00E+00  0.000E+00
+    Sn119m   1.08916E+01  0.00E+00  2.982E-07  0.00E+00  4.282E-24  0.00E+00  5.918E-17  0.00E+00  1.014E-16  0.00E+00  6.561E-16  0.00E+00  0.000E+00
+1 * * * TIME INTERVAL   6 * * * COOLING TIME IS   3.8880E+06 SECS OR  4.5000E+01 DAYS  * * * ELAPSED TIME IS  46.042 d   * * * FLUX AMP IS  0.0000E+00 /cm^2/s  * * *
+  NUCLIDE        ATOMS         GRAMS        Bq       b-Energy    a-Energy   g-Energy    DOSE RATE   INGESTION  INHALATION     Bq/A2     HALF LIFE            
+                                                        kW          kW         kW         Sv/hr      DOSE(Sv)    DOSE(Sv)     Ratio      seconds             
+
+  H   1    #  2.49001E+07   4.167E-17   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  H   2    #  2.99474E+01   1.002E-22   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  He  4    #  1.25604E+08   8.348E-16   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Ga 71    #  2.96532E+00   3.492E-22   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Ge 72    #  1.22309E+08   1.461E-14   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Ge 74    #  2.99016E+02   3.670E-20   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  As 75    #> 8.02356E+20   9.982E-02   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Se 74    #  1.51957E+00   1.865E-22   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Se 75       1.30338E+10   1.622E-12   8.740E+02   2.051E-15   0.00E+00   5.464E-14   9.798E-05   2.272E-06   1.136E-06   2.913E-10   1.034E+07            
+  Se 76    #  2.88330E+07   3.635E-15   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Cd110    #  3.78441E+05   6.906E-17   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Cd111    #  1.38937E+01   2.559E-21   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Cd112    #  2.32832E+06   4.326E-16   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Cd114       2.76341E+00   5.227E-22   1.012E-25   8.687E-42   0.00E+00   0.000E+00   0.000E+00   9.307E-34   2.934E-33   5.058E-36   1.893E+25            
+  In113    #> 3.78253E+19   7.092E-03   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  In113m      2.49070E+05   4.670E-17   2.893E+01   6.066E-16   0.00E+00   1.207E-15   3.536E-06   8.099E-10   5.785E-10   1.446E-11   5.968E+03            
+  In114m      6.97856E+01   1.320E-20   1.120E-05   2.528E-22   0.00E+00   1.596E-22   4.245E-13   4.591E-14   1.041E-13   2.239E-17   4.320E+06            
+  In115     > 8.43884E+20   1.610E-01   4.203E-02   1.024E-18   0.00E+00   0.000E+00   0.000E+00   1.345E-09   1.639E-08   2.102E-12   1.392E+22            
+  Sn112    #  6.79089E+05   1.262E-16   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Sn113       4.14759E+08   7.776E-14   2.891E+01   2.905E-17   0.00E+00   1.077E-16   4.959E-08   2.111E-08   7.806E-08   1.446E-11   9.944E+06            
+  Sn114    #  1.71059E+09   3.235E-13   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Sn115    #  1.19678E+10   2.283E-12   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Sn116    #  2.25023E+07   4.331E-15   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Sn117    #  2.91919E+02   5.667E-20   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Sn117m      9.13890E+00   1.774E-21   5.391E-06   1.345E-22   0.00E+00   1.361E-22   8.158E-14   3.828E-15   1.294E-14   1.348E-17   1.175E+06            
+  Sn118    #  4.31344E+05   8.445E-17   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Sn119    #  5.11230E+00   1.009E-21   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Sn119m      9.79676E+00   1.934E-21   2.682E-07   3.363E-24   0.00E+00   4.883E-25   5.323E-17   9.120E-17   5.901E-16   8.941E-21   2.532E+07            
+  Sn120    #  1.56386E+05   3.114E-17   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Sb121    #> 4.53986E+19   9.114E-03   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Sb123    #> 3.39557E+19   6.930E-03   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Te120    #  4.80368E+07   9.564E-15   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Te121       9.13752E+07   1.835E-14   3.826E+01   6.032E-17   0.00E+00   3.540E-15   1.426E-05   1.645E-08   1.569E-08   1.913E-11   1.655E+06            
+  Te121m      2.50364E+08   5.026E-14   1.304E+01   1.674E-16   0.00E+00   4.533E-16   1.063E-06   3.000E-08   7.434E-08   4.348E-12   1.331E+07            
+  Te122    #  1.97771E+08   4.003E-14   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Te123       1.63811E+08   3.343E-14   3.911E-17   1.254E-35   0.00E+00   1.626E-36   1.103E-27   1.721E-25   1.525E-25   1.955E-27   2.903E+24            
+  Te123m      1.79244E+08   3.658E-14   1.203E+01   1.852E-16   0.00E+00   2.847E-16   1.731E-07   1.685E-08   6.137E-08   1.203E-11   1.032E+07            
+  Te124    #  8.28189E+05   1.704E-16   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+0  TOTAL NUMBER OF NUCLIDES PRINTED IN INVENTORY =   38
+0  TOTAL CURIES   TOTAL ALPHA   TOTAL BETA    TOTAL GAMMA
+                  CURIE-MeV     CURIE-MeV     CURIE-MeV
+   2.68974E-08   0.00000E+00   5.23099E-10   1.01604E-08
+0  ALPHA BECQUERELS = 0.000000E+00  BETA BECQUERELS = 9.426756E+02  GAMMA BECQUERELS = 5.252810E+01
+0  TOTAL ACTIVITY FOR ALL MATERIALS     9.95204E+02 Bq              TOTAL Bq/A2 RATIOS  3.58E-10  EFFECTIVE A2  2.78E+12 Bq
+                                        5.37948E-07 Ci/cc           DENSITY   5.68E+00 gm/cc
+   TOTAL ACTIVITY EXCLUDING TRITIUM     9.95204E+02 Bq
+                                        5.37948E-07 Ci/cc
+0  TOTAL ALPHA HEAT PRODUCTION          0.00000E+00 kW
+   TOTAL BETA  HEAT PRODUCTION          3.10096E-15 kW
+   TOTAL GAMMA HEAT PRODUCTION          6.02316E-14 kW              TOTAL HEAT PRODUCTION 6.33325E-14 kW
+0  INITIAL TOTAL MASS OF MATERIAL       2.83973E-04 kg              TOTAL HEAT EX TRITIUM 6.33325E-14 kW
+0  TOTAL MASS OF MATERIAL               2.83973E-04 kg
+   PROTON   FLUX DURING INTERVAL        0.00000E+00 p/cm**2/s
+0  NUMBER OF FISSIONS                   0.00000E+00                 BURN-UP OF ACTINIDES  0.00000E+00 %
+0  INGESTION  HAZARD FOR ALL MATERIALS  2.35893E-06 Sv/kg
+   INHALATION HAZARD FOR ALL MATERIALS  1.38262E-06 Sv/kg
+0  INGESTION  HAZARD EXCLUDING TRITIUM  2.35893E-06 Sv/kg
+   INHALATION HAZARD EXCLUDING TRITIUM  1.38262E-06 Sv/kg
+0  APPM OF He  4    =  7.1227E-08
+   APPM OF He  3    =  2.8796E-30
+   APPM OF H   3    =  6.1604E-40
+   APPM OF H   2    =  1.6983E-14
+   APPM OF H   1    =  1.4120E-08
+
+
+
+                                               COMPOSITION  OF  MATERIAL  BY  ELEMENT
+                                               --------------------------------------
+0                                                             BETA                     GAMMA                     ALPHA
+                      ATOMS      GRAM-ATOMS     GRAMS      CURIES-MeV      kW        CURIES-MeV      kW        CURIES-MeV      kW
+
+    1       H       2.4900E+07   4.1348E-17   4.1671E-17   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+    2       He      1.2560E+08   2.0857E-16   8.3482E-16   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+   31       Ga      2.9653E+00   4.9240E-24   3.4923E-22   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+   32       Ge      1.2231E+08   2.0310E-16   1.4607E-14   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+   33       As      8.0236E+20   1.3323E-03   9.9821E-02   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+   34       Se      1.3063E+10   2.1691E-14   1.6252E-12   3.4605E-10   2.0514E-15   9.2170E-09   5.4639E-14   0.0000E+00   0.0000E+00
+   48       Cd      2.7068E+06   4.4947E-18   5.0171E-16   1.4655E-36   8.6874E-42   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+   49       In      8.8171E+20   1.4641E-03   1.6811E-01   1.0251E-10   6.0767E-16   2.0367E-10   1.2074E-15   0.0000E+00   0.0000E+00
+   50       Sn      1.4117E+10   2.3442E-14   2.6893E-12   4.9010E-12   2.9054E-17   1.8170E-11   1.0771E-16   0.0000E+00   0.0000E+00
+   51       Sb      7.9354E+19   1.3177E-04   1.6044E-02   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+   52       Te      9.3143E+08   1.5467E-15   1.8839E-13   6.9643E-11   4.1285E-16   7.2163E-10   4.2778E-15   0.0000E+00   0.0000E+00
+
+
+
+                                               GAMMA SPECTRUM AND ENERGIES/SECOND
+                                               ----------------------------------
+
+     NEUTRONS PER SECOND ARISING FROM SPONTANEOUS FISSION                    0.00000E+00    Entered density (g/cc)       5.68
+     POWER FROM ALPHA PARTICLES (MeV per Second)                             0.00000E+00
+     POWER FROM BETA  PARTICLES (MeV per Second)                             1.93547E+01
+     TOTAL GAMMA POWER FROM ACTIVATION  (MeV per Second)                     3.75936E+02    Total gammas (per cc per second)      4.05492E+04
+     GAMMA RAY POWER FROM ACTIVATION DECAY  MeV/s    (  0.000-  0.010 MeV)   5.31657E-02    Gammas per group (per cc per second)  2.12663E+02
+                                                     (  0.010-  0.020 MeV)   5.21237E+00                                          6.94982E+03
+                                                     (  0.020-  0.050 MeV)   1.83020E+00                                          1.04583E+03
+                                                     (  0.050-  0.100 MeV)   3.53475E+00                                          9.42600E+02
+                                                     (  0.100-  0.200 MeV)   9.22659E+01                                          1.23021E+04
+                                                     (  0.200-  0.300 MeV)   1.99958E+02                                          1.59966E+04
+                                                     (  0.300-  0.400 MeV)   1.08548E+01                                          6.20273E+02
+                                                     (  0.400-  0.600 MeV)   6.17910E+01                                          2.47164E+03
+                                                     (  0.600-  0.800 MeV)   2.43926E-02                                          6.96932E-01
+                                                     (  0.800-  1.000 MeV)   2.03606E-02                                          4.52458E-01
+                                                     (  1.000-  1.220 MeV)   3.58802E-01                                          6.46490E+00
+                                                     (  1.220-  1.440 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  1.440-  1.660 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  1.660-  2.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  2.000-  2.500 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  2.500-  3.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  3.000-  4.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  4.000-  5.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  5.000-  6.500 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  6.500-  8.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  8.000- 10.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     ( 10.000- 12.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     ( 12.000- 14.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     ( 14.000- 20.000 MeV)   0.00000E+00                                          0.00000E+00
+
+    DOSE RATE (PLANE SOURCE) FROM GAMMAS WITH ENERGY 0-20 MeV IS            1.17061E-04 Sieverts/hour   ( 1.17061E-02 Rems/hour)
+
+
+
+
+                                                                           DOMINANT NUCLIDES
+                                                                           -----------------
+
+      NUCLIDE   ACTIVITY    PERCENT  NUCLIDE     HEAT      PERCENT  NUCLIDE  DOSE RATE    PERCENT  NUCLIDE  INGESTION    PERCENT  NUCLIDE  INHALATION   PERCENT 
+                  (Bq)      ACTIVITY             (kW)       HEAT              (Sv/hr)    DOSE RATE            (Sv)      INGESTION            (Sv)     INHALATION
+       Total   9.9520E+02             Total   6.3333E-14             Total   1.1706E-04             Total   2.3589E-06             Total   1.3826E-06
+    1  Se 75   8.7399E+02  87.82E+00  Se 75   5.6690E-14  89.51E+00  Se 75   9.7981E-05  83.70E+00  Se 75   2.2724E-06  96.33E+00  Se 75   1.1362E-06  82.18E+00
+    2  Te121   3.8260E+01  38.44E-01  Te121   3.6001E-15  56.85E-01  Te121   1.4259E-05  12.18E+00  Te121m  2.9998E-08  12.72E-01  Sn113   7.8061E-08  56.46E-01
+    3  In113m  2.8926E+01  29.07E-01  In113m  1.8140E-15  28.64E-01  In113m  3.5365E-06  30.21E-01  Sn113   2.1105E-08  89.47E-02  Te121m  7.4343E-08  53.77E-01
+    4  Sn113   2.8911E+01  29.05E-01  Te121m  6.2070E-16  98.01E-02  Te121m  1.0626E-06  90.77E-02  Te123m  1.6847E-08  71.42E-02  Te123m  6.1371E-08  44.39E-01
+    5  Te121m  1.3043E+01  13.11E-01  Te123m  4.6984E-16  74.19E-02  Te123m  1.7309E-07  14.79E-02  Te121   1.6452E-08  69.74E-02  In115   1.6392E-08  11.86E-01
+    6  Te123m  1.2033E+01  12.09E-01  Sn113   1.3677E-16  21.60E-02  Sn113   4.9591E-08  42.36E-03  In115   1.3450E-09  57.02E-03  Te121   1.5687E-08  11.35E-01
+    7  In115   4.2032E-02  42.23E-04  In115   1.0236E-18  16.16E-04  In114m  4.2447E-13  36.26E-08  In113m  8.0993E-10  34.33E-03  In113m  5.7852E-10  41.84E-03
+    8  In114m  1.1197E-05  11.25E-07  In114m  4.1241E-22  65.12E-08  Sn117m  8.1579E-14  69.69E-09  In114m  4.5908E-14  19.46E-07  In114m  1.0413E-13  75.32E-07
+    9  Sn117m  5.3910E-06  54.17E-08  Sn117m  2.7058E-22  42.72E-08  Sn119m  5.3229E-17  45.47E-12  Sn117m  3.8276E-15  16.23E-08  Sn117m  1.2938E-14  93.58E-08
+   10  Sn119m  2.6824E-07  26.95E-09  Sn119m  3.8517E-24  60.82E-10  Te123   1.1025E-27  94.19E-23  Sn119m  9.1202E-17  38.66E-10  Sn119m  5.9013E-16  42.68E-09
+   11  Te123   3.9110E-17  39.30E-19  Te123   1.4169E-35  22.37E-21          0.0000E+00  00.00E+00  Te123   1.7208E-25  72.95E-19  Te123   1.5253E-25  11.03E-18
+   12  Cd114   1.0116E-25  10.16E-27  Cd114   8.6874E-42  13.72E-27          0.0000E+00  00.00E+00  Cd114   9.3068E-34  39.45E-27  Cd114   2.9337E-33  21.22E-26
+
+      NUCLIDE  GAMMA HEAT   PERCENT  NUCLIDE   BETA HEAT   PERCENT 
+                  (kW)       GAMMA               (kW)       BETA
+       Total   6.0232E-14             Total   3.1010E-15
+    1  Se 75   5.4639E-14  90.71E+00  Se 75   2.0514E-15  66.15E+00
+    2  Te121   3.5398E-15  58.77E-01  In113m  6.0664E-16  19.56E+00
+    3  In113m  1.2074E-15  20.05E-01  Te123m  1.8517E-16  59.71E-01
+    4  Te121m  4.5335E-16  75.27E-02  Te121m  1.6736E-16  53.97E-01
+    5  Te123m  2.8468E-16  47.26E-02  Te121   6.0321E-17  19.45E-01
+    6  Sn113   1.0771E-16  17.88E-02  Sn113   2.9053E-17  93.69E-02
+    7  In114m  1.5964E-22  26.51E-08  In115   1.0236E-18  33.01E-03
+    8  Sn117m  1.3607E-22  22.59E-08  In114m  2.5277E-22  81.51E-07
+    9  Sn119m  4.8826E-25  81.06E-11  Sn117m  1.3452E-22  43.38E-07
+   10  Te123   1.6259E-36  26.99E-22  Sn119m  3.3634E-24  10.85E-08
+   11          0.0000E+00  00.00E+00  Te123   1.2543E-35  40.45E-20
+   12          0.0000E+00  00.00E+00  Cd114   8.6874E-42  28.02E-26
+
+
+
+                                                              UNCERTAINTY ESTIMATES (cross sections only)
+                                                              -------------------------------------------
+
+    Uncertainty estimates are based on pathway analysis for the irradiation phase
+    Total Activity is          9.95204E+02  +/-   0.00E+00  Bq.        Error is   0.00E+00 % of the total.
+
+    Total Heat Production is   6.33325E-14  +/-   0.00E+00  kW.        Error is   0.00E+00 % of the total.
+
+    Total Gamma Dose Rate is   1.17061E-04  +/-   0.00E+00  Sv/hr.     Error is   0.00E+00 % of the total.
+
+    Total Ingestion Dose is    2.35893E-06  +/-   0.00E+00  Sv.        Error is   0.00E+00 % of the total.
+
+    Total Inhalation Dose is   1.38262E-06  +/-   0.00E+00  Sv.        Error is   0.00E+00 % of the total.
+
+    Total Gamma Heat Prod is   6.02316E-14  +/-   0.00E+00  kW.        Error is   0.00E+00 % of the total.
+
+    Total Beta Heat Prod is    3.10096E-15  +/-   0.00E+00  kW.        Error is   0.00E+00 % of the total.
+
+0   Nuclide     Atoms     E(Atoms)  Activity E(Activity)   Heat     E(Heat)  Dose Rate E(Dose Rate) Ingest   E(Ingest)   Inhale   E(Inhale)   % Error
+    Se 75    1.30338E+10  0.00E+00  8.740E+02  0.00E+00  5.669E-14  0.00E+00  9.798E-05  0.00E+00  2.272E-06  0.00E+00  1.136E-06  0.00E+00  0.000E+00
+    Te121    9.13752E+07  0.00E+00  3.826E+01  0.00E+00  3.600E-15  0.00E+00  1.426E-05  0.00E+00  1.645E-08  0.00E+00  1.569E-08  0.00E+00  0.000E+00
+    In113m   2.49070E+05  0.00E+00  2.893E+01  0.00E+00  1.814E-15  0.00E+00  3.536E-06  0.00E+00  8.099E-10  0.00E+00  5.785E-10  0.00E+00  0.000E+00
+    Te123m   1.79244E+08  0.00E+00  1.203E+01  0.00E+00  4.698E-16  0.00E+00  1.731E-07  0.00E+00  1.685E-08  0.00E+00  6.137E-08  0.00E+00  0.000E+00
+    Te121m   2.50364E+08  0.00E+00  1.304E+01  0.00E+00  6.207E-16  0.00E+00  1.063E-06  0.00E+00  3.000E-08  0.00E+00  7.434E-08  0.00E+00  0.000E+00
+    Sn113    4.14759E+08  0.00E+00  2.891E+01  0.00E+00  1.368E-16  0.00E+00  4.959E-08  0.00E+00  2.111E-08  0.00E+00  7.806E-08  0.00E+00  0.000E+00
+    In115    8.43884E+20  0.00E+00  4.203E-02  0.00E+00  1.024E-18  0.00E+00  0.000E+00  0.00E+00  1.345E-09  0.00E+00  1.639E-08  0.00E+00  0.000E+00
+    In114m   6.97856E+01  0.00E+00  1.120E-05  0.00E+00  4.124E-22  0.00E+00  4.245E-13  0.00E+00  4.591E-14  0.00E+00  1.041E-13  0.00E+00  0.000E+00
+    Sn117m   9.13890E+00  0.00E+00  5.391E-06  0.00E+00  2.706E-22  0.00E+00  8.158E-14  0.00E+00  3.828E-15  0.00E+00  1.294E-14  0.00E+00  0.000E+00
+    Sn119m   9.79676E+00  0.00E+00  2.682E-07  0.00E+00  3.852E-24  0.00E+00  5.323E-17  0.00E+00  9.120E-17  0.00E+00  5.901E-16  0.00E+00  0.000E+00
+1 * * * TIME INTERVAL   7 * * * COOLING TIME IS   2.7562E+07 SECS OR  3.1900E+02 DAYS  * * * ELAPSED TIME IS 365.042 d   * * * FLUX AMP IS  0.0000E+00 /cm^2/s  * * *
+  NUCLIDE        ATOMS         GRAMS        Bq       b-Energy    a-Energy   g-Energy    DOSE RATE   INGESTION  INHALATION     Bq/A2     HALF LIFE            
+                                                        kW          kW         kW         Sv/hr      DOSE(Sv)    DOSE(Sv)     Ratio      seconds             
+
+  H   1    #  2.49001E+07   4.167E-17   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  H   2    #  2.99474E+01   1.002E-22   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  He  4    #  1.25604E+08   8.348E-16   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Ga 71    #  3.14492E+00   3.704E-22   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Ge 72    #  1.22309E+08   1.461E-14   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Ge 74    #  2.99641E+02   3.678E-20   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  As 75    #> 8.02356E+20   9.982E-02   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Se 74    #  1.84169E+00   2.261E-22   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Se 75       1.97297E+09   2.455E-13   1.323E+02   3.105E-16   0.00E+00   8.271E-15   1.483E-05   3.440E-07   1.720E-07   4.410E-11   1.034E+07            
+  Se 76    #  2.88330E+07   3.635E-15   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Cd110    #  3.78441E+05   6.906E-17   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Cd111    #  1.38937E+01   2.559E-21   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Cd112    #  2.32832E+06   4.326E-16   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Cd114       5.53007E+00   1.046E-21   2.024E-25   1.739E-41   0.00E+00   0.000E+00   0.000E+00   1.862E-33   5.871E-33   1.012E-35   1.893E+25            
+  In113    #> 3.78253E+19   7.092E-03   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  In113m      3.48632E+04   6.536E-18   4.049E+00   8.491E-17   0.00E+00   1.690E-16   4.950E-07   1.134E-10   8.098E-11   2.024E-12   5.968E+03            
+  In115     > 8.43884E+20   1.610E-01   4.203E-02   1.024E-18   0.00E+00   0.000E+00   0.000E+00   1.345E-09   1.639E-08   2.102E-12   1.392E+22            
+  Sn112    #  6.79089E+05   1.262E-16   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Sn113       5.80551E+07   1.088E-14   4.047E+00   4.067E-18   0.00E+00   1.508E-17   6.941E-09   2.954E-09   1.093E-08   2.023E-12   9.944E+06            
+  Sn114    #  1.71059E+09   3.235E-13   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Sn115    #  1.19690E+10   2.284E-12   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Sn116    #  2.25023E+07   4.331E-15   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Sn117    #  3.01070E+02   5.844E-20   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Sn118    #  4.31344E+05   8.445E-17   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Sn119    #  1.03145E+01   2.037E-21   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Sn119m      4.59461E+00   9.072E-22   1.258E-07   1.577E-24   0.00E+00   2.290E-25   2.496E-17   4.277E-17   2.768E-16   4.193E-21   2.532E+07            
+  Sn120    #  1.56386E+05   3.114E-17   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Sb121    #> 4.53986E+19   9.114E-03   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Sb123    #> 3.39557E+19   6.930E-03   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Te120    #  4.80368E+07   9.564E-15   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Te121       7.37309E+06   1.480E-15   3.087E+00   4.867E-18   0.00E+00   2.856E-16   1.151E-06   1.328E-09   1.266E-09   1.544E-12   1.655E+06            
+  Te121m      5.85026E+07   1.175E-14   3.048E+00   3.911E-17   0.00E+00   1.059E-16   2.483E-07   7.010E-09   1.737E-08   1.016E-12   1.331E+07            
+  Te122    #  1.97771E+08   4.003E-14   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+  Te123       3.15986E+08   6.449E-14   7.544E-17   2.420E-35   0.00E+00   3.136E-36   2.127E-27   3.319E-25   2.942E-25   3.772E-27   2.903E+24            
+  Te123m      2.70701E+07   5.525E-15   1.817E+00   2.796E-17   0.00E+00   4.299E-17   2.614E-08   2.544E-09   9.268E-09   1.817E-12   1.032E+07            
+  Te124    #  8.28189E+05   1.704E-16   0.000E+00   0.000E+00   0.00E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00     Stable             
+0  TOTAL NUMBER OF NUCLIDES PRINTED IN INVENTORY =   36
+0  TOTAL CURIES   TOTAL ALPHA   TOTAL BETA    TOTAL GAMMA
+                  CURIE-MeV     CURIE-MeV     CURIE-MeV
+   4.01050E-09   0.00000E+00   7.97005E-11   1.49956E-09
+0  ALPHA BECQUERELS = 0.000000E+00  BETA BECQUERELS = 1.398191E+02  GAMMA BECQUERELS = 8.569454E+00
+0  TOTAL ACTIVITY FOR ALL MATERIALS     1.48389E+02 Bq              TOTAL Bq/A2 RATIOS  5.46E-11  EFFECTIVE A2  2.72E+12 Bq
+                                        8.02100E-08 Ci/cc           DENSITY   5.68E+00 gm/cc
+   TOTAL ACTIVITY EXCLUDING TRITIUM     1.48389E+02 Bq
+                                        8.02100E-08 Ci/cc
+0  TOTAL ALPHA HEAT PRODUCTION          0.00000E+00 kW
+   TOTAL BETA  HEAT PRODUCTION          4.72468E-16 kW
+   TOTAL GAMMA HEAT PRODUCTION          8.88947E-15 kW              TOTAL HEAT PRODUCTION 9.36194E-15 kW
+0  INITIAL TOTAL MASS OF MATERIAL       2.83973E-04 kg              TOTAL HEAT EX TRITIUM 9.36194E-15 kW
+0  TOTAL MASS OF MATERIAL               2.83973E-04 kg
+   PROTON   FLUX DURING INTERVAL        0.00000E+00 p/cm**2/s
+0  NUMBER OF FISSIONS                   0.00000E+00                 BURN-UP OF ACTINIDES  0.00000E+00 %
+0  INGESTION  HAZARD FOR ALL MATERIALS  3.59270E-07 Sv/kg
+   INHALATION HAZARD FOR ALL MATERIALS  2.27294E-07 Sv/kg
+0  INGESTION  HAZARD EXCLUDING TRITIUM  3.59270E-07 Sv/kg
+   INHALATION HAZARD EXCLUDING TRITIUM  2.27294E-07 Sv/kg
+0  APPM OF He  4    =  7.1227E-08
+   APPM OF He  3    =  2.8796E-30
+   APPM OF H   3    =  5.8652E-40
+   APPM OF H   2    =  1.6983E-14
+   APPM OF H   1    =  1.4120E-08
+
+
+
+                                               COMPOSITION  OF  MATERIAL  BY  ELEMENT
+                                               --------------------------------------
+0                                                             BETA                     GAMMA                     ALPHA
+                      ATOMS      GRAM-ATOMS     GRAMS      CURIES-MeV      kW        CURIES-MeV      kW        CURIES-MeV      kW
+
+    1       H       2.4900E+07   4.1348E-17   4.1671E-17   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+    2       He      1.2560E+08   2.0857E-16   8.3482E-16   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+   31       Ga      3.1449E+00   5.2223E-24   3.7039E-22   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+   32       Ge      1.2231E+08   2.0310E-16   1.4607E-14   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+   33       As      8.0236E+20   1.3323E-03   9.9821E-02   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+   34       Se      2.0018E+09   3.3241E-15   2.4910E-13   5.2382E-11   3.1053E-16   1.3952E-09   8.2708E-15   0.0000E+00   0.0000E+00
+   48       Cd      2.7068E+06   4.4947E-18   5.0171E-16   2.9327E-36   1.7385E-41   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+   49       In      8.8171E+20   1.4641E-03   1.6811E-01   1.4497E-11   8.5937E-17   2.8509E-11   1.6900E-16   0.0000E+00   0.0000E+00
+   50       Sn      1.3761E+10   2.2851E-14   2.6227E-12   6.8601E-13   4.0667E-18   2.5434E-12   1.5077E-17   0.0000E+00   0.0000E+00
+   51       Sb      7.9354E+19   1.3177E-04   1.6044E-02   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00   0.0000E+00
+   52       Te      6.5557E+08   1.0886E-15   1.3301E-13   1.2135E-11   7.1939E-17   7.3305E-11   4.3456E-16   0.0000E+00   0.0000E+00
+
+
+
+                                               GAMMA SPECTRUM AND ENERGIES/SECOND
+                                               ----------------------------------
+
+     NEUTRONS PER SECOND ARISING FROM SPONTANEOUS FISSION                    0.00000E+00    Entered density (g/cc)       5.68
+     POWER FROM ALPHA PARTICLES (MeV per Second)                             0.00000E+00
+     POWER FROM BETA  PARTICLES (MeV per Second)                             2.94892E+00
+     TOTAL GAMMA POWER FROM ACTIVATION  (MeV per Second)                     5.54837E+01    Total gammas (per cc per second)      6.05813E+03
+     GAMMA RAY POWER FROM ACTIVATION DECAY  MeV/s    (  0.000-  0.010 MeV)   7.30915E-03    Gammas per group (per cc per second)  2.92366E+01
+                                                     (  0.010-  0.020 MeV)   7.89014E-01                                          1.05202E+03
+                                                     (  0.020-  0.050 MeV)   2.29632E-01                                          1.31218E+02
+                                                     (  0.050-  0.100 MeV)   5.34650E-01                                          1.42573E+02
+                                                     (  0.100-  0.200 MeV)   1.39660E+01                                          1.86214E+03
+                                                     (  0.200-  0.300 MeV)   3.04523E+01                                          2.43619E+03
+                                                     (  0.300-  0.400 MeV)   1.55921E+00                                          8.90974E+01
+                                                     (  0.400-  0.600 MeV)   7.84851E+00                                          3.13940E+02
+                                                     (  0.600-  0.800 MeV)   3.69024E-03                                          1.05436E-01
+                                                     (  0.800-  1.000 MeV)   4.67747E-03                                          1.03944E-01
+                                                     (  1.000-  1.220 MeV)   8.38413E-02                                          1.51065E+00
+                                                     (  1.220-  1.440 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  1.440-  1.660 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  1.660-  2.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  2.000-  2.500 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  2.500-  3.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  3.000-  4.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  4.000-  5.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  5.000-  6.500 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  6.500-  8.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     (  8.000- 10.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     ( 10.000- 12.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     ( 12.000- 14.000 MeV)   0.00000E+00                                          0.00000E+00
+                                                     ( 14.000- 20.000 MeV)   0.00000E+00                                          0.00000E+00
+
+    DOSE RATE (PLANE SOURCE) FROM GAMMAS WITH ENERGY 0-20 MeV IS            1.67586E-05 Sieverts/hour   ( 1.67586E-03 Rems/hour)
+
+
+
+
+                                                                           DOMINANT NUCLIDES
+                                                                           -----------------
+
+      NUCLIDE   ACTIVITY    PERCENT  NUCLIDE     HEAT      PERCENT  NUCLIDE  DOSE RATE    PERCENT  NUCLIDE  INGESTION    PERCENT  NUCLIDE  INHALATION   PERCENT 
+                  (Bq)      ACTIVITY             (kW)       HEAT              (Sv/hr)    DOSE RATE            (Sv)      INGESTION            (Sv)     INHALATION
+       Total   1.4839E+02             Total   9.3619E-15             Total   1.6759E-05             Total   3.5927E-07             Total   2.2729E-07
+    1  Se 75   1.3230E+02  89.16E+00  Se 75   8.5814E-15  91.66E+00  Se 75   1.4832E-05  88.50E+00  Se 75   3.4398E-07  95.74E+00  Se 75   1.7199E-07  75.67E+00
+    2  In113m  4.0488E+00  27.29E-01  Te121   2.9050E-16  31.03E-01  Te121   1.1505E-06  68.65E-01  Te121m  7.0096E-09  19.51E-01  Te121m  1.7372E-08  76.43E-01
+    3  Sn113   4.0468E+00  27.27E-01  In113m  2.5392E-16  27.12E-01  In113m  4.9501E-07  29.54E-01  Sn113   2.9542E-09  82.23E-02  In115   1.6392E-08  72.12E-01
+    4  Te121   3.0872E+00  20.80E-01  Te121m  1.4504E-16  15.49E-01  Te121m  2.4830E-07  14.82E-01  Te123m  2.5443E-09  70.82E-02  Sn113   1.0926E-08  48.07E-01
+    5  Te121m  3.0477E+00  20.54E-01  Te123m  7.0958E-17  75.79E-02  Te123m  2.6141E-08  15.60E-02  In115   1.3450E-09  37.44E-02  Te123m  9.2684E-09  40.78E-01
+    6  Te123m  1.8173E+00  12.25E-01  Sn113   1.9144E-17  20.45E-02  Sn113   6.9414E-09  41.42E-03  Te121   1.3275E-09  36.95E-02  Te121   1.2658E-09  55.69E-02
+    7  In115   4.2032E-02  28.33E-03  In115   1.0236E-18  10.93E-03  Sn119m  2.4964E-17  14.90E-11  In113m  1.1337E-10  31.56E-03  In113m  8.0977E-11  35.63E-03
+    8  Sn119m  1.2580E-07  84.78E-09  Sn119m  1.8064E-24  19.30E-09  Te123   2.1268E-27  12.69E-21  Sn119m  4.2773E-17  11.91E-09  Sn119m  2.7677E-16  12.18E-08
+    9  Te123   7.5441E-17  50.84E-18  Te123   2.7332E-35  29.19E-20          0.0000E+00  00.00E+00  Te123   3.3194E-25  92.39E-18  Te123   2.9422E-25  12.94E-17
+   10  Cd114   2.0244E-25  13.64E-26  Cd114   1.7385E-41  18.57E-26          0.0000E+00  00.00E+00  Cd114   1.8625E-33  51.84E-26  Cd114   5.8708E-33  25.83E-25
+
+      NUCLIDE  GAMMA HEAT   PERCENT  NUCLIDE   BETA HEAT   PERCENT 
+                  (kW)       GAMMA               (kW)       BETA
+       Total   8.8895E-15             Total   4.7247E-16
+    1  Se 75   8.2708E-15  93.04E+00  Se 75   3.1053E-16  65.72E+00
+    2  Te121   2.8563E-16  32.13E-01  In113m  8.4914E-17  17.97E+00
+    3  In113m  1.6900E-16  19.01E-01  Te121m  3.9107E-17  82.77E-01
+    4  Te121m  1.0593E-16  11.92E-01  Te123m  2.7965E-17  59.19E-01
+    5  Te123m  4.2993E-17  48.36E-02  Te121   4.8674E-18  10.30E-01
+    6  Sn113   1.5077E-17  16.96E-02  Sn113   4.0667E-18  86.07E-02
+    7  Sn119m  2.2899E-25  25.76E-10  In115   1.0236E-18  21.66E-02
+    8  Te123   3.1362E-36  35.28E-21  Sn119m  1.5774E-24  33.39E-08
+    9          0.0000E+00  00.00E+00  Te123   2.4196E-35  51.21E-19
+   10          0.0000E+00  00.00E+00  Cd114   1.7385E-41  36.80E-25
+
+
+
+                                                              UNCERTAINTY ESTIMATES (cross sections only)
+                                                              -------------------------------------------
+
+    Uncertainty estimates are based on pathway analysis for the irradiation phase
+    Total Activity is          1.48389E+02  +/-   0.00E+00  Bq.        Error is   0.00E+00 % of the total.
+
+    Total Heat Production is   9.36194E-15  +/-   0.00E+00  kW.        Error is   0.00E+00 % of the total.
+
+    Total Gamma Dose Rate is   1.67586E-05  +/-   0.00E+00  Sv/hr.     Error is   0.00E+00 % of the total.
+
+    Total Ingestion Dose is    3.59270E-07  +/-   0.00E+00  Sv.        Error is   0.00E+00 % of the total.
+
+    Total Inhalation Dose is   2.27294E-07  +/-   0.00E+00  Sv.        Error is   0.00E+00 % of the total.
+
+    Total Gamma Heat Prod is   8.88947E-15  +/-   0.00E+00  kW.        Error is   0.00E+00 % of the total.
+
+    Total Beta Heat Prod is    4.72468E-16  +/-   0.00E+00  kW.        Error is   0.00E+00 % of the total.
+
+0   Nuclide     Atoms     E(Atoms)  Activity E(Activity)   Heat     E(Heat)  Dose Rate E(Dose Rate) Ingest   E(Ingest)   Inhale   E(Inhale)   % Error
+    Se 75    1.97297E+09  0.00E+00  1.323E+02  0.00E+00  8.581E-15  0.00E+00  1.483E-05  0.00E+00  3.440E-07  0.00E+00  1.720E-07  0.00E+00  0.000E+00
+    Te121    7.37309E+06  0.00E+00  3.087E+00  0.00E+00  2.905E-16  0.00E+00  1.151E-06  0.00E+00  1.328E-09  0.00E+00  1.266E-09  0.00E+00  0.000E+00
+    In113m   3.48632E+04  0.00E+00  4.049E+00  0.00E+00  2.539E-16  0.00E+00  4.950E-07  0.00E+00  1.134E-10  0.00E+00  8.098E-11  0.00E+00  0.000E+00
+    Te123m   2.70701E+07  0.00E+00  1.817E+00  0.00E+00  7.096E-17  0.00E+00  2.614E-08  0.00E+00  2.544E-09  0.00E+00  9.268E-09  0.00E+00  0.000E+00
+    Te121m   5.85026E+07  0.00E+00  3.048E+00  0.00E+00  1.450E-16  0.00E+00  2.483E-07  0.00E+00  7.010E-09  0.00E+00  1.737E-08  0.00E+00  0.000E+00
+    Sn113    5.80551E+07  0.00E+00  4.047E+00  0.00E+00  1.914E-17  0.00E+00  6.941E-09  0.00E+00  2.954E-09  0.00E+00  1.093E-08  0.00E+00  0.000E+00
+    In115    8.43884E+20  0.00E+00  4.203E-02  0.00E+00  1.024E-18  0.00E+00  0.000E+00  0.00E+00  1.345E-09  0.00E+00  1.639E-08  0.00E+00  0.000E+00
+    Sn119m   4.59461E+00  0.00E+00  1.258E-07  0.00E+00  1.806E-24  0.00E+00  2.496E-17  0.00E+00  4.277E-17  0.00E+00  2.768E-16  0.00E+00  0.000E+00
+1                                                            Summary Output
+
+0           Time       Cumulative   Activity               Dose rate             Heat output           Ingestion dose        Inhalation dose        Tritium activity
+           (step)       (Years)      (Bq)                   (Sv/h)                (kW)                    (Sv)                   (Sv)                  (Bq)
+ -----Irradiation Phase-----
+ Irradn    30.000 s     9.51E-07   3.03E+05               3.42E-04               3.67E-12               3.90E-02               6.00E-02               0.00E+00
+ -----Cooling Phase-----
+ Cooling    1.000 m     1.90E-06   2.93E+05               3.40E-04               3.55E-12               3.78E-02               5.81E-02               0.00E+00
+ Cooling    1.000 h     1.16E-04   4.35E+04               2.70E-04               6.25E-13               5.36E-03               8.24E-03               0.00E+00
+ Cooling    1.000 d     2.85E-03   1.39E+03               1.85E-04               9.08E-14               3.09E-06               1.82E-06               0.00E+00
+ Cooling   45.000 d     1.26E-01   9.95E+02               1.17E-04               6.33E-14               2.36E-06               1.38E-06               0.00E+00
+ Cooling  319.000 d     9.99E-01   1.48E+02               1.68E-05               9.36E-15               3.59E-07               2.27E-07               0.00E+00
+0 Mass of material input =  2.8397E-04 kg.    Material density =  5.68 g/cc
+
+  Total irradiation time =  3.000000E+01 s
+  Total fluence          =  3.000000E+13 p/cm2
+  Mean flux              =  1.000000E+12 p/cm2/s
+  Number of on-times     =    1
+
+fispact run time=                  0.79688     secs
+
+
+ ------------------------------------------------------------------
+ Files that have been opened during this run.
+ ------------------------------------------------------------------
+ The numbers after the unit names are the internal unit numbers.
+
+ input( 5)       runFile_InAsSb.i
+ graph(10)       runFile_InAsSb.gra
+ a2data(11)      ../../nuclear_data/decay/a2_2012
+ collapxi(12)    COLLAPX
+ arrayx(13)      ARRAYX
+ hazards(14)     ../../nuclear_data/decay/hazards_2012
+ gnuplot(15)     runFile_InAsSb.plt
+ ind_nuc(18)     ../../nuclear_data/TENDL2017data/tendl17_decay12_index
+ output(38)      runFile_InAsSb.out
+ absorp(39)      ../../nuclear_data/decay/abs_2012
+ runlog(48)      runFile_InAsSb.log
+ ------------------------------------------------------------------
+
+
+
+     Run timestamp:21:00:49 4 May 2019             
+
+     Current time: 21:00:49 4 May 2019             

@@ -1,0 +1,106 @@
+# Run timestamp = 21:02:14 4 May 2019             
+#  Quasi-MonE(63 MeV) 3.20200E+11 cm^-2s^-
+# Time after irradiation (years)
+#          Activity (Bq/k
+# index    0
+#   time         value        uncert
+  0.00000E+00  1.49396E+11  0.00000E+00
+  1.90129E-06  2.00689E+10  0.00000E+00
+  1.15978E-04  1.07024E-02  0.00000E+00
+  2.85383E-03  1.07024E-02  0.00000E+00
+  1.26057E-01  1.07024E-02  0.00000E+00
+  9.99432E-01  1.07023E-02  0.00000E+00
+
+
+
+# index    1
+# half-life   value        name
+  7.1698E+05  1.0702E-02  ^{26}Al
+  4.7494E-06  2.6483E+10  ^{30}P
+
+
+
+#  Quasi-MonE(63 MeV) 3.20200E+11 cm^-2s^-
+# Time after irradiation (years)
+#          Dose Rate (Sv/
+# index    2
+#   time         value        uncert
+  0.00000E+00  7.62116E+01  0.00000E+00
+  1.90129E-06  4.00618E+00  0.00000E+00
+  1.15978E-04  7.70160E-12  0.00000E+00
+  2.85383E-03  7.70160E-12  0.00000E+00
+  1.26057E-01  7.70159E-12  0.00000E+00
+  9.99432E-01  7.70159E-12  0.00000E+00
+
+
+
+# index    3
+# half-life   value        name
+  7.1698E+05  6.6108E-08  ^{26}Al
+  4.7494E-06  4.5378E+04  ^{30}P
+
+
+
+#  Quasi-MonE(63 MeV) 3.20200E+11 cm^-2s^-
+# Time after irradiation (years)
+#       Heat Output (kW/k
+# index    4
+#   time         value        uncert
+  0.00000E+00  9.16384E-05  0.00000E+00
+  1.90129E-06  7.90194E-06  0.00000E+00
+  1.15978E-04  5.27067E-18  0.00000E+00
+  2.85383E-03  5.27067E-18  0.00000E+00
+  1.26057E-01  5.27067E-18  0.00000E+00
+  9.99432E-01  5.27067E-18  0.00000E+00
+
+
+
+# index    5
+# half-life   value        name
+  7.1698E+05  5.2707E-18  ^{26}Al
+  4.7494E-06  1.0427E-05  ^{30}P
+
+
+
+#  Quasi-MonE(63 MeV) 3.20200E+11 cm^-2s^-
+# Time after irradiation (years)
+#    Ingestion Dose (Sv/k
+# index    6
+#   time         value        uncert
+  0.00000E+00  2.45487E-01  0.00000E+00
+  1.90129E-06  1.52507E-01  0.00000E+00
+  1.15978E-04  3.74582E-11  0.00000E+00
+  2.85383E-03  3.74582E-11  0.00000E+00
+  1.26057E-01  3.74582E-11  0.00000E+00
+  9.99432E-01  3.74582E-11  0.00000E+00
+
+
+
+# index    7
+# half-life   value        name
+  7.1698E+05  3.7458E-11  ^{26}Al
+  4.7494E-06  2.0127E-01  ^{30}P
+
+
+
+#  Quasi-MonE(63 MeV) 3.20200E+11 cm^-2s^-
+# Time after irradiation (years)
+#   Inhalation Dose (Sv/k
+# index    8
+#   time         value        uncert
+  0.00000E+00  6.10410E-01  0.00000E+00
+  1.90129E-06  3.81267E-01  0.00000E+00
+  1.15978E-04  2.14047E-10  0.00000E+00
+  2.85383E-03  2.14047E-10  0.00000E+00
+  1.26057E-01  2.14047E-10  0.00000E+00
+  9.99432E-01  2.14047E-10  0.00000E+00
+
+
+
+# index    9
+# half-life   value        name
+  7.1698E+05  3.7458E-11  ^{26}Al
+  4.7494E-06  2.0127E-01  ^{30}P
+
+
+

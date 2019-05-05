@@ -1,0 +1,271 @@
+
+ LOG FILE: runFile_InAsSb.log
+
+ 11:20:19 31 March 2019          
+
+ Log  : FILES file = files
+ Log  : fileroot   = runFile_InAsSb
+
+
+ ------------------------------------------------------------------
+ Files specified by the FILES file and fileroot for this run.
+ ------------------------------------------------------------------
+ The numbers after the unit names are the internal unit numbers.
+
+ arb_flux( 3)    arb_flux
+ input( 5)       runFile_InAsSb.i
+ graph(10)       runFile_InAsSb.gra
+ a2data(11)      ../../nuclear_data/decay/a2_2012
+ collapxi(12)    COLLAPX
+ arrayx(13)      ARRAYX
+ hazards(14)     ../../nuclear_data/decay/hazards_2012
+ gnuplot(15)     runFile_InAsSb.plt
+ collapxo(17)    COLLAPX
+ ind_nuc(18)     ../../nuclear_data/TENDL2017data/tendl17_decay12_index
+ fluxes(20)      fluxes
+ output(38)      runFile_InAsSb.out
+ absorp(39)      ../../nuclear_data/decay/abs_2012
+ clear(40)       ../../nuclear_data/decay/clear_2012
+ tab1(44)        runFile_InAsSb.tab1
+ tab2(45)        runFile_InAsSb.tab2
+ tab3(46)        runFile_InAsSb.tab3
+ tab4(47)        runFile_InAsSb.tab4
+ runlog(48)      runFile_InAsSb.log
+ sens(50)        runFile_InAsSb.sens
+ prob_tab(51)    ../../nuclear_data/TENDL2017data/tal2017-n/tp-709-294
+ xs_endf(52)     ../../nuclear_data/TENDL2017data/tal2017-p/gxs-162
+ dk_endf(53)     ../../nuclear_data/decay/decay_2012
+ fy_endf(54)     ../../nuclear_data/UKFY41data/ukfy4_1p
+ sf_endf(55)     ../../nuclear_data/GEFY61data/gefy61_sfy
+ xs_endfb(56)    ../../nuclear_data/bin/tal2017-p.bin
+ nucgraph(59)    runFile_InAsSb.grn
+ nucgnu(60)      runFile_InAsSb.pln
+ ------------------------------------------------------------------
+
+
+ PROJECTILE 3
+ NOERROR
+ GETXS 0
+ GETDECAY 0
+ FISPACT
+ * Quasi-MonE(63 MeV) 3.20200E+11 cm^-2s^-1 for 30s
+  load cross-sections
+  load decay data
+  collapse fission yields
+ Log  : nuc_no =         3501
+ Log  : nuclide name = Th232    
+ 00001: Warning: nuclide_m:nuclide_collapse_fissyld: 1: 
+        cross-section data for fission (mt=18) not found, it is either
+        missing from endf data or pruned by xs_threshold
+ Log  : nuc_no =         3555
+ Log  : nuclide name = U 233    
+ 00002: Warning: nuclide_m:nuclide_collapse_fissyld: 1: 
+        cross-section data for fission (mt=18) not found, it is either
+        missing from endf data or pruned by xs_threshold
+ Log  : nuc_no =         3556
+ Log  : nuclide name = U 234    
+ 00003: Warning: nuclide_m:nuclide_collapse_fissyld: 1: 
+        cross-section data for fission (mt=18) not found, it is either
+        missing from endf data or pruned by xs_threshold
+ Log  : nuc_no =         3557
+ Log  : nuclide name = U 235    
+ 00004: Warning: nuclide_m:nuclide_collapse_fissyld: 1: 
+        cross-section data for fission (mt=18) not found, it is either
+        missing from endf data or pruned by xs_threshold
+ Log  : nuc_no =         3559
+ Log  : nuclide name = U 236    
+ 00005: Warning: nuclide_m:nuclide_collapse_fissyld: 1: 
+        cross-section data for fission (mt=18) not found, it is either
+        missing from endf data or pruned by xs_threshold
+ Log  : nuc_no =         3561
+ Log  : nuclide name = U 238    
+ 00006: Warning: nuclide_m:nuclide_collapse_fissyld: 1: 
+        cross-section data for fission (mt=18) not found, it is either
+        missing from endf data or pruned by xs_threshold
+ Log  : nuc_no =         3582
+ Log  : nuclide name = Np237    
+ 00007: Warning: nuclide_m:nuclide_collapse_fissyld: 1: 
+        cross-section data for fission (mt=18) not found, it is either
+        missing from endf data or pruned by xs_threshold
+ Log  : nuc_no =         3583
+ Log  : nuclide name = Np238    
+ 00008: Warning: nuclide_m:nuclide_collapse_fissyld: 1: 
+        cross-section data for fission (mt=18) not found, it is either
+        missing from endf data or pruned by xs_threshold
+ Log  : nuc_no =         3605
+ Log  : nuclide name = Pu238    
+ 00009: Warning: nuclide_m:nuclide_collapse_fissyld: 1: 
+        cross-section data for fission (mt=18) not found, it is either
+        missing from endf data or pruned by xs_threshold
+ Log  : nuc_no =         3606
+ Log  : nuclide name = Pu239    
+ 00010: Warning: nuclide_m:nuclide_collapse_fissyld: 1: 
+        cross-section data for fission (mt=18) not found, it is either
+        missing from endf data or pruned by xs_threshold
+ Log  : nuc_no =         3607
+ Log  : nuclide name = Pu240    
+ 00011: Warning: nuclide_m:nuclide_collapse_fissyld: 1: 
+        cross-section data for fission (mt=18) not found, it is either
+        missing from endf data or pruned by xs_threshold
+ Log  : nuc_no =         3608
+ Log  : nuclide name = Pu241    
+ 00012: Warning: nuclide_m:nuclide_collapse_fissyld: 1: 
+        cross-section data for fission (mt=18) not found, it is either
+        missing from endf data or pruned by xs_threshold
+ Log  : nuc_no =         3609
+ Log  : nuclide name = Pu242    
+ 00013: Warning: nuclide_m:nuclide_collapse_fissyld: 1: 
+        cross-section data for fission (mt=18) not found, it is either
+        missing from endf data or pruned by xs_threshold
+ Log  : nuc_no =         3625
+ Log  : nuclide name = Am241    
+ 00014: Warning: nuclide_m:nuclide_collapse_fissyld: 1: 
+        cross-section data for fission (mt=18) not found, it is either
+        missing from endf data or pruned by xs_threshold
+ Log  : nuc_no =         3627
+ Log  : nuclide name = Am242m   
+ 00015: Warning: nuclide_m:nuclide_collapse_fissyld: 1: 
+        cross-section data for fission (mt=18) not found, it is either
+        missing from endf data or pruned by xs_threshold
+ Log  : nuc_no =         3629
+ Log  : nuclide name = Am243    
+ 00016: Warning: nuclide_m:nuclide_collapse_fissyld: 1: 
+        cross-section data for fission (mt=18) not found, it is either
+        missing from endf data or pruned by xs_threshold
+ Log  : nuc_no =         3648
+ Log  : nuclide name = Cm242    
+ 00017: Warning: nuclide_m:nuclide_collapse_fissyld: 1: 
+        cross-section data for fission (mt=18) not found, it is either
+        missing from endf data or pruned by xs_threshold
+ Log  : nuc_no =         3649
+ Log  : nuclide name = Cm243    
+ 00018: Warning: nuclide_m:nuclide_collapse_fissyld: 1: 
+        cross-section data for fission (mt=18) not found, it is either
+        missing from endf data or pruned by xs_threshold
+ Log  : nuc_no =         3650
+ Log  : nuclide name = Cm244    
+ 00019: Warning: nuclide_m:nuclide_collapse_fissyld: 1: 
+        cross-section data for fission (mt=18) not found, it is either
+        missing from endf data or pruned by xs_threshold
+ Log  : nuc_no =         3652
+ Log  : nuclide name = Cm245    
+ 00020: Warning: nuclide_m:nuclide_collapse_fissyld: 1: 
+        cross-section data for fission (mt=18) not found, it is either
+        missing from endf data or pruned by xs_threshold
+ Log  : nuc_no =         3696
+ Log  : nuclide name = Cf252    
+ 00021: Warning: nuclide_m:nuclide_collapse_fissyld: 1: 
+        cross-section data for fission (mt=18) not found, it is either
+        missing from endf data or pruned by xs_threshold
+  run reset cross-section
+ DENSITY 5.67945
+ MASS 0.00567945 3
+ In 59.19831
+ As 35.15173
+ Sb 5.649964
+ GRAPH 5 2 1
+ 1
+ 2
+ 3
+ 4
+ 5
+ FLUX 2.43E+07
+ UNCERTAINTY 2
+ ATOMS
+  load initial values
+  run output inventory
+ HAZARDS
+  load hazards data
+ HALF
+ ATWO
+  load a2 data
+ TIME 100
+  fill rate equation matrix for cooling
+  fill rate equation matrix for irradiation
+  start pathstep recording
+  initialise dominant analysis
+  test for gas, kerma and dpa data
+ DAYS
+ ATOMS
+  run add rateeq for pathways
+  run irradiation init
+  run irradiation step
+  run add pathstep
+  run output inventory
+ TIME 265
+ DAYS
+ ATOMS
+  run irradiation step
+  run add pathstep
+  run output inventory
+ TIME 1
+ YEARS
+ ATOMS
+  run irradiation step
+  run add pathstep
+  run output inventory
+ TIME 1
+ YEARS
+ ATOMS
+  run irradiation step
+  run add pathstep
+  run output inventory
+ TIME 1
+ YEARS
+ ATOMS
+  run irradiation step
+  run add pathstep
+  run output inventory
+ TIME 1
+ YEARS
+ ATOMS
+  run irradiation step
+  run add pathstep
+  run output inventory
+ TIME 1
+ YEARS
+ ATOMS
+  run irradiation step
+  run add pathstep
+  run output inventory
+ TIME 1
+ YEARS
+ ATOMS
+  run irradiation step
+  run add pathstep
+  run output inventory
+ TIME 1
+ YEARS
+ ATOMS
+  run irradiation step
+  run add pathstep
+  run output inventory
+ TIME 1
+ YEARS
+ ATOMS
+  run irradiation step
+  run add pathstep
+  run output inventory
+ TIME 1
+ YEARS
+ ATOMS
+  run irradiation step
+  run add pathstep
+  run output inventory
+ END
+ * END
+  run output summary
+ 00022: Fatal  : gnuplot_range:output_graphs: 1: 
+        no summary data found
+
+ FATAL ERROR - run terminated
+
+
+  Error Summary 
+ ------------- 
+  total number of errors/warnings   =     22
+  number of serious errors/warnings =      1
+ 11:20:19 31 March 2019          
+
+ END OF LOG FILE
+
