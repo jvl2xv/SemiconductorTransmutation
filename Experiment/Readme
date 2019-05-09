@@ -1,1 +1,3 @@
 Post-processing code for experimental data (gamma spectrum from HPGe detector)
+Produces detector efficiency curve
+Reads in Gamma Spec fitted areas and removes background and callibrates given the callibration curve.
