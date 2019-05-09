@@ -34,16 +34,16 @@
      |                      R U N   I D E N T I F I C A T I O N   I N F O R M A T I O N                      |
      |                                                                                                       |
      | INITIAL CROSS SECTION DATA                                                                            |
-     | Collapsed library timestamp: 11:08:59 31 March 2019                                                   |
+     | Collapsed library timestamp: 12:49:07 7 May 2019                                                      |
      | EAF source library label:                                                                             |
      | FLUX file label:             ISS LEO cm^-2s^-1                                                        |
      |                                                                                                       |
      | DECAY DATA                                                                                            |
-     | Condensed library timestamp: 11:09:09 31 March 2019                                                   |
+     | Condensed library timestamp: 12:49:17 7 May 2019                                                      |
      | EAF source library label:    Decay input from separate files                                          |
      |                                                                                                       |
      | THIS RUN                                                                                              |
-     | timestamp:                   11:09:12 31 March 2019                                                   |
+     | timestamp:                   12:49:20 7 May 2019                                                      |
      | fileroot :                   runFile_InAs                                                             |
      | name of FILES file:          files                                                                    |
      | FISPACT title:               * Quasi-MonE(63 MeV) 3.20200E+11 cm^-2s^-1 for 30s                       |

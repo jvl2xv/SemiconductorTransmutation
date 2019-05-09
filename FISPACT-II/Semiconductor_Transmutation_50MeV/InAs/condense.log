@@ -1,0 +1,93 @@
+
+ LOG FILE: condense.log
+
+ 13:04:48 6 May 2019             
+
+ Log  : FILES file = files
+ Log  : fileroot   = condense
+
+
+ ------------------------------------------------------------------
+ Files specified by the FILES file and fileroot for this run.
+ ------------------------------------------------------------------
+ The numbers after the unit names are the internal unit numbers.
+
+ arb_flux( 3)    arb_flux
+ input( 5)       condense.i
+ graph(10)       condense.gra
+ a2data(11)      ../../nuclear_data/decay/a2_2012
+ collapxi(12)    COLLAPX
+ arrayx(13)      ARRAYX
+ hazards(14)     ../../nuclear_data/decay/hazards_2012
+ gnuplot(15)     condense.plt
+ collapxo(17)    COLLAPX
+ ind_nuc(18)     ../../nuclear_data/TENDL2017data/tendl17_decay12_index
+ fluxes(20)      fluxes
+ output(38)      condense.out
+ absorp(39)      ../../nuclear_data/decay/abs_2012
+ clear(40)       ../../nuclear_data/decay/clear_2012
+ tab1(44)        condense.tab1
+ tab2(45)        condense.tab2
+ tab3(46)        condense.tab3
+ tab4(47)        condense.tab4
+ runlog(48)      condense.log
+ sens(50)        condense.sens
+ prob_tab(51)    ../../nuclear_data/TENDL2017data/tal2017-n/tp-709-294
+ xs_endf(52)     ../../nuclear_data/TENDL2017data/tal2017-p/gxs-162
+ dk_endf(53)     ../../nuclear_data/decay/decay_2012
+ fy_endf(54)     ../../nuclear_data/UKFY41data/ukfy4_1p
+ sf_endf(55)     ../../nuclear_data/GEFY61data/gefy61_sfy
+ xs_endfb(56)    ../../nuclear_data/bin/tal2017-p.bin
+ nucgraph(59)    condense.grn
+ nucgnu(60)      condense.pln
+ ------------------------------------------------------------------
+
+
+ GETDECAY 1
+ FISPACT
+ * TENDL gxs-162 : proton 1 MeV - 200 MeV
+  load decay data
+ Log  : nuclide zai =       922420
+ Log  : rtyp =        0.0000000    
+ 00001: Warning: decay_m:read_spectra: 2: 
+        Invalid rtyp in spectrum subsection of decay file
+        irt set to zero
+  run reset cross-section
+ END
+ * END OF RUN
+  run closedown
+  deallocate and closedown
+
+
+ ------------------------------------------------------------------
+ Files that have been opened during this run.
+ ------------------------------------------------------------------
+ The numbers after the unit names are the internal unit numbers.
+
+ input( 5)       condense.i
+ arrayx(13)      ARRAYX
+ ind_nuc(18)     ../../nuclear_data/TENDL2017data/tendl17_decay12_index
+ output(38)      condense.out
+ runlog(48)      condense.log
+ dk_endf(53)     ../../nuclear_data/decay/decay_2012
+ fy_endf(54)     ../../nuclear_data/UKFY41data/ukfy4_1p
+ ------------------------------------------------------------------
+
+
+ Log  :                 fispact run time  =   3.2500     secs
+ Log  :                 rateeq_init_flux  =   0.0000     secs
+ Log  :                rateeq_irrad_step  =   0.0000     secs
+ Log  :                 rateeq_cool_step  =   0.0000     secs
+ Log  :            output_inventory_step  =   0.0000     secs
+ Log  :                    pathways_step  =   0.0000     secs
+ Log  :                 sensitivity_step  =   0.0000     secs
+
+
+  Error Summary 
+ ------------- 
+  total number of errors/warnings   =      1
+  number of serious errors/warnings =      0
+ 13:04:51 6 May 2019             
+
+ END OF LOG FILE
+

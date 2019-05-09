@@ -39,11 +39,11 @@
      | FLUX file label:                                                                                      |
      |                                                                                                       |
      | DECAY DATA                                                                                            |
-     | Condensed library timestamp: 11:20:43 31 March 2019                                                   |
+     | Condensed library timestamp: 12:48:10 7 May 2019                                                      |
      | EAF source library label:    Decay input from separate files                                          |
      |                                                                                                       |
      | THIS RUN                                                                                              |
-     | timestamp:                   11:20:43 31 March 2019                                                   |
+     | timestamp:                   12:48:10 7 May 2019                                                      |
      | fileroot :                   condense                                                                 |
      | name of FILES file:          files                                                                    |
      | FISPACT title:               * TENDL gxs-162 : proton 1 MeV - 200 MeV                                 |
@@ -54,7 +54,7 @@
      =========================================================================================================
 
 
-fispact run time=                   3.3281     secs
+fispact run time=                   3.2500     secs
 
 
  ------------------------------------------------------------------
@@ -73,6 +73,6 @@ fispact run time=                   3.3281     secs
 
 
 
-     Run timestamp:11:20:43 31 March 2019          
+     Run timestamp:12:48:10 7 May 2019             
 
-     Current time: 11:20:46 31 March 2019          
+     Current time: 12:48:13 7 May 2019             

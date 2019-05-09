@@ -1,7 +1,7 @@
 
  LOG FILE: convert.log
 
- 10:50:01 31 March 2019          
+ 12:52:02 7 May 2019             
 
  Log  : FILES file = files
  Log  : fileroot   = convert
@@ -65,7 +65,7 @@
  ------------------------------------------------------------------
 
 
- Log  :                 fispact run time  =  0.15625E-01 secs
+ Log  :                 fispact run time  =   0.0000     secs
  Log  :                 rateeq_init_flux  =   0.0000     secs
  Log  :                rateeq_irrad_step  =   0.0000     secs
  Log  :                 rateeq_cool_step  =   0.0000     secs
@@ -78,7 +78,7 @@
  ------------- 
   total number of errors/warnings   =      0
   number of serious errors/warnings =      0
- 10:50:01 31 March 2019          
+ 12:52:02 7 May 2019             
 
  END OF LOG FILE
 

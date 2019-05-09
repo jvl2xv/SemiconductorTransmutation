@@ -1,7 +1,7 @@
 
  LOG FILE: runFile_InSbBi_05Bi.log
 
- 21:01:45 4 May 2019             
+ 13:03:12 6 May 2019             
 
  Log  : FILES file = files
  Log  : fileroot   = runFile_InSbBi_05Bi
@@ -167,11 +167,11 @@
  ------------------------------------------------------------------
 
 
- Log  :                 fispact run time  =  0.87500     secs
+ Log  :                 fispact run time  =  0.46875     secs
  Log  :                 rateeq_init_flux  =   0.0000     secs
- Log  :                rateeq_irrad_step  =  0.35938     secs
+ Log  :                rateeq_irrad_step  =  0.17188     secs
  Log  :                 rateeq_cool_step  =  0.31250E-01 secs
- Log  :            output_inventory_step  =  0.31250E-01 secs
+ Log  :            output_inventory_step  =   0.0000     secs
  Log  :                    pathways_step  =   0.0000     secs
  Log  :                 sensitivity_step  =   0.0000     secs
 
@@ -180,7 +180,7 @@
  ------------- 
   total number of errors/warnings   =      0
   number of serious errors/warnings =      0
- 21:01:46 4 May 2019             
+ 13:03:13 6 May 2019             
 
  END OF LOG FILE
 

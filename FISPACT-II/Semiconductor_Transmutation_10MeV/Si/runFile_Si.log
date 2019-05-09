@@ -1,7 +1,7 @@
 
  LOG FILE: runFile_Si.log
 
- 21:02:14 4 May 2019             
+ 13:03:27 6 May 2019             
 
  Log  : FILES file = files
  Log  : fileroot   = runFile_Si
@@ -183,10 +183,10 @@
  ------------------------------------------------------------------
 
 
- Log  :                 fispact run time  =  0.78125     secs
+ Log  :                 fispact run time  =  0.42188     secs
  Log  :                 rateeq_init_flux  =   0.0000     secs
- Log  :                rateeq_irrad_step  =  0.35938     secs
- Log  :                 rateeq_cool_step  =  0.46875E-01 secs
+ Log  :                rateeq_irrad_step  =  0.20312     secs
+ Log  :                 rateeq_cool_step  =  0.31250E-01 secs
  Log  :            output_inventory_step  =   0.0000     secs
  Log  :                    pathways_step  =   0.0000     secs
  Log  :                 sensitivity_step  =   0.0000     secs
@@ -196,7 +196,7 @@
  ------------- 
   total number of errors/warnings   =      4
   number of serious errors/warnings =      0
- 21:02:15 4 May 2019             
+ 13:03:28 6 May 2019             
 
  END OF LOG FILE
 

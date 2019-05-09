@@ -1,7 +1,7 @@
 
  LOG FILE: condense.log
 
- 10:51:10 31 March 2019          
+ 12:52:58 7 May 2019             
 
  Log  : FILES file = files
  Log  : fileroot   = condense
@@ -74,7 +74,7 @@
  ------------------------------------------------------------------
 
 
- Log  :                 fispact run time  =   4.1562     secs
+ Log  :                 fispact run time  =   3.1719     secs
  Log  :                 rateeq_init_flux  =   0.0000     secs
  Log  :                rateeq_irrad_step  =   0.0000     secs
  Log  :                 rateeq_cool_step  =   0.0000     secs
@@ -87,7 +87,7 @@
  ------------- 
   total number of errors/warnings   =      1
   number of serious errors/warnings =      0
- 10:51:15 31 March 2019          
+ 12:53:01 7 May 2019             
 
  END OF LOG FILE
 

@@ -34,7 +34,7 @@
      |                      R U N   I D E N T I F I C A T I O N   I N F O R M A T I O N                      |
      |                                                                                                       |
      | INITIAL CROSS SECTION DATA                                                                            |
-     | Collapsed library timestamp: 10:55:13 31 March 2019                                                   |
+     | Collapsed library timestamp: 12:42:20 7 May 2019                                                      |
      | EAF source library label:                                                                             |
      | FLUX file label:             ISS LEO cm^-2s^-1                                                        |
      |                                                                                                       |
@@ -43,7 +43,7 @@
      | EAF source library label:                                                                             |
      |                                                                                                       |
      | THIS RUN                                                                                              |
-     | timestamp:                   10:55:13 31 March 2019                                                   |
+     | timestamp:                   12:42:20 7 May 2019                                                      |
      | fileroot :                   collapse                                                                 |
      | name of FILES file:          files                                                                    |
      | FISPACT title:               * TENDL gxs-162 : proton 1 MeV - 200 MeV                                 |
@@ -376,7 +376,7 @@
  109  Mt  5.00000E+00
  110  Ds  5.00000E+00
  111  Rg  5.00000E+00
-fispact run time=                   24.203     secs
+fispact run time=                   25.188     secs
 
 
  ------------------------------------------------------------------
@@ -395,6 +395,6 @@ fispact run time=                   24.203     secs
 
 
 
-     Run timestamp:10:55:13 31 March 2019          
+     Run timestamp:12:42:20 7 May 2019             
 
-     Current time: 10:55:37 31 March 2019          
+     Current time: 12:42:55 7 May 2019             

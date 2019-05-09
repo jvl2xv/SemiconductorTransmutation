@@ -1,7 +1,7 @@
 
  LOG FILE: runFile_InSbBi_5Bi.log
 
- 20:58:41 4 May 2019             
+ 13:01:38 6 May 2019             
 
  Log  : FILES file = files
  Log  : fileroot   = runFile_InSbBi_5Bi
@@ -54,7 +54,7 @@
   collapse fission yields
   run reset cross-section
  DENSITY 6.64
- MASS 0.00664 3
+ MASS 0.000332 3
  In 40.97894
  Sb 21.72824
  Bi 37.29281
@@ -167,11 +167,11 @@
  ------------------------------------------------------------------
 
 
- Log  :                 fispact run time  =  0.87500     secs
+ Log  :                 fispact run time  =  0.45312     secs
  Log  :                 rateeq_init_flux  =   0.0000     secs
- Log  :                rateeq_irrad_step  =  0.34375     secs
- Log  :                 rateeq_cool_step  =  0.62500E-01 secs
- Log  :            output_inventory_step  =  0.31250E-01 secs
+ Log  :                rateeq_irrad_step  =  0.18750     secs
+ Log  :                 rateeq_cool_step  =  0.31250E-01 secs
+ Log  :            output_inventory_step  =  0.15625E-01 secs
  Log  :                    pathways_step  =   0.0000     secs
  Log  :                 sensitivity_step  =   0.0000     secs
 
@@ -180,7 +180,7 @@
  ------------- 
   total number of errors/warnings   =      0
   number of serious errors/warnings =      0
- 20:58:42 4 May 2019             
+ 13:01:39 6 May 2019             
 
  END OF LOG FILE
 

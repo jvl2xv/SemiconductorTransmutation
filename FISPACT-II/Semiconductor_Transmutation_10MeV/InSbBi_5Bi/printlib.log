@@ -1,7 +1,7 @@
 
  LOG FILE: printlib.log
 
- 20:58:41 4 May 2019             
+ 13:01:38 6 May 2019             
 
  Log  : FILES file = files
  Log  : fileroot   = printlib
@@ -76,7 +76,7 @@
  ------------------------------------------------------------------
 
 
- Log  :                 fispact run time  =  0.75000     secs
+ Log  :                 fispact run time  =  0.42188     secs
  Log  :                 rateeq_init_flux  =   0.0000     secs
  Log  :                rateeq_irrad_step  =   0.0000     secs
  Log  :                 rateeq_cool_step  =   0.0000     secs
@@ -89,7 +89,7 @@
  ------------- 
   total number of errors/warnings   =      0
   number of serious errors/warnings =      0
- 20:58:41 4 May 2019             
+ 13:01:38 6 May 2019             
 
  END OF LOG FILE
 

@@ -1,0 +1,204 @@
+
+ LOG FILE: runFile_InSbBi_05Bi.log
+
+ 13:05:54 6 May 2019             
+
+ Log  : FILES file = files
+ Log  : fileroot   = runFile_InSbBi_05Bi
+
+
+ ------------------------------------------------------------------
+ Files specified by the FILES file and fileroot for this run.
+ ------------------------------------------------------------------
+ The numbers after the unit names are the internal unit numbers.
+
+ arb_flux( 3)    arb_flux
+ input( 5)       runFile_InSbBi_05Bi.i
+ graph(10)       runFile_InSbBi_05Bi.gra
+ a2data(11)      ../../nuclear_data/decay/a2_2012
+ collapxi(12)    COLLAPX
+ arrayx(13)      ARRAYX
+ hazards(14)     ../../nuclear_data/decay/hazards_2012
+ gnuplot(15)     runFile_InSbBi_05Bi.plt
+ collapxo(17)    COLLAPX
+ ind_nuc(18)     ../../nuclear_data/TENDL2017data/tendl17_decay12_index
+ fluxes(20)      fluxes
+ output(38)      runFile_InSbBi_05Bi.out
+ absorp(39)      ../../nuclear_data/decay/abs_2012
+ clear(40)       ../../nuclear_data/decay/clear_2012
+ tab1(44)        runFile_InSbBi_05Bi.tab1
+ tab2(45)        runFile_InSbBi_05Bi.tab2
+ tab3(46)        runFile_InSbBi_05Bi.tab3
+ tab4(47)        runFile_InSbBi_05Bi.tab4
+ runlog(48)      runFile_InSbBi_05Bi.log
+ sens(50)        runFile_InSbBi_05Bi.sens
+ prob_tab(51)    ../../nuclear_data/TENDL2017data/tal2017-n/tp-709-294
+ xs_endf(52)     ../../nuclear_data/TENDL2017data/tal2017-p/gxs-162
+ dk_endf(53)     ../../nuclear_data/decay/decay_2012
+ fy_endf(54)     ../../nuclear_data/UKFY41data/ukfy4_1p
+ sf_endf(55)     ../../nuclear_data/GEFY61data/gefy61_sfy
+ xs_endfb(56)    ../../nuclear_data/bin/tal2017-p.bin
+ nucgraph(59)    runFile_InSbBi_05Bi.grn
+ nucgnu(60)      runFile_InSbBi_05Bi.pln
+ ------------------------------------------------------------------
+
+
+ PROJECTILE 3
+ NOERROR
+ GETXS 0
+ GETDECAY 0
+ FISPACT
+ * Quasi-MonE(63 MeV) 3.20200E+11 cm^-2s^-1 for 30s
+  load cross-sections
+  load decay data
+  collapse fission yields
+  run reset cross-section
+ DENSITY 5.87
+ MASS 0.0002935 3
+ In 47.65443
+ Sb 48.00879
+ Bi 4.336783
+ GRAPH 5 2 1
+ 1
+ 2
+ 3
+ 4
+ 5
+ FLUX 1.0E12
+ UNCERTAINTY 2
+ ATOMS
+  load initial values
+  run output inventory
+ HAZARDS
+  load hazards data
+ HALF
+ ATWO
+  load a2 data
+ TIME 30
+  fill rate equation matrix for cooling
+  fill rate equation matrix for irradiation
+  start pathstep recording
+  initialise dominant analysis
+  test for gas, kerma and dpa data
+ SECS
+ ATOMS
+  run add rateeq for pathways
+  run irradiation init
+  run irradiation step
+  run add pathstep
+  run output inventory
+ FLUX 0.
+ ZERO
+ TIME 1
+ MINS
+ ATOMS
+ TIME 1
+ HOURS
+ ATOMS
+ TIME 1
+ DAYS
+ ATOMS
+ TIME 45
+ DAYS
+ ATOMS
+ TIME 319
+ DAYS
+ ATOMS
+ TIME 1
+ MINS
+ ATOMS
+  run pathways initialisation
+  run pathways uncertainty
+ Log  : Target nuclide = In114    
+ Log  :           inventory contribution  =  1.00666212E+02  %
+ 00001: Warning: pathways_m:pathways_output: 1: 
+        inventory sum from paths > 100% inventory from full rate equation
+        reduce main or path TOLERANCE parameters for better accuracy
+ Log  :                path contribution  =  1.00666212E+02  %
+ 00002: Warning: pathways_m:pl_chain: 2: 
+        path contribution > 100%
+        reduce main or path TOLERANCE parameters for better accuracy
+ Log  : Target nuclide = Ag109m   
+ Log  :           inventory contribution  =  1.00776124E+02  %
+ 00003: Warning: pathways_m:pathways_output: 1: 
+        inventory sum from paths > 100% inventory from full rate equation
+        reduce main or path TOLERANCE parameters for better accuracy
+ Log  :                path contribution  =  1.00776124E+02  %
+ 00004: Warning: pathways_m:pl_chain: 2: 
+        path contribution > 100%
+        reduce main or path TOLERANCE parameters for better accuracy
+  run cooling step
+  run add pathstep
+  run output inventory
+  run pathways uncertainty
+ TIME 1
+ HOURS
+ ATOMS
+  run cooling step
+  run add pathstep
+  run output inventory
+  run pathways uncertainty
+ TIME 1
+ DAYS
+ ATOMS
+  run cooling step
+  run add pathstep
+  run output inventory
+  run pathways uncertainty
+ TIME 45
+ DAYS
+ ATOMS
+  run cooling step
+  run add pathstep
+  run output inventory
+  run pathways uncertainty
+ TIME 319
+ DAYS
+ ATOMS
+  run cooling step
+  run add pathstep
+  run output inventory
+  run pathways uncertainty
+ END
+ * END
+  run output summary
+  run closedown
+  deallocate and closedown
+
+
+ ------------------------------------------------------------------
+ Files that have been opened during this run.
+ ------------------------------------------------------------------
+ The numbers after the unit names are the internal unit numbers.
+
+ input( 5)       runFile_InSbBi_05Bi.i
+ graph(10)       runFile_InSbBi_05Bi.gra
+ a2data(11)      ../../nuclear_data/decay/a2_2012
+ collapxi(12)    COLLAPX
+ arrayx(13)      ARRAYX
+ hazards(14)     ../../nuclear_data/decay/hazards_2012
+ gnuplot(15)     runFile_InSbBi_05Bi.plt
+ ind_nuc(18)     ../../nuclear_data/TENDL2017data/tendl17_decay12_index
+ output(38)      runFile_InSbBi_05Bi.out
+ absorp(39)      ../../nuclear_data/decay/abs_2012
+ runlog(48)      runFile_InSbBi_05Bi.log
+ ------------------------------------------------------------------
+
+
+ Log  :                 fispact run time  =   1.0156     secs
+ Log  :                 rateeq_init_flux  =   0.0000     secs
+ Log  :                rateeq_irrad_step  =  0.50000     secs
+ Log  :                 rateeq_cool_step  =  0.62500E-01 secs
+ Log  :            output_inventory_step  =  0.31250E-01 secs
+ Log  :                    pathways_step  =   0.0000     secs
+ Log  :                 sensitivity_step  =   0.0000     secs
+
+
+  Error Summary 
+ ------------- 
+  total number of errors/warnings   =      4
+  number of serious errors/warnings =      0
+ 13:05:55 6 May 2019             
+
+ END OF LOG FILE
+

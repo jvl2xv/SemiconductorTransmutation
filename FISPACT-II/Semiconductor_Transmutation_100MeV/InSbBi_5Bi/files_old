@@ -1,0 +1,35 @@
+# gamma attenuation data
+absorp  ../../nuclear_data/EAF2010data/eaf_abs_20100
+
+# index of nuclides to be included
+ind_nuc  ../../nuclear_data/EAF2010data/eaf_index_20100
+
+# Library cross section data
+crossec  ../../nuclear_data/EAF2010data/eaf_p_gxs_211_flt_20100
+crossunc ../../nuclear_data/EAF2010data/eaf_un_20100
+
+# fluxes
+fluxes  fluxes
+arb_flux  arb_flux
+
+# Library decay data
+decay  ../../nuclear_data/EAF2010data/eaf_dec_20100.001
+
+# Library fission  data
+asscfy   ../../nuclear_data/EAF2010data/eaf_p_asscfy_20100
+fissyld  ../../nuclear_data/EAF2010data/eaf_p_fis_20100
+
+# Spontaneous fission data
+sf_endf ../../nuclear_data/GEFY61data/gefy61_sfy
+
+# Library regulatory data
+hazards ../../nuclear_data/decay/hazards_2012
+clear   ../../nuclear_data/decay/clear_2012
+a2data  ../../nuclear_data/decay/a2_2012
+
+# collapsed cross section data (in and out)
+collapxi  COLLAPX
+collapxo  COLLAPX
+
+# condensed decay and fission data (in and out)
+arrayx  ARRAYX

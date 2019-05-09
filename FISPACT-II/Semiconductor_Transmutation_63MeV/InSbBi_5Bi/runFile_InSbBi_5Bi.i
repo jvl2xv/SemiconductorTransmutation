@@ -7,7 +7,7 @@ FISPACT
 * Quasi-MonE(63 MeV) 3.20200E+11 cm^-2s^-1 for 30s
 << -----set initial conditions----- >>
 DENSITY 6.64
-MASS 0.00664 3
+MASS 0.000332 3
 In 40.97894
 Sb 21.72824
 Bi 37.29281

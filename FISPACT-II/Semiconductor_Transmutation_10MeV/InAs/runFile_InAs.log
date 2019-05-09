@@ -1,7 +1,7 @@
 
  LOG FILE: runFile_InAs.log
 
- 21:00:19 4 May 2019             
+ 13:02:28 6 May 2019             
 
  Log  : FILES file = files
  Log  : fileroot   = runFile_InAs
@@ -166,11 +166,11 @@
  ------------------------------------------------------------------
 
 
- Log  :                 fispact run time  =   1.2031     secs
+ Log  :                 fispact run time  =  0.45312     secs
  Log  :                 rateeq_init_flux  =   0.0000     secs
- Log  :                rateeq_irrad_step  =  0.56250     secs
- Log  :                 rateeq_cool_step  =  0.62500E-01 secs
- Log  :            output_inventory_step  =  0.31250E-01 secs
+ Log  :                rateeq_irrad_step  =  0.18750     secs
+ Log  :                 rateeq_cool_step  =  0.15625E-01 secs
+ Log  :            output_inventory_step  =  0.15625E-01 secs
  Log  :                    pathways_step  =   0.0000     secs
  Log  :                 sensitivity_step  =   0.0000     secs
 
@@ -179,7 +179,7 @@
  ------------- 
   total number of errors/warnings   =      0
   number of serious errors/warnings =      0
- 21:00:20 4 May 2019             
+ 13:02:28 6 May 2019             
 
  END OF LOG FILE
 

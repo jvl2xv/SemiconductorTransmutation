@@ -43,7 +43,7 @@
      | EAF source library label:                                                                             |
      |                                                                                                       |
      | THIS RUN                                                                                              |
-     | timestamp:                   21:25:12 4 May 2019                                                      |
+     | timestamp:                   13:08:06 6 May 2019                                                      |
      | fileroot :                   convert                                                                  |
      | name of FILES file:          files                                                                    |
      | FISPACT title:               * SPECTRAL MODIFICATION 3-162 proton                                     |
@@ -255,6 +255,6 @@ fispact run time=                  0.31250E-01 secs
 
 
 
-     Run timestamp:21:25:12 4 May 2019             
+     Run timestamp:13:08:06 6 May 2019             
 
-     Current time: 21:25:12 4 May 2019             
+     Current time: 13:08:06 6 May 2019             

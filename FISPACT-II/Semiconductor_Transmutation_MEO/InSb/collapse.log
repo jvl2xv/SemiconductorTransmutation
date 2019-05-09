@@ -1,7 +1,7 @@
 
  LOG FILE: collapse.log
 
- 11:20:19 31 March 2019          
+ 12:47:46 7 May 2019             
 
  Log  : FILES file = files
  Log  : fileroot   = collapse
@@ -80,7 +80,7 @@
  ------------------------------------------------------------------
 
 
- Log  :                 fispact run time  =   9.7188     secs
+ Log  :                 fispact run time  =   9.8125     secs
  Log  :                 rateeq_init_flux  =   0.0000     secs
  Log  :                rateeq_irrad_step  =   0.0000     secs
  Log  :                 rateeq_cool_step  =   0.0000     secs
@@ -93,7 +93,7 @@
  ------------- 
   total number of errors/warnings   =      1
   number of serious errors/warnings =      0
- 11:20:29 31 March 2019          
+ 12:47:56 7 May 2019             
 
  END OF LOG FILE
 

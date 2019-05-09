@@ -10,7 +10,7 @@ set xrange [ 1.00000E-06: 1.00000E+00]
 set yrange [*:]
 #
 set bmargin 6
-set label "file name = runFile_HgCdTe.gra          run timestamp = 20:59:41 4 May 2019" \
+set label "file name = runFile_HgCdTe.gra          run timestamp = 13:02:13 6 May 2019" \
  at character 1,1 font "Helvetica,8pt"
 plot \
      "runFile_HgCdTe.gra" index   0 using 1:($2)-($3):($2)+($3)  with filledcurves linecolor rgbcolor "#cbcbcb" notitle, \
@@ -30,7 +30,7 @@ set xrange [ 1.00000E-06: 1.00000E+00]
 set yrange [*:]
 #
 set bmargin 6
-set label "file name = runFile_HgCdTe.gra          run timestamp = 20:59:41 4 May 2019" \
+set label "file name = runFile_HgCdTe.gra          run timestamp = 13:02:13 6 May 2019" \
  at character 1,1 font "Helvetica,8pt"
 plot \
      "runFile_HgCdTe.gra" index   2 using 1:($2)-($3):($2)+($3)  with filledcurves linecolor rgbcolor "#cbcbcb" notitle, \
@@ -50,7 +50,7 @@ set xrange [ 1.00000E-06: 1.00000E+00]
 set yrange [*:]
 #
 set bmargin 6
-set label "file name = runFile_HgCdTe.gra          run timestamp = 20:59:41 4 May 2019" \
+set label "file name = runFile_HgCdTe.gra          run timestamp = 13:02:13 6 May 2019" \
  at character 1,1 font "Helvetica,8pt"
 plot \
      "runFile_HgCdTe.gra" index   4 using 1:($2)-($3):($2)+($3)  with filledcurves linecolor rgbcolor "#cbcbcb" notitle, \
@@ -70,7 +70,7 @@ set xrange [ 1.00000E-06: 1.00000E+00]
 set yrange [*:]
 #
 set bmargin 6
-set label "file name = runFile_HgCdTe.gra          run timestamp = 20:59:41 4 May 2019" \
+set label "file name = runFile_HgCdTe.gra          run timestamp = 13:02:13 6 May 2019" \
  at character 1,1 font "Helvetica,8pt"
 plot \
      "runFile_HgCdTe.gra" index   6 using 1:($2)-($3):($2)+($3)  with filledcurves linecolor rgbcolor "#cbcbcb" notitle, \
@@ -90,7 +90,7 @@ set xrange [ 1.00000E-06: 1.00000E+00]
 set yrange [*:]
 #
 set bmargin 6
-set label "file name = runFile_HgCdTe.gra          run timestamp = 20:59:41 4 May 2019" \
+set label "file name = runFile_HgCdTe.gra          run timestamp = 13:02:13 6 May 2019" \
  at character 1,1 font "Helvetica,8pt"
 plot \
      "runFile_HgCdTe.gra" index   8 using 1:($2)-($3):($2)+($3)  with filledcurves linecolor rgbcolor "#cbcbcb" notitle, \

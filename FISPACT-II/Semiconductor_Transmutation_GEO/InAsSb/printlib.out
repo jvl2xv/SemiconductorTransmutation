@@ -34,16 +34,16 @@
      |                      R U N   I D E N T I F I C A T I O N   I N F O R M A T I O N                      |
      |                                                                                                       |
      | INITIAL CROSS SECTION DATA                                                                            |
-     | Collapsed library timestamp: 11:09:12 31 March 2019                                                   |
+     | Collapsed library timestamp: 12:49:21 7 May 2019                                                      |
      | EAF source library label:                                                                             |
      | FLUX file label:             ISS LEO cm^-2s^-1                                                        |
      |                                                                                                       |
      | DECAY DATA                                                                                            |
-     | Condensed library timestamp: 11:09:22 31 March 2019                                                   |
+     | Condensed library timestamp: 12:49:30 7 May 2019                                                      |
      | EAF source library label:    Decay input from separate files                                          |
      |                                                                                                       |
      | THIS RUN                                                                                              |
-     | timestamp:                   11:09:26 31 March 2019                                                   |
+     | timestamp:                   12:49:34 7 May 2019                                                      |
      | fileroot :                   printlib                                                                 |
      | name of FILES file:          files                                                                    |
      | FISPACT title:               * TENDL gxs-162 : proton 1 MeV - 200 MeV                                 |
@@ -3954,6 +3954,6 @@ fispact run time=                  0.93750E-01 secs
 
 
 
-     Run timestamp:11:09:26 31 March 2019          
+     Run timestamp:12:49:34 7 May 2019             
 
-     Current time: 11:09:26 31 March 2019          
+     Current time: 12:49:34 7 May 2019             

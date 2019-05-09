@@ -34,16 +34,16 @@
      |                      R U N   I D E N T I F I C A T I O N   I N F O R M A T I O N                      |
      |                                                                                                       |
      | INITIAL CROSS SECTION DATA                                                                            |
-     | Collapsed library timestamp: 20:56:56 4 May 2019                                                      |
+     | Collapsed library timestamp: 13:01:23 6 May 2019                                                      |
      | EAF source library label:                                                                             |
      | FLUX file label:             Quasi-MonE(63 MeV) 3.20200E+11 c                                         |
      |                                                                                                       |
      | DECAY DATA                                                                                            |
-     | Condensed library timestamp: 20:58:01 4 May 2019                                                      |
+     | Condensed library timestamp: 13:01:34 6 May 2019                                                      |
      | EAF source library label:    Decay input from separate files                                          |
      |                                                                                                       |
      | THIS RUN                                                                                              |
-     | timestamp:                   20:58:41 4 May 2019                                                      |
+     | timestamp:                   13:01:38 6 May 2019                                                      |
      | fileroot :                   printlib                                                                 |
      | name of FILES file:          files                                                                    |
      | FISPACT title:               * PRINTLIB OF IFMIF P                                                    |
@@ -27966,7 +27966,7 @@
    flux spectrum_identifier is Quasi-MonE(63 MeV) 3.20200E+11 cm^-2s^-1 for 30s
 
 
-fispact run time=                  0.75000     secs
+fispact run time=                  0.42188     secs
 
 
  ------------------------------------------------------------------
@@ -27984,6 +27984,6 @@ fispact run time=                  0.75000     secs
 
 
 
-     Run timestamp:20:58:41 4 May 2019             
+     Run timestamp:13:01:38 6 May 2019             
 
-     Current time: 20:58:41 4 May 2019             
+     Current time: 13:01:38 6 May 2019             
