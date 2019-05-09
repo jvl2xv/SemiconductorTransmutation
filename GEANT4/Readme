@@ -1,3 +1,3 @@
-This folder contains simulation input to run GEANT4 for the semiconductors of in parallel.
-
+This folder contains simulation input to run GEANT4 for the semiconductors of interest to this analysis in parallel.
+For more information on GEANT4 simulations see: https://geant4.web.cern.ch/ 
 The post-processing folder contains post-processing code in python.
