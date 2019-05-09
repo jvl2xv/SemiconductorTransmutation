@@ -1,3 +1,9 @@
 Post-processing code for experimental data (gamma spectrum from HPGe detector)
 Produces detector efficiency curve
 Reads in Gamma Spec fitted areas and removes background and callibrates given the callibration curve.
+
+Note: A-D represent different levels of irradiation with:
+A = 0 dose
+B = 10 krad
+C = 100 krad
+D = 1 Mrad
