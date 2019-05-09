@@ -1,1 +1,13 @@
-Python code to compare the two simulations and experiment 
+Python code to:
+1. Post-process simulation output files (GEANT4 and FISPACTII)
+2. Compare and graph results of each
+
+FISPACT-II:
+- All post-processing files have the same format and read directly from the main FISPACT-II output file (here titled runFile_SEMICONDUCTORNAME.out)
+- They are structured to read all semiconductor files from a folder with the folder being specific to each irradiation scenario (ex. input radiation spectrum or orbit)
+- Produces a graph of impurity concentrations
+
+GEANT4:
+- Reads in the GEANT4 output file (structured as a print of all non-protons tracked along with their event number and time of creation)
+- Records all impurity elements in existance at a given time
+- Produces a graph of impurity concentrations
